@@ -23,7 +23,7 @@ categories: ["Node"]
 
 3）云服务切换到你项目所在路径，以 /home/sir-koa 目录为例。
 
-```
+```sh
 $ cd /home/sir-koa
 $ npm install  //安装相关依赖文件
 $ npm run start //测试下你的 koa2 项目能不能跑起来
@@ -37,13 +37,13 @@ $ npm run start //测试下你的 koa2 项目能不能跑起来
 
 我们选择全局安装 pm2。
 
-```
+```sh
 $ npm install pm2 -g
 ```
 
 安装完成后云服务切换到项目所在路径 /home/sir-koa。
 
-```
+```sh
 $ pm2 start ./bin/www --watch
 ```
 

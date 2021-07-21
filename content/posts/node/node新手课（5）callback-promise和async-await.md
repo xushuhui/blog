@@ -16,14 +16,14 @@ categories: ["Node"]
 js 代码处理逻辑都是异步，会造成 callback 层层嵌套。简称：回调地狱，非常不好维护，我们举例说明下
 我们在 sir-node 中新建个目录 callback-test, 里面新建个 callback.js
 
-```
+```sh
 $ mkdir callback-test && cd callback-test/
 $ touch callback.js
 ```
 
 callback.js
 
-```
+```js
 const fs = require('fs')
 const path  = require('path')
 //callback 方式获取文件内容
@@ -51,21 +51,21 @@ getFile('a.json',aData=>{
 
 再新建 3 个文件 a.json, b.json, c.json，内容如下
 
-```
-a.json
+```json
+// a.json
 
 {"next":"b.json"}
 
-b.json
+// b.json
 
 {"next":"c.json"}
 
-c.json
+// c.json
 
 {"next":"test"}
 ```
 
-```
+```sh
 $ node callback.js
 aData { next: 'b.json' }
 bData { next: 'c.json' }
@@ -79,7 +79,7 @@ cData { next: 'test' }
 
 新建个 promise.js 文件，代码如下
 
-```
+```js
 const fs = require('fs')
 const path  = require('path')
 //promise 方式获取文件内容
@@ -114,7 +114,7 @@ getFile('a.json').then(aData=>{
 
 新建个 async.js 文件，代码如下
 
-```
+```js
 const fs = require('fs')
 const path  = require('path')
 //promise 方式获取文件内容

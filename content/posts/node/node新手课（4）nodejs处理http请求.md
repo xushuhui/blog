@@ -13,7 +13,7 @@ categories: ["Node"]
 
 我们先新建个 http-test 目录，该目录主要是用做测试 nodejs 代码，现在切换到这个目录
 
-```
+```js
 $ mkdir http-test
 $ cd http-test/
 ```
@@ -28,7 +28,7 @@ $ cd http-test/
 
 我们新建个 get.js 文件，编辑以下内容。
 
-```
+```js
 const http = require("http")
 const querystring = require('querystring')
 
@@ -45,7 +45,7 @@ console.log('Server running at http://127.0.0.1:3000/');
 
 启动 get.js
 
-```
+```js
 $ node get.js
 Server running at http://127.0.0.1:3000/
 ```
@@ -66,7 +66,7 @@ Server running at http://127.0.0.1:3000/
 
 #### 代码示例
 
-```
+```js
 const http = require("http")
 
 http.createServer((request,response)=>{
@@ -94,7 +94,7 @@ console.log('Server running at http://127.0.0.1:3000/');
 
 启动 post.js
 
-```
+```js
 $ node post.js
 Server running at http://127.0.0.1:3000/
 ```
@@ -109,7 +109,7 @@ Server running at http://127.0.0.1:3000/
 
 现在综合处理 get 和 post 请求，新建个 http.js，编辑以下内容。
 
-```
+```js
 const http = require("http")
 const querystring = require('querystring')
 
@@ -145,7 +145,7 @@ console.log('Server running at http://127.0.0.1:3000/');
 
 启动 http.js
 
-```
+```sh
 $ node post.js
 Server running at http://127.0.0.1:3000/
 ```

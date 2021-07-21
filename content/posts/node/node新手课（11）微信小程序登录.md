@@ -23,7 +23,7 @@ https://developers.weixin.qq.com/miniprogram/dev/api-backend/open-api/login/auth
 
 > routes/user.js
 
-```
+```js
 router.post('/wechatlogin',function (ctx, next) {
   return userApi.wechatLogin(ctx)
 })
@@ -31,7 +31,7 @@ router.post('/wechatlogin',function (ctx, next) {
 
 > config/miniapp.js
 
-```
+```js
 const appid = ''
 const secret = ''
 
@@ -44,7 +44,7 @@ api/user.js 文件，里面写用户 api 的相关方法。model/usermodel.js �
 
 > api/user.js
 
-```
+```js
 const miniappConfig = require('../../config/miniapp')
 const koa2Req = require('koa2-request')
 const response = require('../core/response')
@@ -86,7 +86,7 @@ const wxUser = async (code) => {
 
 > model/usermodel.js
 
-```
+```js
 const mysql = require("./mysql")
 
 const getUserByOpenid = async(openid)=>{
@@ -105,7 +105,7 @@ module.exports = {
 
 ## 运行
 
-```
+```sh
 POST http://localhost:3000/user/wechatlogin
 
 {

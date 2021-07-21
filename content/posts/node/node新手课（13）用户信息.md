@@ -21,7 +21,7 @@ categories: ["Node"]
 
 > routes/user.js
 
-```
+```js
 router.get('/me', auth,function (ctx, next) {
   return userApi.me(ctx)
 })
@@ -29,7 +29,7 @@ router.get('/me', auth,function (ctx, next) {
 
 > api/user.js
 
-```
+```js
 const me = async(ctx) => {
     const userId = ctx.state.userId
     const user = await userModel.getUserById(userId)
@@ -40,7 +40,7 @@ const me = async(ctx) => {
 
 > model/usermodel.js
 
-```
+```js
 const getUserById = async(id)=>{
     let sql = "select nickname,phone from user where id=?"
     let user = await mysql.queryOne(sql,[id])
@@ -50,14 +50,14 @@ const getUserById = async(id)=>{
 
 ## 运行
 
-```
+```sh
 GET http://localhost:3000/user/me
 
 ```
 
 响应数据
 
-```
+```json
 {
     "message":"OK",
     "data":{

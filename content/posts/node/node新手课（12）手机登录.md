@@ -23,7 +23,7 @@ sir-koa 目录下新建 middleware 目录，存放项目的中间件。
 
 > middleware/auth.js
 
-```
+```js
 const response = require('../app/core/response')
 const Redis = require('../app/model/redis')
 const redis = new Redis()
@@ -46,7 +46,7 @@ module.exports = async (ctx, next) => {
 
 > middleware/jsonHeader.js
 
-```
+```js
 module.exports = async (ctx, next) => {
     ctx.response.type = 'application/json';
     await next();
@@ -57,7 +57,7 @@ module.exports = async (ctx, next) => {
 
 > app.js
 
-```
+```js
 const jsonHeader = require('./middleware/jsonHeader')
 app.use(jsonHeader);
 // routes
@@ -65,7 +65,7 @@ app.use(jsonHeader);
 
 > routes/user.js
 
-```
+```js
 const auth = require('../middleware/auth')
 // 手机号登录
 router.post('/login', auth,function (ctx, next) {
@@ -79,7 +79,7 @@ router.post('/login', auth,function (ctx, next) {
 
 > model/usermodel.js
 
-```
+```js
 const updateUser = async(userId,phone)=>{
     let sql = "update `user` set phone=? where id=?"
     return await mysql.exec(sql,[phone,userId])
@@ -88,7 +88,7 @@ const updateUser = async(userId,phone)=>{
 
 > api/user.js
 
-```
+```js
 const login = async(ctx) => {
     const phone = ctx.request.body.phone
     const userId = ctx.state.userId
@@ -100,7 +100,7 @@ const login = async(ctx) => {
 
 ## 运行
 
-```
+```sh
 POST http://localhost:3000/user/login
 
 {

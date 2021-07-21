@@ -23,7 +23,7 @@ categories: ["Node"]
 
 > routes/user.js
 
-```
+```js
 //更新个人信息
 userrouter.put('/info',auth, function (ctx, next) {
   return userApi.info(ctx)
@@ -32,7 +32,7 @@ userrouter.put('/info',auth, function (ctx, next) {
 
 > api/user.js
 
-```
+```js
 const info = async(ctx) => {
     const nickname = ctx.request.body.nickname
     await userModel.updateUserInfo(userId,nickname)
@@ -43,7 +43,7 @@ const info = async(ctx) => {
 
 > model/usermodel.js
 
-```
+```js
 const updateUserInfo = async(userId,nickname)=>{
     let sql = "update `user` set nickname=? where id=?"
     const res = await mysql.exec(sql,[nickname,userId])
@@ -53,7 +53,7 @@ const updateUserInfo = async(userId,nickname)=>{
 
 ## 运行
 
-```
+```sh
 PUT http://localhost:3000/user/info
 
 {

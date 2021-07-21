@@ -15,7 +15,7 @@ categories: ["Node"]
 
 创建 sir-node 文件夹，这个就是我们要开发的项目
 
-```
+```sh 
 
 $ mkdir sir-node
 $ cd sir-node
@@ -26,11 +26,11 @@ $ cd sir-node
 
 新建 hello.js，输入以下内容
 
-```
-引入 Http 模块：我们可以使用 require 指令来载入 Http 模块。
+```js
+// 引入 Http 模块：我们可以使用 require 指令来载入 Http 模块。
 const http = require("http")
 
-创建服务器：服务器可以监听客户端的请求，类似于 Apache 、Nginx 等 HTTP 服务器。
+// 创建服务器：服务器可以监听客户端的请求，类似于 Apache 、Nginx 等 HTTP 服务器。
 http.createServer((request,response)=>{
     // 设置响应的 http 头部信息
     response.writeHead(200, {'Content-Type': 'text/plain'});
@@ -43,7 +43,7 @@ console.log('Server running at http://127.0.0.1:3000/');
 
 ### 启动 hello.js
 
-```
+```js
 $ node hello.js
 Server running at http://127.0.0.1:3000/
 ```

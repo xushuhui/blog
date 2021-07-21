@@ -25,7 +25,7 @@ categories: ["Node"]
 
 入口文件 app.js 中调用了路由模块
 
-```
+```js
 // routes
 app.use(index.routes(), index.allowedMethods())
 app.use(users.routes(), users.allowedMethods())
@@ -37,7 +37,7 @@ app.use(users.routes(), users.allowedMethods())
 
 > routes/user.js
 
-```
+```js
 const router = require('koa-router')()
 const userApi = require('../app/api/user')
 
@@ -64,8 +64,8 @@ module.exports = router
 
 > routes/index.js
 
-```
-...
+```js
+
 const indexApi = require('../app/api/index')
 //首页列表
 router.get('/card', async (ctx, next) => {

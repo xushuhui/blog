@@ -21,13 +21,13 @@ categories: ["Node"]
 
 ## 代码
 
-```
+```sh
 $ npm i koa-body --save
 ```
 
 > app.js
 
-```
+```js
 const koaBody = require('koa-body');
 
 app.use(koaBody({
@@ -40,7 +40,7 @@ app.use(koaBody({
 
 > routes/index.js
 
-```
+```js
 router.post('/upload', async (ctx, next) => {
   return indexApi.upload(ctx)
 })
@@ -48,7 +48,7 @@ router.post('/upload', async (ctx, next) => {
 
 > api/index.js
 
-```
+```js
   const file = ctx.request.files.file;
     const fileName = file.name;
     // 创建可读流
@@ -70,11 +70,9 @@ router.post('/upload', async (ctx, next) => {
 
 ## 运行
 
-```
+```sh
 POST http://localhost:3000/upload
-```
 
-```
 {
     "message": "OK",
     "data": {

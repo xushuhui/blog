@@ -15,7 +15,7 @@ categories: ["Node"]
 
 在 sir-koa 目录下执行
 
-```
+```sh
 $ npm i ioredis --save
 ```
 
@@ -23,7 +23,7 @@ $ npm i ioredis --save
 
 > config/redis.js
 
-```
+```js
 const Config = {
     host: "127.0.0.1", // Redis host
     port: 6379, // Redis port
@@ -37,7 +37,7 @@ exports = {
 
 > model/redis.js
 
-```
+```js
 const ioRedis = require('ioredis');
 const { Config } = require('../../config/redis') //redis 配置
 class Redis {

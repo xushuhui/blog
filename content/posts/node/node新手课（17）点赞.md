@@ -23,7 +23,7 @@ categories: ["Node"]
 
 > routes/index.js
 
-```
+```js
 //点赞
 router.post('/praise', auth,async (ctx, next) => {
   return indexApi.praise(ctx)
@@ -32,7 +32,7 @@ router.post('/praise', auth,async (ctx, next) => {
 
 > api/index.js
 
-```
+```js
 const praise = async(ctx) => {
     const cardId = ctx.request.body.card_id
     const userId = ctx.state.userId
@@ -50,7 +50,7 @@ const praise = async(ctx) => {
 
 > model/cardmodel.js
 
-```
+```js
 const createCardPraise = async(cardId,userId)=>{
     let sql = "insert into `card_praise` (card_id,user_id)values(?,?) "
     const insertData = await mysql.exec(sql,[cardId,userId])
@@ -70,7 +70,7 @@ const incrCardPraise = async(cardId)=>{
 
 ## 运行
 
-```
+```bash
 POST http://localhost:3000/praise
 
 {

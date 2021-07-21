@@ -29,7 +29,7 @@ https://github.com/guojiangclub/sir-node/blob/master/sir.sql
 
 新建 mysql-test 目录，新建 index.js
 
-```
+```js
 const mysql = require('mysql')
 
 // 创建链接对象
@@ -45,7 +45,7 @@ const mysql = require('mysql')
  con.connect()
 
 // 执行 sql 语句
- const sql = `insert into test (title, content, author) values (' 标题 C', ' 内容 C','zhangsan');`
+const sql = `insert into test (title, content, author) values (' 标题 C', ' 内容 C','zhangsan');`
 con.query(sql, (err, result) => {
     if (err) {
         console.error(err)
@@ -60,7 +60,7 @@ con.query(sql, (err, result) => {
 
 执行如下操作
 
-```
+```sh
 $ cd mysql-test/
 $ npm init -y
 $ npm i mysql --save
@@ -73,7 +73,7 @@ $ node index.js
 
 在 sir-koa 目录执行
 
-```
+```sh
 $ npm i mysql --save
 ```
 
@@ -81,7 +81,7 @@ $ npm i mysql --save
 
 > config/mysql.js
 
-```
+```js
 const Config = {
     host     : 'localhost',
     user     : '数据库用户名',
@@ -99,7 +99,7 @@ model 目录中新建 mysql.js，用来在项目中调用 mysql
 
 > model/mysql.js
 
-```
+```js
 const mysql = require('mysql')
 const { Config } = require('../../config/mysql')
 

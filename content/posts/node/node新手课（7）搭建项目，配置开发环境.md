@@ -24,7 +24,7 @@ categories: ["Node"]
 
 #### 安装
 
-```
+```sh
 $ npm install koa-generator -g
 $ Koa2 sir-koa
 $ cd sir-koa && npm install
@@ -55,13 +55,13 @@ sir-koa
 ~~~
 我们先安装 nodemon 包
 
-```
+```sh
 $ npm i -g nodemon
 ```
 
 现在我们启动项目
 
-```
+```sh
 $ npm run dev
 ```
 
@@ -85,7 +85,7 @@ $ npm run dev
 
 #### 安装
 
-```
+```sh
 
 $ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm
 $ rpm -ivh mysql-community-release-el7-5.noarch.rpm
@@ -95,20 +95,20 @@ $ yum install mysql-server
 
 #### 设置权限和初始化
 
-```
+```sh
 $ chown mysql:mysql -R /var/lib/mysql
 $ mysqld --initialize
 ```
 
 #### 启动 mysql
 
-```
+```sh
 $ systemctl start mysqld
 ```
 
 #### 连接 mysql
 
-```
+```sh
 $ mysql
 
 mysql> SHOW DATABASES;
@@ -130,7 +130,7 @@ mysql> SHOW DATABASES;
 
 以 centos 为例，我们直接通过 yum 安装 redis。
 
-```
+```sh
 $ yum install redis
 $ vim /etc/redis.conf
 //把 daemonize no 改成 daemonize yes

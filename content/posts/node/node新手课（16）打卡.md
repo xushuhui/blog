@@ -23,7 +23,7 @@ categories: ["Node"]
 
 > routes/index.js
 
-```
+```js
 //打卡
 router.post('/card',auth, async (ctx, next) => {
   return indexApi.addCard(ctx)
@@ -32,7 +32,7 @@ router.post('/card',auth, async (ctx, next) => {
 
 > api/index.js
 
-```
+```js
 const addCard = async(ctx) => {
     const userId = ctx.state.userId
     const content =ctx.request.body.content
@@ -45,7 +45,7 @@ const addCard = async(ctx) => {
 
 > model/cardmodel.js
 
-```
+```js
 const addCard = async(userId,content,image)=>{
     let sql = "insert into `card` (user_id,content,image)values(?,?,?) "
     const insertData = await mysql.exec(sql,[userId,content,image])
@@ -55,7 +55,7 @@ const addCard = async(userId,content,image)=>{
 
 ## 运行
 
-```
+```sh
 POST http://localhost:3000/card
 
 {

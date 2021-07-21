@@ -23,7 +23,7 @@ categories: ["Node"]
 
 > routes/index.js
 
-```
+```js
 router.get('/card', async (ctx, next) => {
   return indexApi.getCard(ctx)
 })
@@ -31,7 +31,7 @@ router.get('/card', async (ctx, next) => {
 
 > api/index.js
 
-```
+```js
 const getCard = async(ctx) => {
     const list = await cardModel.getCards()
     ctx.body = resp.setData(list)
@@ -41,7 +41,7 @@ const getCard = async(ctx) => {
 
 > model/cardmodel.js
 
-```
+```js
 const getCards = async()=>{
     let sql = "select id,content,image from `card` "
     const res = await mysql.exec(sql)
@@ -51,7 +51,7 @@ const getCards = async()=>{
 
 ## 运行
 
-```
+```sh
 POST http://localhost:3000/card
 
 {
@@ -61,7 +61,7 @@ POST http://localhost:3000/card
 
 响应数据
 
-```
+```json
 {
     "message": "OK",
     "data": [
