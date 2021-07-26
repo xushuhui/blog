@@ -177,13 +177,13 @@ for (变量声明; 条件; 迭代语句) {
 
 ### 3.2 实例
 
-我们使用`for`循环连续打印 5 行”慕课网真棒“的字样，代码如下：
+我们使用`for`循环连续打印 5 行”真棒“的字样，代码如下：
 
 ```java
 public class ForLoop1 {
     public static void main(String[] args) {
         for (int i = 1; i <= 5; i ++) {
-            System.out.println("慕课网真棒");
+            System.out.println("真棒");
         }
     }
 }
@@ -192,11 +192,11 @@ public class ForLoop1 {
 运行结果：
 
 ```java
-慕课网真棒
-慕课网真棒
-慕课网真棒
-慕课网真棒
-慕课网真棒
+真棒
+真棒
+真棒
+真棒
+真棒
 ```
 
 我们现在使用`for`来实现 1 到 100 的累加求和，代码如下：
@@ -271,7 +271,7 @@ for (;;) {
 
 ## 4. for each 循环
 
-由于学习 `for each` 循环需要一些数组和集合的前置知识，我们将会在 [Java 数组](http://www.imooc.com/wiki/javalesson/arrays.html)小节举例讲解。
+由于学习 `for each` 循环需要一些数组和集合的前置知识，我们将会在 [Java 数组](http://www..com/wiki/javalesson/arrays.html)小节举例讲解。
 
 ## 5. break 和 continue 关键字
 

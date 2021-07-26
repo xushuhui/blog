@@ -46,7 +46,7 @@ public class ScannerDemo {
         // 可以将用户输入的内容扫描为字符串
         String name = scanner.nextLine();
         // 打印输出
-        System.out.println("你好 ".concat(name).concat(" ，欢迎来到慕课网！"));
+        System.out.println("你好 ".concat(name).concat(" ，欢迎来到！"));
         // 关闭扫描器
         scanner.close();
     }
@@ -58,7 +58,7 @@ public class ScannerDemo {
 ```java
 请输入您的姓名：
 Colorful
-你好 Colorful ，欢迎来到慕课网！
+你好 Colorful ，欢迎来到！
 ```
 
 ## 2. 什么是流（Stream）

@@ -84,8 +84,8 @@
 * Java 语言基础：我们使用 Java 语言开发此系统，因此需要你有扎实的语法基础；
 * 熟悉文本扫描器类的使用：该系统使用终端界面来实现人机交互，因此需要你了解如何使用`Scanner` 类，如果不够熟悉，可前往[Java Scanner 类](http://www.imooc.com/wiki/javalesson/scanner.html)小节去回顾；
 * 熟悉 `JDBC` 的使用：关于`JDBC`，我们已经在[数据库编程](http://www.imooc.com/wiki/javalesson/jdbc.html)这一小节详细介绍；
-* Maven 基础：该实战项目使用 `Maven` 构建工具进行构建，如果不够熟悉，推荐先去学习下另外一个慕课网的 `wiki` 教程 —— [Maven 入门教程](http://www.imooc.com/wiki/mavenlesson)；
-* `MySQL`基础：数据库使用 `MySQL`，因此需要你了解如何安装配置`MySQL`数据库，也要掌握基本的`SQL`语句，如果你还不够熟悉，推荐先去学习下另外两个慕课网的`wiki`教程：    * [SQL 入门教程](http://www.imooc.com/wiki/sqlbase)；
+* Maven 基础：该实战项目使用 `Maven` 构建工具进行构建，如果不够熟悉，推荐先去学习下另外一个的 `wiki` 教程 —— [Maven 入门教程](http://www.imooc.com/wiki/mavenlesson)；
+* `MySQL`基础：数据库使用 `MySQL`，因此需要你了解如何安装配置`MySQL`数据库，也要掌握基本的`SQL`语句，如果你还不够熟悉，推荐先去学习下另外两个的`wiki`教程：    * [SQL 入门教程](http://www.imooc.com/wiki/sqlbase)；
     * [MySQL 入门教程](http://www.imooc.com/wiki/mysqllesson)。
 
 

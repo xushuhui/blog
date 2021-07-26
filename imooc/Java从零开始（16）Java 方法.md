@@ -53,7 +53,7 @@ class MethodDemo1 {
         // 三条输出语句
         System.out.println("你好新同学");
         System.out.println("Java是就业前景最好的语言");
-        System.out.println("学Java就来慕课网");
+        System.out.println("学Java就来");
     }
 }
 ```
@@ -71,7 +71,7 @@ class MethodDemo1 {
         // 三条输出语句
         System.out.println("你好新同学");
         System.out.println("Java是就业前景最好的语言");
-        System.out.println("学Java就来慕课网");
+        System.out.println("学Java就来");
     }
 
     public static void main(String[] args) {
@@ -88,7 +88,7 @@ class MethodDemo1 {
 ```java
 你好新同学
 Java是就业前景最好的语言
-学Java就来慕课网
+学Java就来
 ```
 
 > **Tips**：由于我们还没有学习面向对象，此处对于对象的实例化，先记住这种固定写法即可。本节的学习重点在于如何定义方法和调用方法。
@@ -98,7 +98,7 @@ Java是就业前景最好的语言
 ```java
 你好新同学
 Java是就业前景最好的语言
-学Java就来慕课网
+学Java就来
 ```
 
 ### 3.2 无参带返回值方法
@@ -551,7 +551,7 @@ public String substring(int beginIndex. int endIndex); // 截取并返回从begi
 如下为实际应用的实例：
 
 ```java
-String hello = "Hello, Imooc";
+String hello = "Hello, ";
 String substring1 = hello.substring(7);
 String substring2 = hello.substring(0, 5);
 System.out.println(substring1);
@@ -561,7 +561,7 @@ System.out.println(substring2);
 运行结果：
 
 ```java
-Imooc
+
 Hello
 ```
 

@@ -392,7 +392,7 @@ public class GenericDemo3 {
         List<String> strings = new ArrayList<>();
         // 添加元素
         strings.add("Hello");
-        strings.add("慕课网");
+        strings.add("");
         // 调用printListElement()方法
         genericDemo3.printListElement(strings);
     }
@@ -406,7 +406,7 @@ public class GenericDemo3 {
 2
 3
 Hello
-慕课网
+
 ```
 
 ### 5.2 extends 通配符

@@ -186,7 +186,7 @@ str.insert(6, "Java");
 ```java
 public class StringSub {
     public static void main(String[] args) {
-        StringBuilder str = new StringBuilder("你好，欢迎来到慕课网");
+        StringBuilder str = new StringBuilder("你好，欢迎来到");
         String substring = str.substring(7);
         System.out.println("str截取后子串为：" + substring);
     }
@@ -196,7 +196,7 @@ public class StringSub {
 运行结果：
 
 ```java
-str截取后子串为：慕课网
+str截取后子串为：
 ```
 
 如果我们想截取示例中的” 欢迎 “二字，可以使用重载方法 `StringBuilder substring(int start, int end)` 进行截取：

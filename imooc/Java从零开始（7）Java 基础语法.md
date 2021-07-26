@@ -41,7 +41,7 @@ public class HelloWorld {
 
 其中，`public` 是一个关键字，它属于访问控制符，它表示这个类是公开的。关于什么是访问控制符，在初学阶段不必理解。
 
-紧接着的 `class` 也是一个关键字用于声明类， `HelloWorld` 是类名，类名的首字母要大写。如果类名由多个单词组成，那么每个单词的首字母都要大写。例如，我们可以这样声明一个表示**慕课网学生**的类：
+紧接着的 `class` 也是一个关键字用于声明类， `HelloWorld` 是类名，类名的首字母要大写。如果类名由多个单词组成，那么每个单词的首字母都要大写。例如，我们可以这样声明一个表示**学生**的类：
 
 ```java
 public class ImoocStudent {
@@ -74,7 +74,7 @@ System.out.println("Hello World!");
 ```java
 public class ImoocStudent {
   	public static void main(String[] args) {
-		System.out.println("第一行输出：慕课网学生");
+		System.out.println("第一行输出：学生");
       	System.out.println("第二行输出：快来慕课学编程");
     }
 }
@@ -139,7 +139,7 @@ public class ImoocStudent {
 1 class HelloImooc {
 2
 3    public static void main(String[] args) {
-4    	 System.out.println("你好慕课网");
+4    	 System.out.println("你好");
 5
 6        System.out.println("Hello, Imooc!");
 7   }
@@ -169,8 +169,8 @@ Java 语言提供了三种类别的注释：
 public class HelloImooc {
   	// 定义入口方法
   	public static void main(String[] args) {
-      	// 打印输出：你好慕课网
-      	System.out.println("你好慕课网");
+      	// 打印输出：你好
+      	System.out.println("你好");
     }
 }
 ```
