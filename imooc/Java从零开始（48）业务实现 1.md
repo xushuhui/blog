@@ -1,70 +1,42 @@
 # 实战 - 业务实现 1
 
-
-
 上一小节我们完成了数据库的设计和创建，也向数据表中插入了一些初始数据，本小节我们将开始具体业务代码的实现，如果大家还没有完成上一小节的任务，请务必先完成再来学习本节内容。
-
-
 
 ## 1. 准备工作
 
-
-
 在开始正式编码之前，我们要做一些准备工作，主要是环境的搭建和工具类的引入。
-
-
 
 ### 1.1 创建 Maven 工程
 
-
-
 打开 `idea`，点击`Create new Project`按钮：
-
-
 
 ![](//img.mukewang.com/wiki/5f2a5d49098e98f815500970.jpg)
 
 在左侧栏选择`Maven`，`Project SDK`选择`14`，勾选`Create from archetype`复选框，再选择`maven-archetype-quickstart`，表示创建一个简单 Java 应用，点击`next`按钮：
 
-
-
 ![](//img.mukewang.com/wiki/5f2b7b4409b13e4924911158.jpg)
 
 输入项目名称`goods`，将项目路径设置为本地桌面，`GroupId`可根据实际情况自定义，此处我设置为`com.colorful`，其余输入框无需修改，采用默认即可，设置完成后，点击`next`按钮：
-
-
 
 ![](//img.mukewang.com/wiki/5f2b7e1d09d0fddd24991162.jpg)
 
 这一步来到`Maven`配置，`idea`自带了`Maven`，我们使用默认的即可，直接点击`Finish`按钮完成项目创建：
 
-
-
 ![](//img.mukewang.com/wiki/5f2b7dc609ae540f24931159.jpg)
 
 此时，`Maven`会进行一些初始化配置，右下角对话框选择`Enable Auto-import`按钮，表示允许自动导入依赖：
-
-
 
 ![](//img.mukewang.com/wiki/5f2b7e4f090ccb4227301740.jpg)
 
 稍等片刻，待看到左侧项目的目录结构已经生成好了，及表示已完成项目的初始化工作：
 
-
-
 ![](//img.mukewang.com/wiki/5f2b7e6c09ff91e527321739.jpg)
 
 ### 1.2 引入 MySQL 驱动
 
-
-
 接下来引入`mysql-connector-java`驱动，由于我本地安装的`MySQL`版本为`8.0.21`，因此`mysql-connector-java`的版本号也选择`8.0.21`，大家根据自己实际情况选择对应版本。
 
-
-
 打开`pom.xml`文件，在`<dependencies></dependencies>`节点内插入如下`xml`：
-
-
 
 ```java
 <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
@@ -75,27 +47,17 @@
 </dependency>
 ```
 
-
-
 ![](//img.mukewang.com/wiki/5f2b7e9209fd6bf015650802.jpg)
 
 由于我们已经配置了允许自动导入依赖，稍等片刻，`mysql-connector-java 8.0.21`就会被成功导入。可在`idea`右侧点击`Maven`按钮查看项目的依赖关系：
-
-
 
 ![](//img.mukewang.com/wiki/5f2b7eaf09eab22809080494.jpg)
 
 ### 1.3 引入 JDBC 工具类
 
-
-
 JDBC 相关操作是本项目的最常用的操作，我封装了一个 JDBC 的工具类，主要通过 Java 的 JDBC API 去访问数据库，提供了加载配置、注册驱动、获得资源以及释放资源等接口。
 
-
-
-大家可以到我的[`Github` 仓库](https://github.com/colorful3/goods-cms/blob/master/src/main/java/com/colorful/util/JDBCUtil.java)下载这个 `JDBCUtil`类；也可以直接复制下面的代码：
-
-
+大家可以到我的 [`Github` 仓库】(https://github.com/colorful3/goods-cms/blob/master/src/main/java/com/colorful/util/JDBCUtil.java) 下载这个 `JDBCUtil`类；也可以直接复制下面的代码：
 
 ```java
 package com.colorful.util;
@@ -203,11 +165,7 @@ public class JDBCUtil {
 }
 ```
 
-
-
 我本地将这个类放在了 `com.colorful.util`包下，大家可根据自身情况随意放置。另外，由于该类在静态代码块中加载了配置文件`jdbc.properties`，需要在`resource`下面新建一个 `jdbc.properties`文件，并写入一下内容：
-
-
 
 ```java
 driverClass=com.mysql.cj.jdbc.Driver
@@ -216,19 +174,11 @@ username=root
 password=123456
 ```
 
-
-
 我将数据放到了本地系统中，并且启动端口是默认 3306，大家根据自己的`MySQL`实际配置自行修改。
-
-
 
 ### 1.4 测试代码
 
-
-
 为了测试我们的数据库配置以及 `JDBCUtil` 类是否成功引入，现在到 test 目录下，新建一个 `JDBCTest` 类：
-
-
 
 ```java
 package com.colorful;
@@ -277,11 +227,7 @@ public class JDBCTest {
 }
 ```
 
-
-
 如果配置成功，运行单元测试，将得到如下运行结果：
-
-
 
 ```java
 id=1
@@ -289,25 +235,17 @@ nickname=小慕
 createTime=2020-07-20 16:53:19.0
 ```
 
-
-
 下面为运行截图：
-
-
 
 ![](//img.mukewang.com/wiki/5f2b7ed409f0582d17161432.jpg)
 
 ## 2. 系统架构
 
-
-
 本商品管理系统的包结构如下：
-
-
 
 ```java
 src
-├── main       
+├── main
 │   ├── java    # 源码目录
 │   │   └── com
 │   │       └── colorful
@@ -327,27 +265,15 @@ src
                 └── JDBCTest.java
 ```
 
-
-
 大家可以提前熟悉一下本项目的项目结构，下面我们会一一讲解。
-
-
 
 ## 3. 实体类
 
-
-
 实体类的作用是存储数据并提供对这些数据的访问。在我们这个项目中，实体类统一被放到了`model`包下，通常情况下，实体类中的属性与我们的数据表字段一一对应。当我们编写这些实体类的时候，建议对照着数据表的字段以防疏漏。
-
-
 
 ### 3.1 BaseModel
 
-
-
 在我们数据表中，有几个公共的字段，可以提取出一个实体类的父类 `BaseModel` ，并提供 `getter` 和 `setter`，源码如下：
-
-
 
 ```java
 package com.colorful.model;
@@ -399,19 +325,11 @@ public class BaseModel {
 }
 ```
 
-
-
 值得注意的是，`Timestamp`是`java.sql`下的类。
-
-
 
 ### 3.2 实体类编写
 
-
-
 接下来，再在`model`包下新建 3 个类：`User`、`Goods` 和 `Category`，并提供`getter` 和 `setter` 。如下是每个类的代码：
-
-
 
 ```java
 package com.colorful.model;
@@ -450,8 +368,6 @@ public class User extends BaseModel {
 
 }
 ```
-
-
 
 ```java
 package com.colorful.model;
@@ -511,8 +427,6 @@ public class Goods extends BaseModel {
 }
 ```
 
-
-
 ```java
 package com.colorful.model;
 
@@ -541,41 +455,23 @@ public class Category extends BaseModel {
 }
 ```
 
-
-
 ## 4. 实现用户鉴权
-
-
 
 ### 4.1 登录方式
 
-
-
 想要使用系统进行商品管理，第一步要做的就是登录。
 
-
-
 我们的系统使用用户名和密码进行登录校验，上一小节我们已经建立了`imooc_user`表，并向表中插入了一个用户 `admin`，其密码为 `123456` 。显然，通过如下`SQL`就可以查询到该用户：
-
-
 
 ```java
 SELET * FROM `imooc_user` WHERE `username` = 'admin' AND password = '123456';
 ```
 
-
-
 如果查询到这个用户，就表示用户名密码通过校验，用户可执行后续操作，如果没有查到，就要提示用户重新输入账号和密码。
-
-
 
 ### 4.2 数据访问对象
 
-
-
 我们先不管用户是如何输入账号密码的，接下来要编写的业务代码就是根据用户名和密码去查询用户。那么涉及到数据库查询的代码应该放到哪里呢？参考上面的系统架构图，`DAO`是数据访问对象，我们可以在`dao`包下面新建一个`UserDAO`，并写入如下代码：
-
-
 
 ```java
 package com.colorful.dao;
@@ -628,15 +524,9 @@ public class UserDAO {
 }
 ```
 
-
-
 `UserDAO` 类下面有一个 `selectByUserNameAndPassword()`方法， 接收两个参数 `username` 和 `password`，返回值类型是实体类 `User`，如果没有查询到，返回的是一个 `null`。
 
-
-
 完成了 `UserDAO` 的编写，我们需要到服务层 `service`包下，新建一个 `UserService` ，并写入如下代码：
-
-
 
 ```java
 package com.colorful.service;
@@ -652,31 +542,19 @@ public class UserService {
     public User login(String username, String password) {
         return userDAO.selectByUserNameAndPassword(username, password);
     }
-    
+
 }
 ```
 
-
-
 到这里大家可能有些疑问，这个类下面的`login()`方法，直接调用了我们刚刚编写的 `DAO` 下面的 `selectByUserNameAndPassword()` 方法，为什么还要嵌套这么一层么？这不是多此一举么？
-
-
 
 要讨论 `service` 层的封装是不是过度设计，就要充分理解设计服务层的概念和意义，服务层主要是对业务逻辑的封装，对于更为复杂的项目，用户登录会有更多的方式，因此在服务层，会封装更多的业务逻辑。如果没有服务层，这些复杂的逻辑不得不都写在数据访问层，显然这是不合理的。我们现在这个项目没有使用任何框架，等到后面大家学习了`Spring`这种框架，一定会对这样的分层的好处有所体会。
 
-
-
 ### 4.3 使用 Scanner 类与用户交互
-
-
 
 完成了上面一系列的封装，就剩下我们和用户的交互了，本项目中，我们使用 `Scanner` 类来接收用户的输入，并使用`print()`方法向屏幕输出。
 
-
-
 打开 `App.java` 入口文件，创建`UserService`实例，编写一个主流程方法 `run()`，并在入口方法 `main()`中调用该方法：
-
-
 
 ```java
 package com.colorful;
@@ -693,7 +571,7 @@ import java.util.Scanner;
 public class App {
 
     private static final UserService userService = new UserService();
-    
+
     /**
      * 主流程方法
      */
@@ -723,46 +601,25 @@ public class App {
 }
 ```
 
-
-
 `run()`方法中有一个 `do ... while`循环，循环的条件是 `user` 对象为 `null`。
-
-
 
 我们知道，`do... while`循环会首先执行 `do` 中的循环体，循环体中创建了一个 `Scanner` 类的实例，获取到用户的输入后，我们会调用用户服务层的`login()`方法，该方法返回实体类对象`User`，如果其为 `null`表示用户名密码校验失败，需要用户重新输入， `user == null`，满足循环的条件，会一直执行循环体中的代码。直到循环体中的 `user`不为 `null` （也就是用户登录校验成功后）才终止循环。
 
-
-
 下面运行`App.java`的`main()`方法，如下为登录失败的截图：
-
-
 
 ![](//img.mukewang.com/wiki/5f2b7f0109e6b06612540864.jpg)
 
 如果用户名密码检验错误，就要反复输入用户名密码重新登录。
 
-
-
 如下为登录成功的截图：
-
-
 
 ![](//img.mukewang.com/wiki/5f2b7f17091116f510500712.jpg)
 
 ## 5. 小结
 
-
-
 在本小节，我们成功搭建了项目工程，通过实现一个用户鉴权模块，介绍了整体的系统架构。我们在编写实体类的同时，复习了面向对象的继承性；在数据访问层，也复习了 `JDBC API` 的使用；在编写程序入口文件的同时，也复习了 `Scanner` 类的使用和循环的使用。
 
-
-
 关于系统鉴权，这里还有一个待优化的地方，大家下去之后可以思考一下，在下一小节的开头，我将带领大家一起来优化。下一小节也将主要讲解最后剩余的商品模块和分类模块的实现，也会复习到很多其他方面的基础知识。
-
-
-
-
-
 
 ### 微信公众号
 

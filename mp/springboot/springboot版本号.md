@@ -1,5 +1,7 @@
-spring.io
-springboot 是spring下的一个模块，springboot模块下的一些模块
+## springboot
+spring.io 是springboot的官网，在这里可以找到springboot的官方文档，以及springboot的社区。
+
+springboot 是spring下的一个模块
 优先选择springboot current 带GA版本比较稳定
 2.2.1.RELEASE
 第一位主版本 稳定 短期不变 除非是很大调整 不向前兼容  主流springboot2

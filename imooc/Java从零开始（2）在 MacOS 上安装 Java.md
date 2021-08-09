@@ -2,45 +2,39 @@
 
 本小节我们将介绍如何在 MacOS 平台安装 Java 。
 
-如果你想在其他平台安装 Java，请查看对应平台的安装教程：
-
-* [在 Windows 上安装 Java](https://www.imooc.com/wiki/javalesson/installationwindows.html)
-
-* [在 Linux 上安装 Java](https://www.imooc.com/wiki/javalesson/installationlinux.html)
-
 ## 1. 下载安装包
 
 我们首先打开[Oracle官网的 JDK 下载地址](https://www.oracle.com/java/technologies/javase-downloads.html#JDK15)，找到 Java SE 15 版块，点击 `JDK Download` 按钮。
 
-![](//img.mukewang.com/wiki/5f8fd5be092514ce15290797.jpg)
+![](http://img.mukewang.com/wiki/5f8fd5be092514ce15290797.jpg)
 
 点击 `JDK Download`按钮后我们会跳转到 JDK 下载详情页面。
 
 我们在下载详情页面可以找到如下图这样的一个表格，在最右侧 Download 一列中找到`jdk-15.0.1_osx-x64_bin.dmg`一项，单击鼠标左键。
 
-![](//img.mukewang.com/wiki/5f8ff85c09096d1028801682.jpg)
+![](http://img.mukewang.com/wiki/5f8ff85c09096d1028801682.jpg)
 
 此时网页上会弹出如下对话框，提示如果你想要下载必须遵守其协议，**先勾选上复选框**，**再点击下载按钮**即可开始下载。
 
-![](//img.mukewang.com/wiki/5f8fd5e7099310df15510501.jpg)
+![](http://img.mukewang.com/wiki/5f8fd5e7099310df15510501.jpg)
 
 ## 2. 安装到本机
 
 下载好安装包后，打开安装包。
 
-![](//img.mukewang.com/wiki/5f8fff1209d2470d12400876.jpg)
+![](http://img.mukewang.com/wiki/5f8fff1209d2470d12400876.jpg)
 
 MacOS 平台的安装流程非常简单，点击**继续 -> 安装 -> 输入本机密码** ，等待安装成功。
 
-![](//img.mukewang.com/wiki/5f8fff53098bcab512400876.jpg)
+![](http://img.mukewang.com/wiki/5f8fff53098bcab512400876.jpg)
 
 点击安装后，会提示输入用户密码：
 
-![](//img.mukewang.com/wiki/5f8fff940976984b08860458.jpg)
+![](http://img.mukewang.com/wiki/5f8fff940976984b08860458.jpg)
 
 安装成功，点击关闭即可：
 
-![](//img.mukewang.com/wiki/5f8fffbc090f525512400876.jpg)
+![](http://img.mukewang.com/wiki/5f8fffbc090f525512400876.jpg)
 
 如下视频演示了整个安装过程：
 
@@ -94,7 +88,7 @@ source ~/.bash_profile
 
 打开终端，键入 `java -version` 命令，看到如下输入，即证明你已经成功配置好了环境变量。
 
-![](//img.mukewang.com/wiki/5f9000aa096e7bf314060230.jpg)
+![](http://img.mukewang.com/wiki/5f9000aa096e7bf314060230.jpg)
 
 ## 4. 小结
 

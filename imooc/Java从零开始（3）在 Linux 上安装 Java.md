@@ -4,15 +4,11 @@
 
 如果你想在其他平台安装 Java，请查看对应平台的安装教程：
 
-* [在 Windows 上安装 Java](https://www.imooc.com/wiki/javalesson/installationwindows.html)
-
-* [在 MacOS 上安装 Java](https://www.imooc.com/wiki/javalesson/installationmacos.html)
-
 ## 1. 下载安装包
 
 我们首先打开[Oracle官网的 JDK 下载地址](https://www.oracle.com/java/technologies/javase-downloads.html#JDK15)，找到 Java SE 15 版块，点击 `JDK Download` 按钮。
 
-![](//img.mukewang.com/wiki/5f8fd5be092514ce15290797.jpg)
+![](https://img.mukewang.com/wiki/5f8fd5be092514ce15290797.jpg)
 
 点击 `JDK Download`按钮后，我们会跳转到 JDK 下载详情页面。
 
@@ -20,7 +16,7 @@
 
 此时网页上会弹出如下对话框，提示如果你想要下载必须遵守其协议，**先勾选上复选框**，**再使用鼠标右键点击下载按钮，复制链接地址**。
 
-![](//img.mukewang.com/wiki/5e8d70fb0a85d59e25681144.jpg)
+![](https://img.mukewang.com/wiki/5e8d70fb0a85d59e25681144.jpg)
 
 > **Tips：**
 >
@@ -42,7 +38,7 @@ wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-
 
 下载过程如下：
 
-![](//img.mukewang.com/wiki/5e8d8a070a593af415621426.jpg)
+![](https://img.mukewang.com/wiki/5e8d8a070a593af415621426.jpg)
 
 使用 `ls` 命令查看当前目录下的内容，`jdk-14_linux-x64_bin.rpm`就是我们刚刚下载好的安装包。
 
@@ -61,7 +57,7 @@ rpm -ivh jdk-14_linux-x64_bin.rpm
 
 安装过程如下：
 
-![](//img.mukewang.com/wiki/5e8d8a3a0aa5049915621426.jpg)
+![](https://img.mukewang.com/wiki/5e8d8a3a0aa5049915621426.jpg)
 
 安装成功后，输入 `java -version`来验证是否安装成功：
 
@@ -108,7 +104,7 @@ source ~/.bash_profile
 rpm -qa | grep jdk
 ```
 
-![](//img.mukewang.com/wiki/5e8d8a97091efd5507430133.jpg)
+![](https://img.mukewang.com/wiki/5e8d8a97091efd5507430133.jpg)
 
 可以看到我们的系统上存在两个版本的 Java，执行命令删除对应版本：
 
@@ -116,7 +112,7 @@ rpm -qa | grep jdk
 yum -y remove java jdk-13.0.2-13.0.2-ga.x86_64
 ```
 
-![](//img.mukewang.com/wiki/5e8d8a73098dab7315721460.jpg)
+![](https://img.mukewang.com/wiki/5e8d8a73098dab7315721460.jpg)
 
 ## 5. 小结
 
