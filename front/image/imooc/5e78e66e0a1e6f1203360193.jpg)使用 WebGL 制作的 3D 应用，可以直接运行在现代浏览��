@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error>
+  <Code>InvalidArgument</Code>
+  <Message>The characters encoding must be utf-8.</Message>
+  <RequestId>613F298C0A408530334180AF</RequestId>
+  <HostId>alimc.img.imooc.com</HostId>
+  <ArgumentName>object</ArgumentName>
+  <ArgumentValue>wiki/5e78e66e0a1e6f1203360193.jpg)使用 WebGL 制作的 3D 应用，可以直接运行在现代浏览�</ArgumentValue>
+</Error>
