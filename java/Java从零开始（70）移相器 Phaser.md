@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（70）移相器 Phaser
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 移相器 Phaser
 
 ## 1. 前言
@@ -121,19 +125,19 @@ public class TravelPhaser extends Phaser {
 
     protected boolean onAdvance(int phase, int registeredParties) {
         switch (phase) {
-            // 第1阶段，旅游前的集合
+            // 第 1 阶段，旅游前的集合
             case 0:
                 System.out.println("出发前小组人员集合完毕，总人数："+getRegisteredParties());
                 return false;
-            // 第2阶段，景点 A 游玩
+            // 第 2 阶段，景点 A 游玩
             case 1:
                 System.out.println("景点 A 游玩结束");
                 return false;
-            // 第3阶段，景点 B 游玩
+            // 第 3 阶段，景点 B 游玩
             case 2:
                 System.out.println("景点 B 游玩结束");
                 return false;
-            // 第4阶段，旅游结束返程集合
+            // 第 4 阶段，旅游结束返程集合
             case 3:
                 System.out.println("所有活动结束后小组人员集合完毕，总人数："+getRegisteredParties());
                 return true;
@@ -147,25 +151,25 @@ public class TravelPhaser extends Phaser {
 上述代码只是在各个阶段打印了一些描述信息，实际中可以做更多的逻辑控制。运行上面代码，我们观察一下运行结果。
 
 ```java
-同事1到达出发集合地
-同事4到达出发集合地
-同事2到达出发集合地
-同事3到达出发集合地
+同事 1 到达出发集合地
+同事 4 到达出发集合地
+同事 2 到达出发集合地
+同事 3 到达出发集合地
 出发前小组人员集合完毕，总人数：4
-同事3已经在景点 A 自由活动结束
-同事2已经在景点 A 自由活动结束
-同事1已经在景点 A 自由活动结束
-同事4已经在景点 A 自由活动结束
+同事 3 已经在景点 A 自由活动结束
+同事 2 已经在景点 A 自由活动结束
+同事 1 已经在景点 A 自由活动结束
+同事 4 已经在景点 A 自由活动结束
 景点 A 游玩结束
-同事4已经在景点 B 自由活动结束
-同事2已经在景点 B 自由活动结束
-同事1已经在景点 B 自由活动结束
-同事3已经在景点 B 自由活动结束
+同事 4 已经在景点 B 自由活动结束
+同事 2 已经在景点 B 自由活动结束
+同事 1 已经在景点 B 自由活动结束
+同事 3 已经在景点 B 自由活动结束
 景点 B 游玩结束
-同事2到达返程集合地
-同事3到达返程集合地
-同事1到达返程集合地
-同事4到达返程集合地
+同事 2 到达返程集合地
+同事 3 到达返程集合地
+同事 1 到达返程集合地
+同事 4 到达返程集合地
 所有活动结束后小组人员集合完毕，总人数：4
 ```
 

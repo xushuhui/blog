@@ -1,3 +1,8 @@
+---
+title: Java 从零开始（19）Java 继承
+zhihu-url: https://zhuanlan.zhihu.com/p/408510467
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 继承
 
 本小节我们将学习 Java 的继承，通过本小节的学习，你将知道**什么是继承**，**继承有什么特点**，**如何实现继承**，**方法重写**的概念和实现，**方法重写和方法重载**是比较容易混淆的概念，我们也会介绍两个概念的区别，这些都是本小节的重点，本小节的最后我们还会介绍 `super` 关键字以及 `final` 关键字。
@@ -96,7 +101,7 @@ public class Dog extends Pet {
 	// 特有属性体重
     private float weight;
 
-  	// getter和setter
+  	// getter 和 setter
     public float getWeight() {
         return weight;
     }
@@ -120,7 +125,7 @@ public class Dog extends Pet {
 ```java
 public class Cat extends Pet {
     public void sleep() {
-        System.out.println(this.getName() + "睡大觉zzz");
+        System.out.println(this.getName() + "睡大觉 zzz");
     }
 }
 
@@ -153,9 +158,9 @@ cat.sleep();
 
 ```java
 欢欢在吃东西
-胖成了30.0斤的狗子欢欢在奔跑
+胖成了 30.0 斤的狗子欢欢在奔跑
 豆豆在吃东西
-豆豆睡大觉zzz
+豆豆睡大觉 zzz
 ```
 
 ## 3. 方法重写
@@ -278,7 +283,7 @@ Java 一共提供了 4 种访问修饰符：
 可以使用 `super` 关键字，在子类构造方法中要调用父类的构造方法，语法为：
 
 ```java
-super(参数列表)
+super（参数列表）
 ```
 
 例如，父类 `Pet` 中存在构造方法：
@@ -316,7 +321,7 @@ new Dog("花花");
 子类中可以引用父类的成员变量，语法为：
 
 ```java
-super.成员变量名
+super. 成员变量名
 ```
 
 例如，在 Dog 类中调用父类的成员变量 `birthday`：
@@ -338,7 +343,7 @@ class Dog extends Pet {
 有时候我们不想完全重写父类方法，可以使用 `super` 关键字调用父类方法，调用父类方法的语法为：
 
 ```java
-super.方法名(参数列表)
+super. 方法名（参数列表）
 ```
 
 例如，Cat 类调用父类 Pet 的 eat 方法：
@@ -407,7 +412,7 @@ final class FinalClass {
   	public String name;
 }
 
-// final类不能被继承，编译会报错
+// final 类不能被继承，编译会报错
 public class SubClass extends FinalClass {
 }
 ```
@@ -415,7 +420,7 @@ public class SubClass extends FinalClass {
 编译执行，将会报错：
 
 ```java
-SubClass.java:1: 错误: 无法从最终FinalClass进行继承
+SubClass.java:1: 错误：无法从最终 FinalClass 进行继承
 public class SubClass extends FinalClass {
                               ^
 1 个错误
@@ -428,12 +433,12 @@ public class SubClass extends FinalClass {
 ```java
 class SuperClass {
   	public final void finalMethod() {
-    		System.out.println("我是final方法");
+    		System.out.println("我是 final 方法");
     }
 }
 
 class SubClass extneds SuperClass {
-  	// 被父类标记为final的方法不允许被继承，编译会报错
+  	// 被父类标记为 final 的方法不允许被继承，编译会报错
   	@Override
   	public void finalMethod() {
     }
@@ -443,10 +448,10 @@ class SubClass extneds SuperClass {
 编辑执行，将会报错：
 
 ```java
-SubClass.java:4: 错误: SubClass中的finalMethod()无法覆盖SuperClass中的finalMethod()
+SubClass.java:4: 错误：SubClass 中的 finalMethod() 无法覆盖 SuperClass 中的 finalMethod()
     public void finalMethod() {
                 ^
-  被覆盖的方法为final
+  被覆盖的方法为 final
 1 个错误
 ```
 
@@ -470,7 +475,7 @@ cat.name = "小白";
 编译执行，将会报错：
 
 ```java
-Cat.java:7: 错误: 无法为最终变量name分配值
+Cat.java:7: 错误：无法为最终变量 name 分配值
         cat.name = "小白";
            ^
 1 个错误

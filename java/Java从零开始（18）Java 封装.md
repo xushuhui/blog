@@ -1,4 +1,10 @@
+---
+title: Java从零开始（18）Java 封装
+zhihu-url: https://zhuanlan.zhihu.com/p/408510044
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 封装
+
 
 上一小节中，我们已经对类和对象有了一个基本的认识。不止于 Java，在各个面向对象语言的书籍资料中，都会提到面向对象的三大特征：**封装、继承、多态**。本小节我们就从封装开始，探讨面向对象的特征。本小节我们将学习什么是封装、为什么需要封装，最后也会以一个 NBA 球员类的案例来实现封装。
 

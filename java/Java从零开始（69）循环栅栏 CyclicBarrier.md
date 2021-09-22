@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（69）循环栅栏 CyclicBarrier
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 循环栅栏 CyclicBarrier
 
 ## 1. 前言
@@ -22,20 +26,20 @@ CyclicBarrier 工具类允许一组线程相互等待，直到所有线程都到
 
 ```java
 // 创建一个 CyclicBarrier 对象，初始化相互等待的线程数量
-CyclicBarrier cyclicBarrier = new CyclicBarrier(线程个数);
+CyclicBarrier cyclicBarrier = new CyclicBarrier（线程个数）;
 
-// 线程1开始处理逻辑
+// 线程 1 开始处理逻辑
 ...
-// 线程1等待其他线程执行到屏障点
+// 线程 1 等待其他线程执行到屏障点
 cyclicBarrier.await();
-// 线程1等到了其他所有线程达到屏障点后继续处理后继逻辑
+// 线程 1 等到了其他所有线程达到屏障点后继续处理后继逻辑
 ...
 
-// 线程n开始处理逻辑
+// 线程 n 开始处理逻辑
 ...
-// 线程n等待其他线程执行到屏障点
+// 线程 n 等待其他线程执行到屏障点
 cyclicBarrier.await();
-// 线程n等到了其他所有线程达到屏障点后继续处理后继逻辑
+// 线程 n 等到了其他所有线程达到屏障点后继续处理后继逻辑
 ...
 ```
 
@@ -74,7 +78,7 @@ public class CyclicBarrierTest {
             new Thread(new Runnable() {
                 @SneakyThrows
                 public void run() {
-                    System.out.println( Thread.currentThread().getName() + "已经开始出门...");
+                    System.out.println( Thread.currentThread().getName() + "已经开始出门。..");
                     // 模拟同学出门赶往集合点的用时
                     try {
                         Thread.sleep(new Random().nextInt(10000));
@@ -92,16 +96,16 @@ public class CyclicBarrierTest {
 运行上面代码，我们观察一下运行结果。
 
 ```java
-1号同学准备出门...
-2号同学准备出门...
-3号同学准备出门...
-4号同学准备出门...
-5号同学准备出门...
-5号同学已经到达集合点
-4号同学已经到达集合点
-1号同学已经到达集合点
-2号同学已经到达集合点
-3号同学已经到达集合点
+1 号同学准备出门。..
+2 号同学准备出门。..
+3 号同学准备出门。..
+4 号同学准备出门。..
+5 号同学准备出门。..
+5 号同学已经到达集合点
+4 号同学已经到达集合点
+1 号同学已经到达集合点
+2 号同学已经到达集合点
+3 号同学已经到达集合点
 所有同学已经集合完毕，开始启动车辆出发。
 ```
 

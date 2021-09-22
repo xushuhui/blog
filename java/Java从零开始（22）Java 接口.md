@@ -1,3 +1,8 @@
+---
+title: Java 从零开始（22）Java 接口
+zhihu-url: https://zhuanlan.zhihu.com/p/408512191
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 接口
 
 本小节我们将学习 Java 接口（interface），通过本小节的学习，你将了解到什么是接口、为什么需要接口、如何定义和实现接口，以及接口的特点等内容。最后我们也将对比抽象类和接口的区别。
@@ -38,7 +43,7 @@ public interface Person {
 
 ```java
 public interface Person {
-  	final String NAME = "我是Person接口中的常量";
+  	final String NAME = "我是 Person 接口中的常量";
 	void walk();
   	void run();
 }
@@ -191,7 +196,7 @@ public class Student implements Person {
   	// 重写默认方法
   	@Override
   	public void eat() {
-      	// 使用 接口名.super.方法名() 的方式调用接口中默认方法
+      	// 使用 接口名。super. 方法名 () 的方式调用接口中默认方法
       	Person.super.eat();
       	System.out.println("学生吃东西");
     }
@@ -252,13 +257,13 @@ public class Student implements Person {
 ```java
 public interface MyInterface1 {
     default void defaultMethod() {
-        System.out.println("我是MyInterface1接口中的默认方法");
+        System.out.println("我是 MyInterface1 接口中的默认方法");
     }
 }
 
 public interface MyInterface2 {
     default void defaultMethod() {
-        System.out.println("我是MyInterface2接口中的默认方法");
+        System.out.println("我是 MyInterface2 接口中的默认方法");
     }
 }
 ```
@@ -279,7 +284,7 @@ public class MyClass implements MyInterface1, MyInterface2 {
 // 声明父类，并在父类中也定义同名方法
 public class SuperClass {
   	public void defaultMethod() {
-        System.out.println("我是SuperClass中的defaultMethod()方法");
+        System.out.println("我是 SuperClass 中的 defaultMethod() 方法");
     }
 }
 
@@ -298,7 +303,7 @@ myClass.defaultMethod();
 此时编译执行，不会报错：
 
 ```java
-我是SuperClass中的defaultMethod()方法
+我是 SuperClass 中的 defaultMethod() 方法
 ```
 
 实际上，在没有重写的情况下，它执行了实现类的父类 `SuperClass` 的 `defaultMethod()` 方法。
@@ -341,7 +346,7 @@ public MyClass extends SuperClass implements MyInterface1, MyInterface2 {
 当父类中的属性或常量与接口中的常量同名时，子类无法分辨同名的 `NUM` 是哪一个。编译程序将会报错：
 
 ```java
-MyClass.java:4: 错误: 对NUM的引用不明确
+MyClass.java:4: 错误：对 NUM 的引用不明确
         System.out.println(NUM);
                            ^
   SuperClass 中的变量 NUM 和 MyInterface1 中的变量 NUM 都匹配

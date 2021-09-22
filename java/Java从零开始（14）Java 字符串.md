@@ -1,4 +1,10 @@
+---
+title: Java从零开始（14）Java 字符串
+zhihu-url: https://zhuanlan.zhihu.com/p/407011635
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 字符串
+
 
 在 [Java 基本数据类型](http://www.imooc.com/wiki/javalesson/primitivetypes.html)一节中，我们已经知道 Java 中有两大数据类型：一个是基本数据类型，另一个是引用数据类型。
 
@@ -28,7 +34,7 @@ char c3 = '网';
 与`char`类型不同的是，`String`类型使用双引号来表示一个字符串（例如：`"字符串文字"`），在代码中我们可以这样创建字符串：
 
 ```java
-String str = "慕课网";
+String str = "";
 ```
 
 我们再来看一个创建并打印字符串的程序示例：
@@ -69,8 +75,8 @@ public class StringTest3 {
     public static void main(String[] args) {
         String str = """
             Java 很棒！
-            慕课网很棒！！
-            能够在慕课网学 Java 更棒！！！""";
+            很棒！！
+            能够在学 Java 更棒！！！""";
         System.out.println(str);
     }
 }
@@ -82,8 +88,7 @@ public class StringTest3 {
 >
 > ```java
 > String str = """Java 很棒！
-> 慕课网很棒！！
-> 能够在慕课网学 Java 更棒！！！""";
+
 > ```
 
 如果我们直接使用`javac`命令编译代码，将会报错：
@@ -103,8 +108,8 @@ StringTest3.java:4: 错误: 文本块 是预览功能，默认情况下禁用。
 $ javac -source 14 --enable-preview StringTest3.java
 $ java --enable-preview StringTest3
 Java 很棒！
-慕课网很棒！！
-能够在慕课网学 Java 更棒！！！
+很棒！！
+能够在学 Java 更棒！！！
 ```
 
 ## 2. 字符串的连接
@@ -118,7 +123,6 @@ public class StringJoinTest1 {
     public static void main(String[] args) {
         // 定义两个字符串
         String str1 = "Hello";
-        String str2 = "慕课网";
         // 将字符串str1连接一个空格，再连接str2，最后再连接一个感叹号
         String str3 = str1 + " " + str2 + "！";
         System.out.println(str3);
@@ -131,7 +135,7 @@ public class StringJoinTest1 {
 ```java
 $ javac StringJoinTest1.java
 $ java StringJoinTest1
-Hello 慕课网！
+Hello ！
 ```
 
 我们还可以将字符串与其他类型的值相连接，例如：

@@ -286,7 +286,7 @@ target 表示当前事件最终捕获到的目标。
 给超链接绑定点击事件，调用事件对象下的 `preventDefault` 属性，默认行为就会取消，即不会发生跳转。
 
 ```javascript
-<a href="https://imooc.com">冲鸭！！前往慕课网！！</a>
+<a href="https://imooc.com">冲鸭！！前往！！</a>
 
 <script>
   var aTag = document.querySelector('a');

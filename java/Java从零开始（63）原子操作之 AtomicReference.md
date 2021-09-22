@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（63）原子操作之 AtomicReference
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 原子操作之 AtomicReference
 
 ## 1. 前言
@@ -24,14 +28,14 @@ AtomicReference 工具类和 AtomicInteger 工具类很相似，只是 AtomicInt
 
 ```java
 
-// 由于AtomicReference是对一个对象引用的原子封装，所以首先创建一个对象
+// 由于 AtomicReference 是对一个对象引用的原子封装，所以首先创建一个对象
 Car car1 = new Car(100, 10);
 
 // 接着使用构造方法创建一个 AtomicReference 对象。
 AtomicReference<Car> atomicReference = new AtomicReference<>(car);
 
 ...
-// 当前如果是car1对象时，以原子方式变更引用为car2对象，当结果是true时则更新成功
+// 当前如果是 car1 对象时，以原子方式变更引用为 car2 对象，当结果是 true 时则更新成功
 Car car2 = new Car(200, 2);
 Boolean bool = atomicReference.compareAndSet(car1, car2)
 ...
@@ -57,7 +61,7 @@ public class AtomicReferenceTest {
     // 创建一个 AtomicReference 对象，对车牌对象做原子引用封装
     private static AtomicReference<CarLicenseTag> carLicenseTagAtomicReference = new AtomicReference<>(carLicenseTag);
     public static void main(String[] args) {
-        // 定义5个客户进行竞拍
+        // 定义 5 个客户进行竞拍
         for(int i=1; i<=5; i++) {
             AuctionCustomer carAuctionCustomer = new AuctionCustomer(carLicenseTagAtomicReference, carLicenseTag, i);
             // 开始竞拍
@@ -71,7 +75,7 @@ public class AtomicReferenceTest {
  */
 public class CarLicenseTag {
     // 每张车牌牌号事先是固定的
-    private String licenseTagNo = "沪X66666";
+    private String licenseTagNo = "沪 X66666";
     // 车牌的最新拍卖价格
     private double price = 80000.00;
     public CarLicenseTag(double price) {
@@ -100,7 +104,7 @@ public class AuctionCustomer implements Runnable {
     }
 
     public void run() {
-        // 客户竞拍行为 (模拟竞拍思考准备时间4秒钟)
+        // 客户竞拍行为 （模拟竞拍思考准备时间 4 秒钟）
         try {
             Thread.sleep(new Random().nextInt(4000));
         } catch (Exception e) {}
@@ -118,11 +122,11 @@ public class AuctionCustomer implements Runnable {
 
 ```java
 ...
-第第1位客户位客户竞拍true 当前的竞拍信息CarLicenseTag{ licenseTagNo='沪X66666, price=80405.0}
-第第5位客户位客户竞拍false 当前的竞拍信息CarLicenseTag{ licenseTagNo='沪X66666, price=80405.0}
-第第3位客户位客户竞拍false 当前的竞拍信息CarLicenseTag{ licenseTagNo='沪X66666, price=80405.0}
-第第2位客户位客户竞拍false 当前的竞拍信息CarLicenseTag{ licenseTagNo='沪X66666, price=80405.0}
-第第4位客户位客户竞拍false 当前的竞拍信息CarLicenseTag{ licenseTagNo='沪X66666, price=80405.0}
+第第 1 位客户位客户竞拍 true 当前的竞拍信息 CarLicenseTag{ licenseTagNo='沪 X66666, price=80405.0}
+第第 5 位客户位客户竞拍 false 当前的竞拍信息 CarLicenseTag{ licenseTagNo='沪 X66666, price=80405.0}
+第第 3 位客户位客户竞拍 false 当前的竞拍信息 CarLicenseTag{ licenseTagNo='沪 X66666, price=80405.0}
+第第 2 位客户位客户竞拍 false 当前的竞拍信息 CarLicenseTag{ licenseTagNo='沪 X66666, price=80405.0}
+第第 4 位客户位客户竞拍 false 当前的竞拍信息 CarLicenseTag{ licenseTagNo='沪 X66666, price=80405.0}
 ...
 ```
 

@@ -73,7 +73,7 @@
 <script type="text/javascript">
 
 const Index = Vue.component('index', {
-  template: '<div>Hello，欢迎使用慕课网学习 Vue 教程！</div>',
+  template: '<div>Hello，欢迎使用学习 Vue 教程！</div>',
 })
 
 const Article = Vue.component('myArticle', {

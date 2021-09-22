@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（46）需求分析
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 实战 - 需求分析
 
 经过前面这么久的 Java 学习，相信大家也积累了不少知识，我们已经对 Java 语言有了系统的了解，接下来最后的这几节内容，我们将一起实现一个实战项目 —— 商品管理系统。本小节我们就来对这个商品管理系统进行需求分析，你将了解到**什么是需求分析**、**需求分析的重要性**等。分析好需求之后，你将知道想要实现这个程序，需要什么**前置知识**。
@@ -43,10 +47,10 @@
 刚刚我们已经针对客户提出的需求，做了功能模块的拆分，对于该系统也有了一个初步的轮廓。我们就可以决定技术选型了，开发语言我们当然使用的是 Java 语言；数据库采用业界最常用的 `MySQL` 数据库。因此，想要独立完成此系统的开发，需要你有以下前置基础：
 
 * Java 语言基础：我们使用 Java 语言开发此系统，因此需要你有扎实的语法基础；
-* 熟悉文本扫描器类的使用：该系统使用终端界面来实现人机交互，因此需要你了解如何使用`Scanner` 类，如果不够熟悉，可前往[Java Scanner 类](http://www.imooc.com/wiki/javalesson/scanner.html)小节去回顾；
-* 熟悉 `JDBC` 的使用：关于`JDBC`，我们已经在[数据库编程](http://www.imooc.com/wiki/javalesson/jdbc.html)这一小节详细介绍；
-* Maven 基础：该实战项目使用 `Maven` 构建工具进行构建，如果不够熟悉，推荐先去学习下另外一个慕课网的 `wiki` 教程 —— [Maven 入门教程](http://www.imooc.com/wiki/mavenlesson)；
-* `MySQL`基础：数据库使用 `MySQL`，因此需要你了解如何安装配置`MySQL`数据库，也要掌握基本的`SQL`语句，如果你还不够熟悉，推荐先去学习下另外两个慕课网的`wiki`教程：    * [SQL 入门教程](http://www.imooc.com/wiki/sqlbase)；
+* 熟悉文本扫描器类的使用：该系统使用终端界面来实现人机交互，因此需要你了解如何使用`Scanner` 类，如果不够熟悉，可前往 [Java Scanner 类](http://www.imooc.com/wiki/javalesson/scanner.html) 小节去回顾；
+* 熟悉 `JDBC` 的使用：关于`JDBC`，我们已经在 [数据库编程](http://www.imooc.com/wiki/javalesson/jdbc.html) 这一小节详细介绍；
+* Maven 基础：该实战项目使用 `Maven` 构建工具进行构建，如果不够熟悉，推荐先去学习下另外一个的 `wiki` 教程 —— [Maven 入门教程](http://www.imooc.com/wiki/mavenlesson)；
+* `MySQL`基础：数据库使用 `MySQL`，因此需要你了解如何安装配置`MySQL`数据库，也要掌握基本的`SQL`语句，如果你还不够熟悉，推荐先去学习下另外两个的`wiki`教程：    * [SQL 入门教程](http://www.imooc.com/wiki/sqlbase)；
     * [MySQL 入门教程](http://www.imooc.com/wiki/mysqllesson)。
 
 ## 4. 小结

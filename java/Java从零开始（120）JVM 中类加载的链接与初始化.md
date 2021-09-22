@@ -1,4 +1,9 @@
+---
+title: Java从零开始（120）JVM 中类加载的链接与初始化
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # JVM 中类加载的链接与初始化
+
 
 ## 1. 前言
 

@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（57）Lambda 在程序中的应用
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Lambda 程序中的应用
 
 通过前面的内容我们对于 Lambda 表达式以及函数式编程已经有了一定的了解，对于集合方面的使用也有了概念，那么，在本节我们将从一个日志改造的例子出发，探讨下如何在我们的程序中更好地使用 Lambda 表达式。
@@ -13,7 +17,7 @@ public class DemoLogger {
     public static void main(String[] args) {
         Logger logger = LogManager.getLogger(DemoLogger.class);
         if(logger.isDebugEnabled()){
-            logger.debug("这是一个debug日志");
+            logger.debug("这是一个 debug 日志");
         }
     }
 }
@@ -25,7 +29,7 @@ public class DemoLogger {
 public class DemoLogger {
     public static void main(String[] args) {
         Logger logger = LogManager.getLogger(DemoLogger.class);
-        logger.debug(()->"这是一个debug日志");
+        logger.debug(()->"这是一个 debug 日志");
     }
 }
 ```

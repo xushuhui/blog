@@ -51,7 +51,7 @@ heigth = border + padding + content heigth
 1. 不是设置 `box-sizing` 分别在不同浏览器中的展示。
 
 ```javascript
-<div class="demo">慕课网 CSS3 学习分享</div>
+<div class="demo"> CSS3 学习分享</div>
 ```
 
 ```javascript

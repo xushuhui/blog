@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（64）原子操作之 DoubleAdder
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 原子操作之 DoubleAdder
 
 ## 1. 前言
@@ -54,7 +58,7 @@ public class DoubleAdderTest {
     private static DoubleAdder unknownGenderCount = new DoubleAdder();
 
     public static void main(String[] args) {
-        // 定义30个商场入口检测设备
+        // 定义 30 个商场入口检测设备
         for (int i = 1; i <= 30; i++) {
             MonitoringDevice monitoringDevice = new MonitoringDevice(maleCount, womenCount, unknownGenderCount, i);
             // 开启检测设备进行检测
@@ -87,7 +91,7 @@ public class MonitoringDevice implements Runnable {
 
     public void run() {
         while (true) {
-            // 监测处理 (监测设备输出1代表男性，0代表女性，其他代表未能识别，此处随机产生监测结果)
+            // 监测处理 （监测设备输出 1 代表男性，0 代表女性，其他代表未能识别，此处随机产生监测结果）
             try {
                 Thread.sleep(new Random().nextInt(3000));
             } catch (Exception e) {}
@@ -96,13 +100,13 @@ public class MonitoringDevice implements Runnable {
             // 对监测结果进行统计
             switch (monitoringDeviceOutput) {
                 case 0: womenCount.add(1);
-                    System.out.println("统计结果: womenCount=" + womenCount.sum());
+                    System.out.println("统计结果：womenCount=" + womenCount.sum());
                     break;
                 case 1: maleCount.add(1);
-                    System.out.println("统计结果: maleCount=" + maleCount.sum());
+                    System.out.println("统计结果：maleCount=" + maleCount.sum());
                     break;
                 default: unknownGenderCount.add(1);
-                    System.out.println("统计结果: unknownGenderCount=" + unknownGenderCount.sum());
+                    System.out.println("统计结果：unknownGenderCount=" + unknownGenderCount.sum());
                     break;
             }
         }
@@ -114,9 +118,9 @@ public class MonitoringDevice implements Runnable {
 
 ```java
 ...
-统计结果: unknownGenderCount=23.0
-统计结果: womenCount=24.0
-统计结果: maleCount=32.0
+统计结果：unknownGenderCount=23.0
+统计结果：womenCount=24.0
+统计结果：maleCount=32.0
 ...
 ```
 

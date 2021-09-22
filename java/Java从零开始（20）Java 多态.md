@@ -1,3 +1,9 @@
+---
+title: Java 从零开始（20）Java 多态
+zhihu-url: https://zhuanlan.zhihu.com/p/408511067
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b
+---
+
 # Java 多态
 
 本小节我们来学习面向对象的最后一大特征——多态。多态是面向对象最重要的特性。我们将介绍多态的概念和特点，并带领大家实现一个多态的案例，你将了解到**多态的实现条件**、**什么是向上转型**以及**什么是向下转型**，并学会使用`instanceof`运算符来检查对象引用是否是类型的实例。

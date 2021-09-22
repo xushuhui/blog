@@ -1,4 +1,9 @@
+---
+title: Java从零开始（111）IntelliJ IDEA 添加运行参数
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 在 IntelliJ IDEA 中添加 JVM 运行参数
+
 
 ## 前言
 

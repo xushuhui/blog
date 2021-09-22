@@ -1,8 +1,12 @@
+---
+title: Java 从零开始（39）Java 数据库编程
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 数据库编程
 
 本小节我们将学习如何使用 Java 语言结合数据库进行编程。注意，学习本小节需要你有一定的 SQL 基础，了解 MySQL 数据库的 基础 CRUD 操作，如果你还不了解 SQL ，推荐先去学习一个非常不错的 [wiki 教程](http://www.imooc.com/wiki/sqlbase)，只需掌握前几节的 SQL 初级知识即可。
 
-本小节我们将选择开源免费的 `MySQL 5.7` 作为数据库，可以去官网下载并安装 `MySQL`，如果你不知如何下载安装，推荐按照[这篇文章](http://www.imooc.com/wiki/mysqllesson/mysqlwindows.html)来做。
+本小节我们将选择开源免费的 `MySQL 5.7` 作为数据库，可以去官网下载并安装 `MySQL`，如果你不知如何下载安装，推荐按照 [这篇文章](http://www.imooc.com/wiki/mysqllesson/mysqlwindows.html) 来做。
 
 通过本小节的学习，你将了解到什么是 JDBC，如何连接数据库，如何关闭数据库，JDBC 的新增、查询、更新和删除接口，如何执行批量等内容。
 
@@ -59,7 +63,7 @@ insert into `user` values(null, "Lillian", "小李", "123456");
 
 ### 2.2 引入驱动
 
-去 [maven 中央仓库](https://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.49)找到 `mysql-connector-java` 驱动。如果你熟悉 `Maven`，可直接引入 maven 依赖：
+去 [maven 中央仓库](https://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.49) 找到 `mysql-connector-java` 驱动。如果你熟悉 `Maven`，可直接引入 maven 依赖：
 
 ```java
 <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
@@ -72,7 +76,7 @@ insert into `user` values(null, "Lillian", "小李", "123456");
 
 如果你还不熟悉 Maven，请跟着我来做如下步骤：
 
-到 [maven 中央仓库](https://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.49)下载 `jar` 包，鼠标左键单击 `jar`：
+到 [maven 中央仓库](https://mvnrepository.com/artifact/mysql/mysql-connector-java/5.1.49) 下载 `jar` 包，鼠标左键单击 `jar`：
 
 ![](https://xushuhui.gitee.io/image/imooc/5ef951020935c25c08820630.jpg)
 
@@ -127,7 +131,7 @@ public class JDBCDemo1 {
             String pwd = resultSet.getString("password");
             System.out.println("id=" + id + "; username=" + username + "; nickname=" + nickname + "; password=" + pwd + '\r');
         }
-        // 5. 释放资源，断开与数据库的连接（调用close()方法）
+        // 5. 释放资源，断开与数据库的连接（调用 close() 方法）
         // 5.1 释放 ResultSet
         resultSet.close();
         // 5.2 释放 Statement
@@ -142,8 +146,8 @@ public class JDBCDemo1 {
 
 ```java
 id=1; username=Colorful; nickname=Colorful3; password=123456
-id=2; username=imooc; nickname=小慕; password=123456
-id=3; username=Lillian; nickname=小李; password=123456
+id=2; username=imooc; nickname=小慕；password=123456
+id=3; username=Lillian; nickname=小李；password=123456
 ```
 
 看了实例代码，你可能有些晕，这写类都是干嘛的呀？别担心，我们下面就来一一讲解。
@@ -271,7 +275,7 @@ public class JDBCDemo2 {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            // 4. 释放资源，断开与数据库的连接（调用close()方法）
+            // 4. 释放资源，断开与数据库的连接（调用 close() 方法）
             if (statement != null) {
                 try {
                     statement.close();
@@ -363,7 +367,7 @@ public class JDBCDemo3 {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            // 5. 释放资源，断开与数据库的连接（调用close()方法）
+            // 5. 释放资源，断开与数据库的连接（调用 close() 方法）
             if (result != null) {
                 try {
                     result.close();
@@ -402,7 +406,7 @@ public class JDBCDemo3 {
 运行结果：
 
 ```java
-id=3; username=Lillian; nickname=小李; password=123456
+id=3; username=Lillian; nickname=小李；password=123456
 ```
 
 ### 5.3 更新数据
@@ -452,13 +456,13 @@ public class JDBCDemo4 {
             // 2. 建立连接
             connection = DriverManager.getConnection(url, user, password);
             // 3. 创建 Statement 对象，用于向数据库发送 SQL 语句
-            String sql = "UPDATE `user` SET `nickname` = '更新后的nickname' WHERE id = " + id;
+            String sql = "UPDATE `user` SET `nickname` = '更新后的 nickname' WHERE id = " + id;
             statement = connection.createStatement();
             result = statement.executeUpdate(sql);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            // 4. 释放资源，断开与数据库的连接（调用close()方法）
+            // 4. 释放资源，断开与数据库的连接（调用 close() 方法）
             if (statement != null) {
                 try {
                     statement.close();
@@ -504,7 +508,7 @@ mysql> select * from user;
 |  1 | Colorful     | Colorful3            | 123456   |
 |  2 | imooc        | 小慕                 | 123456   |
 |  3 | Lillian      | 小李                 | 123456   |
-|  4 | testUsername | 更新后的nickname     | 123456   |
+|  4 | testUsername | 更新后的 nickname     | 123456   |
 +----+--------------+----------------------+----------+
 4 rows in set (0.00 sec)
 ```
@@ -521,7 +525,7 @@ mysql> select * from user;
 |  1 | Colorful     | Colorful3            | 123456   |
 |  2 | imooc        | 小慕                 | 123456   |
 |  3 | Lillian      | 小李                 | 123456   |
-|  4 | testUsername | 更新后的nickname     | 123456   |
+|  4 | testUsername | 更新后的 nickname     | 123456   |
 +----+--------------+----------------------+----------+
 4 rows in set (0.00 sec)
 ```
@@ -563,7 +567,7 @@ public class JDBCDemo5 {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            // 4. 释放资源，断开与数据库的连接（调用close()方法）
+            // 4. 释放资源，断开与数据库的连接（调用 close() 方法）
             if (statement != null) {
                 try {
                     statement.close();

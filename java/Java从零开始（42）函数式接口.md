@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（42）函数式接口
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 函数式接口
 
 在上个小节的最后，我们提到了函数式接口的概念，也知道了想要使用`Lambda`表达式，则必须依赖函数式接口。本小节我们将学习函数式接口相关的知识，包括**什么是函数式接口**，**为什么需要函数式接口**，**如何自定义一个函数式接口**，**如何创建函数式接口的对象**，以及一些 **Java 内置的函数式接口**的详细介绍等。本小节内容较为简单，但需要读者有 [`Lambda`表达式】(http://www.imooc.com/wiki/javalesson/lambda.htm) 前置知识，学习重点是要了解 Java 内置函数式接口。
@@ -121,7 +125,7 @@ Java 内置了 4 个核心函数式接口：
 import java.util.function.Consumer;
 
 /**
- * Java 内置4大核心h函数式接口 —— 消费型接口
+ * Java 内置 4 大核心 h 函数式接口 —— 消费型接口
  * Consumer<T> void accept(T t)
  * @author colorful@TaleLin
  */
@@ -148,7 +152,7 @@ import java.util.function.Consumer;
 import java.util.function.Supplier;
 
 /**
- * Java 内置4大核心h函数式接口 —— 供给型接口
+ * Java 内置 4 大核心 h 函数式接口 —— 供给型接口
  * Supplier<T> T get()
  * @author colorful@TaleLin
  */
@@ -177,7 +181,7 @@ import java.util.List;
 import java.util.function.Predicate;
 
 /**
- * Java 内置4大核心函数式接口 —— 断言型接口
+ * Java 内置 4 大核心函数式接口 —— 断言型接口
  * Predicate<T> boolean test(T t)
  * @author colorful@TaleLin
  */
@@ -246,7 +250,7 @@ List<String> filterResult = filterStringList(arrayList, s -> s.contains("P"));
 * 在`main()`方法中，我们调用了上面定义的`filterStringList()`方法，第一个参数就是待过滤列表，这里的第二个参数，是我们创建的一个断言型接口的对象，其重写的`test(String s)`方法就是过滤规则关键所在，方法体就是判断`s`字符串是否包含`P`字符，并一个 boolean 类型的结果；
 * 理解了第二个参数通过匿名内部类创建对象的方式，再改写成通过`Lambda`表达式的方式创建对象，就不难理解了。
 
-上面我们介绍了核心的内置函数式接口，理解了这些接口的使用，其他接口就不难理解了。可翻阅[官方文档](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/function/package-summary.html)来查看更多。
+上面我们介绍了核心的内置函数式接口，理解了这些接口的使用，其他接口就不难理解了。可翻阅 [官方文档](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/util/function/package-summary.html) 来查看更多。
 
 ## 6. 小结
 

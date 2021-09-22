@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（51）Lambda 表达式语法
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Lambda 表达式的语法
 
 本节我们将介绍 Lambda 表达式的语法，了解 Lambda 表达式的基本形式和几种变体，以及编译器是怎么理解我们的 Lambda 表达式的。

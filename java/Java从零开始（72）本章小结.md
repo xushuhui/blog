@@ -1,4 +1,9 @@
+---
+title: Java从零开始（72）本章小结
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 同步工具之章节小结
+
 
 ## 1. 前言
 

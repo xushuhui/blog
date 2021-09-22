@@ -1,3 +1,8 @@
+---
+title: Java 从零开始（26）StringBuilder 类
+zhihu-url: https://zhuanlan.zhihu.com/p/408517458
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # StringBuilder
 
 上一节，我们学习了 Java 的 `String` 类，并介绍了其常用方法。本小节我们来介绍字符串的另外一个类：`StringBuilder`，我们将会了解到 `StringBuilder` 与 `String` 的**差异**，`StringBuilder` 的**使用场景**，也会介绍与 `StringBuilder` 类对应的 `StringBuffer` 类，`StringBuilder` 的**使用方法以及其常用方法**是本小节的重点学习内容。
@@ -26,7 +31,7 @@
 
 `StringBuffer` 是 `StringBuilder` 的前身，在早期的 `Java` 版本中应用非常广泛，它是 `StringBuilder` 的线程安全版本（**线程**我们将在后面的小节中介绍），但实现线程安全的代价是**执行效率的下降**。
 
-你可以对比 `StringBuilder` 和 `StringBuffer` 的[接口文档]()，它们的接口基本上完全一致。为了提升我们代码的执行效率，在如今的实际开发中 `StringBuffer` 并不常用。因此本小节的重点在 `StringBuilder` 的学习。
+你可以对比 `StringBuilder` 和 `StringBuffer` 的 [接口文档]()，它们的接口基本上完全一致。为了提升我们代码的执行效率，在如今的实际开发中 `StringBuffer` 并不常用。因此本小节的重点在 `StringBuilder` 的学习。
 
 ## 3. StringBuilder 的常用方法
 
@@ -68,7 +73,7 @@ public class ConnectString1 {
     public static void main(String[] args) {
         // 初始化一个内容为 Hello 的字符串生成器
         StringBuilder str = new StringBuilder("Hello");
-        // 调用append()方法进行字符串的连接
+        // 调用 append() 方法进行字符串的连接
         str.append(" ");
         str.append("World");
        	System.out.println(str);
@@ -129,14 +134,14 @@ public class ConnectString2 {
 ```java
 public class GetCapacity {
     public static void main(String[] args) {
-        // 调用StringBuilder的无参构造方法，生成一个str对象
+        // 调用 StringBuilder 的无参构造方法，生成一个 str 对象
         StringBuilder str = new StringBuilder();
-        System.out.println("str的初始容量为：" + str.capacity());
+        System.out.println("str 的初始容量为：" + str.capacity());
         // 循环执行连接操作
         for (int i = 0; i < 16; i ++) {
             str.append(i);
         }
-        System.out.println("连接操作后，str的容量为" + str.capacity());
+        System.out.println("连接操作后，str 的容量为" + str.capacity());
     }
 }
 ```
@@ -144,8 +149,8 @@ public class GetCapacity {
 运行结果：
 
 ```java
-str的初始容量为：16
-连接操作后，str的容量为34
+str 的初始容量为：16
+连接操作后，str 的容量为 34
 ```
 
 #### 3.2.3 字符串替换
@@ -186,9 +191,9 @@ str.insert(6, "Java");
 ```java
 public class StringSub {
     public static void main(String[] args) {
-        StringBuilder str = new StringBuilder("你好，欢迎来到慕课网");
+        StringBuilder str = new StringBuilder("你好，欢迎来到");
         String substring = str.substring(7);
-        System.out.println("str截取后子串为：" + substring);
+        System.out.println("str 截取后子串为：" + substring);
     }
 }
 ```
@@ -196,7 +201,7 @@ public class StringSub {
 运行结果：
 
 ```java
-str截取后子串为：慕课网
+str 截取后子串为：
 ```
 
 如果我们想截取示例中的” 欢迎 “二字，可以使用重载方法 `StringBuilder substring(int start, int end)` 进行截取：
@@ -213,7 +218,7 @@ String substring = str.substring(3, 5);
 public class StringReverse {
     public static void main(String[] args) {
         StringBuilder str = new StringBuilder("Hello Java");
-        System.out.println("str经过反转操作后为：" + str.reverse());
+        System.out.println("str 经过反转操作后为：" + str.reverse());
     }
 }
 ```
@@ -221,12 +226,12 @@ public class StringReverse {
 运行结果：
 
 ```java
-str经过反转操作后为：avaJ olleH
+str 经过反转操作后为：avaJ olleH
 ```
 
 ## 4. 小结
 
-本小节我们介绍了 Java 的 `StringBuilder` 类，它具有可变性，对于频繁操作字符串的场景，使用它来代替 `String` 类可以提高程序的执行效率；也知道了 `StringBuffer` 是 `StringBuilder` 的线程安全版本，官方更推荐使用 `StringBuilder`；最后我们介绍了 `StringBuilder` 的常用构造方法和成员方法，如果你想了解更多关于 `StringBuilder` 的接口，可以翻阅[官方文档](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/StringBuilder.html)进行学习。
+本小节我们介绍了 Java 的 `StringBuilder` 类，它具有可变性，对于频繁操作字符串的场景，使用它来代替 `String` 类可以提高程序的执行效率；也知道了 `StringBuffer` 是 `StringBuilder` 的线程安全版本，官方更推荐使用 `StringBuilder`；最后我们介绍了 `StringBuilder` 的常用构造方法和成员方法，如果你想了解更多关于 `StringBuilder` 的接口，可以翻阅 [官方文档](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/StringBuilder.html) 进行学习。
 
 ### 微信公众号老徐说
 

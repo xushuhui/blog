@@ -1,3 +1,9 @@
+---
+title: Java 从零开始（29）Java 包装类
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b
+zhihu-url: https://zhuanlan.zhihu.com/p/412913098
+---
+
 # Java 包装类
 
 本小节我们将学习 Java 的包装类，我们将了解到**什么是包装类**，**为什么需要包装类**，Java 提供的**包装类有哪些**，各种**包装类的常用方法和常量**介绍，**什么是装箱操作**以及**什么是拆箱操作**等内容。

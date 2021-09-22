@@ -39,7 +39,7 @@
 
 ```javascript
 <body>
-    <div class="demo">慕课网</div>
+    <div class="demo"></div>
 </body>
 ```
 
@@ -74,7 +74,7 @@
 </head>
 <body>
     <body>
-	    <div class="demo">慕课网</div>
+	    <div class="demo"></div>
 	</body>
 </body>
 </html>
@@ -84,8 +84,8 @@
 
 ```javascript
 <body>
-    <div class="demo">慕课网</div>
-     <div class="demo">慕课网</div>
+    <div class="demo"></div>
+     <div class="demo"></div>
 </body>
 ```
 
@@ -119,8 +119,8 @@
     </style>
 </head>
 <body>
-        <div class="demo">慕课网</div>
-         <div class="demo">慕课网</div>
+        <div class="demo"></div>
+         <div class="demo"></div>
 </body>
 </html>
 ```
@@ -131,9 +131,9 @@
 
 ```javascript
 <body>
-	<div class="demo"> 慕课网
-	    <div class="demo"> 慕课网  </div>
-	    <div class="demo"> 慕课网  </div>
+	<div class="demo"> 
+	    <div class="demo">   </div>
+	    <div class="demo">   </div>
 	</div>
 </body>
 ```
@@ -160,9 +160,9 @@
     </style>
 </head>
 <body>
-      <div class="demo"> 慕课网
-          <div class="demo"> 慕课网  </div>
-          <div class="demo"> 慕课网  </div>
+      <div class="demo"> 
+          <div class="demo">   </div>
+          <div class="demo">   </div>
       </div>
 </body>
 </html>
@@ -171,8 +171,8 @@
 如果我们希望在 demo 内部只有**一个** demo 时候 ，内部的 demo 变成红色怎么做呢？
 
 ```javascript
-<div class="demo"> 慕课网
-    <div class="demo"> 慕课网  </div>
+<div class="demo"> 
+    <div class="demo">   </div>
 </div>
 ```
 
@@ -207,8 +207,8 @@
 </head>
 <body>
     <body>
-        <div class="demo"> 慕课网
-            <div class="demo"> 慕课网  </div>
+        <div class="demo"> 
+            <div class="demo">   </div>
         </div>
     </body>
 </body>
@@ -221,7 +221,7 @@
 
 ```javascript
 <body>
-    <div class="demo"> 慕课网 </div>
+    <div class="demo">  </div>
 </body>
 ```
 
@@ -256,7 +256,7 @@
 </head>
 
 <body>
-    <div class="demo"> 慕课网 </div>
+    <div class="demo">  </div>
 </body>
 
 </html>
@@ -266,8 +266,8 @@
 
 ```javascript
 <body>
-    <div class="demo"> 慕课网 </div>
-    <p class="demo"> 慕课网  </p>
+    <div class="demo">  </div>
+    <p class="demo">   </p>
 </body>
 ```
 
@@ -302,8 +302,8 @@
 </head>
 
 <body>
-    <div class="demo"> 慕课网 </div>
-    <p class="demo"> 慕课网  </p>
+    <div class="demo">  </div>
+    <p class="demo">   </p>
 </body>
 
 </html>

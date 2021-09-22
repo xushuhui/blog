@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（32）Java 泛型
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 泛型
 
 本小节我们将学习 Java5 以后出现的一个特性：**泛型（`Generics`）**。通过本小节的学习，你将了解到**什么是泛型**，**为什么需要泛型**，如何使用泛型，如何自定义泛型，类型通配符等知识。
@@ -122,19 +126,19 @@ public class NumberGeneric<T> { // 把泛型定义在类上
     public static void main(String[] args) {
         // 实例化对象，指定元素类型为整型
         NumberGeneric<Integer> integerNumberGeneric = new NumberGeneric<>();
-        // 分别调用set、get方法
+        // 分别调用 set、get 方法
         integerNumberGeneric.setNumber(123);
         System.out.println("integerNumber=" + integerNumberGeneric.getNumber());
 
         // 实例化对象，指定元素类型为长整型
         NumberGeneric<Long> longNumberGeneric = new NumberGeneric<>();
-        // 分别调用set、get方法
+        // 分别调用 set、get 方法
         longNumberGeneric.setNumber(20L);
         System.out.println("longNumber=" + longNumberGeneric.getNumber());
 
         // 实例化对象，指定元素类型为双精度浮点型
         NumberGeneric<Double> doubleNumberGeneric = new NumberGeneric<>();
-        // 分别调用set、get方法
+        // 分别调用 set、get 方法
         doubleNumberGeneric.setNumber(4000.0);
         System.out.println("doubleNumber=" + doubleNumberGeneric.getNumber());
     }
@@ -165,15 +169,15 @@ doubleNumber=4000.0
 参照`HashMap<K,V>`类的定义，下面我们来看看如何定义含有两个泛型的类，实例如下：
 
 ```java
-public class KeyValueGeneric<K,V> { // 把两个泛型K、V定义在类上
+public class KeyValueGeneric<K,V> { // 把两个泛型 K、V 定义在类上
 
     /**
-     * 类型为K的key属性
+     * 类型为 K 的 key 属性
      */
     private K key;
 
     /**
-     * 类型为V的value属性
+     * 类型为 V 的 value 属性
      */
     private V value;
 
@@ -196,7 +200,7 @@ public class KeyValueGeneric<K,V> { // 把两个泛型K、V定义在类上
     public static void main(String[] args) {
         // 实例化对象，分别指定元素类型为整型、长整型
         KeyValueGeneric<Integer, Long> integerLongKeyValueGeneric = new KeyValueGeneric<>();
-        // 调用setter、getter方法
+        // 调用 setter、getter 方法
         integerLongKeyValueGeneric.setKey(200);
         integerLongKeyValueGeneric.setValue(300L);
         System.out.println("key=" + integerLongKeyValueGeneric.getKey());
@@ -204,7 +208,7 @@ public class KeyValueGeneric<K,V> { // 把两个泛型K、V定义在类上
 
         // 实例化对象，分别指定元素类型为浮点型、字符串类型
         KeyValueGeneric<Float, String> floatStringKeyValueGeneric = new KeyValueGeneric<>();
-        // 调用setter、getter方法
+        // 调用 setter、getter 方法
         floatStringKeyValueGeneric.setKey(0.5f);
         floatStringKeyValueGeneric.setValue("零点五");
         System.out.println("key=" + floatStringKeyValueGeneric.getKey());
@@ -234,7 +238,7 @@ value=零点五
 public class GenericMethod {
 
     /**
-     * 泛型方法show
+     * 泛型方法 show
      * @param t 要打印的参数
      * @param <T> T
      */
@@ -245,7 +249,7 @@ public class GenericMethod {
     public static void main(String[] args) {
         // 实例化对象
         GenericMethod genericMethod = new GenericMethod();
-        // 调用泛型方法show，传入不同类型的参数
+        // 调用泛型方法 show，传入不同类型的参数
         genericMethod.show("Java");
         genericMethod.show(222);
         genericMethod.show(222.0);
@@ -289,7 +293,7 @@ public interface GenericInterface<T> { // 在接口上定义泛型
 泛型接口的实现类如下：
 
 ```java
-public class GenericInterfaceImpl implements GenericInterface<String> { // 明确泛型类型为String类型
+public class GenericInterfaceImpl implements GenericInterface<String> { // 明确泛型类型为 String 类型
     @Override
     public void show(String s) {
         System.out.println(s);
@@ -385,15 +389,15 @@ public class GenericDemo3 {
         integers.add(2);
         integers.add(3);
         GenericDemo3 genericDemo3 = new GenericDemo3();
-        // 调用printListElement()方法
+        // 调用 printListElement() 方法
         genericDemo3.printListElement(integers);
 
         // 实例化一个字符串类型的列表
         List<String> strings = new ArrayList<>();
         // 添加元素
         strings.add("Hello");
-        strings.add("慕课网");
-        // 调用printListElement()方法
+        strings.add("");
+        // 调用 printListElement() 方法
         genericDemo3.printListElement(strings);
     }
 }
@@ -406,7 +410,7 @@ public class GenericDemo3 {
 2
 3
 Hello
-慕课网
+
 ```
 
 ### 5.2 extends 通配符
@@ -442,7 +446,7 @@ public class GenericDemo4 {
         integers.add(2);
         integers.add(3);
         GenericDemo4 genericDemo3 = new GenericDemo4();
-        // 调用printListElement()方法
+        // 调用 printListElement() 方法
         genericDemo3.printListElement(integers);
 
     }

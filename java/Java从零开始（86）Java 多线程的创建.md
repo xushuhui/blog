@@ -1,4 +1,9 @@
+---
+title: Java从零开始（86）Java 多线程的创建
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 多线程的创建
+
 
 ## 1. 前言
 

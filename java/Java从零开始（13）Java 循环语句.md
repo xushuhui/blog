@@ -1,4 +1,10 @@
+---
+title: Java从零开始（13）Java 循环语句
+zhihu-url: https://zhuanlan.zhihu.com/p/407011026
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 循环语句
+
 
 循环结构能够让程序员以最少的精力去完成大量重复的工作，它可以让计算机根据条件做循环计算，当条件成立时继续循环，当条件不成立时结束循环。
 
@@ -177,13 +183,13 @@ for (变量声明; 条件; 迭代语句) {
 
 ### 3.2 实例
 
-我们使用`for`循环连续打印 5 行”慕课网真棒“的字样，代码如下：
+我们使用`for`循环连续打印 5 行”真棒“的字样，代码如下：
 
 ```java
 public class ForLoop1 {
     public static void main(String[] args) {
         for (int i = 1; i <= 5; i ++) {
-            System.out.println("慕课网真棒");
+            System.out.println("真棒");
         }
     }
 }
@@ -192,11 +198,11 @@ public class ForLoop1 {
 运行结果：
 
 ```java
-慕课网真棒
-慕课网真棒
-慕课网真棒
-慕课网真棒
-慕课网真棒
+真棒
+真棒
+真棒
+真棒
+真棒
 ```
 
 我们现在使用`for`来实现 1 到 100 的累加求和，代码如下：

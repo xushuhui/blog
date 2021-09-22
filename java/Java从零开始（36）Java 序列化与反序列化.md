@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（36）Java 序列化与反序列化
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 序列化与反序列化
 
 上一小节我们学习了 Java 的输入输出流，有了这些前置知识点，我们就可以学习 Java 的序列化了。本小节将介绍什么是序列化、什么是反序列化、序列化有什么作用，如何实现序列化与反序列化，Serializable 接口介绍，常用序列化工具介绍等内容。了解序列化的用途、学会如何进行序列化和反序列化操作是本小节的重点内容。
@@ -62,13 +66,13 @@ public class SerializeDemo1 {
      * @throws IOException
      */
     private static void serialize(String filepath, Cat cat) throws IOException {
-        // 实例化file对象
+        // 实例化 file 对象
         File file = new File(filepath);
         // 实例化文件输出流
         FileOutputStream fileOutputStream = new FileOutputStream(file);
         // 实例化对象输出流
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
-        // 保存cat对象
+        // 保存 cat 对象
         objectOutputStream.writeObject(cat);
         // 关闭流
         fileOutputStream.close();
@@ -82,7 +86,7 @@ public class SerializeDemo1 {
      * @throws ClassNotFoundException
      */
     private static void deserialize(String filepath) throws IOException, ClassNotFoundException {
-        // 实例化file对象
+        // 实例化 file 对象
         File file = new File(filepath);
         // 实例化文件输入流
         FileInputStream fileInputStream = new FileInputStream(file);

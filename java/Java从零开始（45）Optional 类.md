@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（45）Optional 类
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Optional 类
 
 上一小节，我们接触到了`Optional`类，但没有详细展开介绍，`Optional`类也是 Java 8 新加入的类。本小节我们就来学习一下这个类，你将了解到`Optional`类的解决了什么问题，如何创建`Optioanl`类的对象，它又有哪些常用方法，如何在实际开发中应用`Optional`类等内容。
@@ -54,7 +58,6 @@ public class OptionalDemo1 {
 
 ```java
 Optional[我是一个字符串]
-Optional.empty
 Optional.empty
 ```
 

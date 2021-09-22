@@ -1,3 +1,9 @@
+---
+title: Java 从零开始（30）Java 枚举类
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b
+zhihu-url: https://zhuanlan.zhihu.com/p/412913182
+---
+
 # Java 枚举类
 
 本小节我们将一起学习 Java 枚举类，将涉及到**什么是枚举类**、**为什么需要枚举类**，**如何自定义枚举类**以及**如何使用枚举类**，**Enum 类的常用方法**等内容。理解为什么需要枚举类以及学会自定义枚举类是本小节学习的重点。
@@ -95,7 +101,7 @@ public class EnumDemo1 {
         }
 
         /**
-         * 重写toString方法，方便外部打印调试
+         * 重写 toString 方法，方便外部打印调试
          */
         @Override
         public String toString() {
@@ -145,7 +151,7 @@ public class EnumDemo2 {
         Sex male = Sex.MALE;
         // 打印 Sex 对象
         System.out.println(male);
-        // 打印 getter方法的值
+        // 打印 getter 方法的值
         System.out.println(male.getSexName());
         System.out.println(Sex.FEMALE.getSexName());
         System.out.println(Sex.UNKNOWN.getSexName());
@@ -157,25 +163,25 @@ public class EnumDemo2 {
  * 使用 enum 关键字定义枚举类，默认继承自 Enum 类
  */
 enum Sex {
-    // 1.提供当前枚举类的多个对象，多个对象之间使用逗号分割，最后一个对象使用分号结尾
+    // 1. 提供当前枚举类的多个对象，多个对象之间使用逗号分割，最后一个对象使用分号结尾
     MALE("男"),
     FEMALE("女"),
     UNKNOWN("保密");
 
     /**
-     * 2.声明枚举类的属性
+     * 2. 声明枚举类的属性
      */
     private final String sexName;
 
     /**
-     * 3.编写构造方法，为属性赋值
+     * 3. 编写构造方法，为属性赋值
      */
     Sex(String sexName) {
         this.sexName = sexName;
     }
 
     /**
-     * 4.提供getter
+     * 4. 提供 getter
      */
     public String getSexName() {
         return sexName;
@@ -230,18 +236,18 @@ public class EnumDemo3 {
  * 使用 enum 关键字定义枚举类，默认继承自 Enum 类
  */
 enum Sex {
-    // 1.提供当前枚举类的多个对象，多个对象之间使用逗号分割，最后一个对象使用分号结尾
+    // 1. 提供当前枚举类的多个对象，多个对象之间使用逗号分割，最后一个对象使用分号结尾
     MALE("男"),
     FEMALE("女"),
     UNKNOWN("保密");
 
     /**
-     * 2.声明枚举类的属性
+     * 2. 声明枚举类的属性
      */
     private final String sexName;
 
     /**
-     * 3.编写构造方法，为属性赋值
+     * 3. 编写构造方法，为属性赋值
      */
     Sex(String sexName) {
         this.sexName = sexName;
@@ -288,18 +294,18 @@ public class EnumDemo3 {
  * 使用 enum 关键字定义枚举类，默认继承自 Enum 类
  */
 enum Sex {
-    // 1.提供当前枚举类的多个对象，多个对象之间使用逗号分割，最后一个对象使用分号结尾
+    // 1. 提供当前枚举类的多个对象，多个对象之间使用逗号分割，最后一个对象使用分号结尾
     MALE("男"),
     FEMALE("女"),
     UNKNOWN("保密");
 
     /**
-     * 2.声明枚举类的属性
+     * 2. 声明枚举类的属性
      */
     private final String sexName;
 
     /**
-     * 3.编写构造方法，为属性赋值
+     * 3. 编写构造方法，为属性赋值
      */
     Sex(String sexName) {
         this.sexName = sexName;

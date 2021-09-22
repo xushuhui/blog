@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（50）Lambda 表达式简介
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Lambda 表达式简介
 
 大家好，今天我们开始一个新专题 —— Java Lambda 表达式。这是在 Java 8 中出现的一个新特性，但它并不是 Java 独有的，JavaScript、C#、C++ 等在 Java 8 之前就支持 Lambda 表达式的特性，现在的大多数程序语言也都支持 Lambda 表达式。
@@ -69,7 +73,7 @@ button.addActionListener(event -> System.out.println("button click"));
 
 ## 6. 小结
 
-![](https://xushuhui.gitee.io/image/imooc/5f1a899609c28f5805810286.jpg)本节主要介绍了：
+![](https://xushuhui.gitee.io/image/imooc/5f1a899609c28f5805810286.jpg) 本节主要介绍了：
 
 * 分析了 Java 8 开始支持 Lambda 表达式的动机、以及使用 Lambda 表达式的好处。
 * 介绍了 Lambda 表达式的优点，并通过 Swing 的按钮点击事件来直观的感受 Lambda 表达式是如何来简化我们的代码的。

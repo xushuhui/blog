@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（34）Java 注解
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 注解
 
 本小节我们将学习 `Java5` 引入的一种机制 —— 注解（Annotation）。通过本小节的学习，你将了解**什么是注解**，**注解的作用**，Java 中**内置注解**有哪些以及**注解的分类**，如何**自定义注解**，如何**处理注解**等内容。
@@ -308,7 +312,7 @@ public @interface Length {
 public class Student {
 
     // 标注注解
-    @Length(min = 2, max = 5, message = "昵称的长度必须在2~5之间")
+    @Length(min = 2, max = 5, message = "昵称的长度必须在 2~5 之间")
     private String nickname;
 
     public Student(String nickname) {
@@ -386,7 +390,7 @@ Length annotation = Student.class.getDeclaredField("nickname").getAnnotation(Len
 public class Student {
 
     // 标注注解
-    @Length(min = 2, max = 5, message = "昵称的长度必须在2~6之间")
+    @Length(min = 2, max = 5, message = "昵称的长度必须在 2~6 之间")
     private String nickname;
 
     public Student(String nickname) {
@@ -414,7 +418,7 @@ public class Student {
             System.out.println("max=" + max);
             System.out.println("message=" + message);
         } else {
-            System.out.println("没有在nickname字段上找到@Length注解");
+            System.out.println("没有在 nickname 字段上找到@Length 注解");
         }
     }
 }
@@ -425,7 +429,7 @@ public class Student {
 ```java
 min=2
 max=5
-message=昵称的长度必须在2~6之间
+message=昵称的长度必须在 2~6 之间
 ```
 
 运行过程如下：
@@ -444,7 +448,7 @@ import java.lang.reflect.Field;
 public class Student {
 
     // 标注注解
-    @Length(min = 2, max = 5, message = "昵称的长度必须在2~5之间")
+    @Length(min = 2, max = 5, message = "昵称的长度必须在 2~5 之间")
     private String nickname;
 
     public Student(String nickname) {
@@ -460,7 +464,7 @@ public class Student {
     }
 
     public void checkFieldLength(Student student) throws IllegalAccessException {
-        // 遍历所有Field
+        // 遍历所有 Field
         for (Field field: student.getClass().getDeclaredFields()) {
             // 获取注解
             Length annotation = field.getAnnotation(Length.class);
@@ -487,7 +491,7 @@ public class Student {
 运行结果：
 
 ```java
-Exception in thread "main" java.lang.IllegalArgumentException: nickname昵称的长度必须在2~5之间
+Exception in thread "main" java.lang.IllegalArgumentException: nickname 昵称的长度必须在 2~5 之间
 	at Student.checkFieldLength(Student.java:32)
 	at Student.main(Student.java:41)
 ```

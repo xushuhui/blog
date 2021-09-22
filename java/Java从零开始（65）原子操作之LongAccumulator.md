@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（65）原子操作之 LongAccumulator
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 原子操作之 LongAccumulator
 
 ## 1. 前言
@@ -28,7 +32,7 @@ LongBinaryOperator longBinaryOperator = new LongBinaryOperator() {
         }
     }
 
-// 接着使用构造方法创建一个 LongAccumulator 对象，这个对象的第1个参数就是一个双目运算器对象，第二个参数是累加器的初始值。
+// 接着使用构造方法创建一个 LongAccumulator 对象，这个对象的第 1 个参数就是一个双目运算器对象，第二个参数是累加器的初始值。
 LongAccumulator longAccumulator = new LongAccumulator(longBinaryOperator, 0);
 ...
 // 调用累加方法
@@ -54,7 +58,7 @@ import java.util.concurrent.atomic.LongAccumulator;
 public class LongAccumulatorTest {
 
 	// 此处的运算规则是累加，所以创建一个加法双目运算器对象作为构造函数的第一个参数。
-    // 将第二个参数置为0，表示累加初始值。
+    // 将第二个参数置为 0，表示累加初始值。
     // maleCount 对象代表当天所有进入商场的男性客户总数量。
     private static LongAccumulator maleCount = new LongAccumulator(new LongBinaryOperator() {
 	    // 此方法用于实现计算规则
@@ -66,7 +70,7 @@ public class LongAccumulatorTest {
     }, 0);
 
     public static void main(String[] args) {
-        // 定义30个商场入口检测设备
+        // 定义 30 个商场入口检测设备
         for (int i = 1; i <= 30; i++) {
             MonitoringDevice monitoringDevice = new MonitoringDevice(maleCount, i);
             // 开启检测设备进行检测
@@ -98,7 +102,7 @@ public class MonitoringDevice implements Runnable {
 	 */
     public void run() {
         while (true) {
-            // 监测处理 (监测设备输出1代表男性，0代表女性，其他代表未能识别，此处随机产生监测结果)
+            // 监测处理 （监测设备输出 1 代表男性，0 代表女性，其他代表未能识别，此处随机产生监测结果）
             try {
                 Thread.sleep(new Random().nextInt(3000));
             } catch (Exception e) {}
@@ -107,7 +111,7 @@ public class MonitoringDevice implements Runnable {
             // 对监测结果进行统计
             switch (monitoringDeviceOutput) {
                 case 1: maleCount.accumulate(1);
-                    System.out.println("统计结果: maleCount=" + maleCount.get());
+                    System.out.println("统计结果：maleCount=" + maleCount.get());
                     break;
                 default:
                     System.out.println("忽略统计");
@@ -123,7 +127,7 @@ public class MonitoringDevice implements Runnable {
 ```java
 ...
 忽略统计
-统计结果: maleCount=50
+统计结果：maleCount=50
 ...
 ```
 

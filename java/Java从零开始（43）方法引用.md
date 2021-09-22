@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（43）方法引用
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 方法引用
 
 通过前两个小节对`Lambda`表达式的学习，本小节我们来介绍一个更加深入的知识点 —— 方法引用。通过本小节的学习，你将了解到**什么是方法引用**，**方法引用的基础语法**，方法引用的**使用条件和使用场景**，**方法引用的分类**，**方法引用的使用实例**等内容。
@@ -238,7 +242,6 @@ public class MethodReferencesDemo5 {
         Person person1 = function1.apply("小慕");
         System.out.println(person1.getName());
 
-
         // 使用方法引用，引用单参构造方法
         Function<String, Person> function2 = Person::new;
         Person person2 = function1.apply("小明");
@@ -251,7 +254,6 @@ public class MethodReferencesDemo5 {
 运行结果：
 
 ```java
-无参数构造方法执行了
 无参数构造方法执行了
 单参数构造方法执行了
 小慕

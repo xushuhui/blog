@@ -1,4 +1,9 @@
+---
+title: Java从零开始（115）Class 文件中的魔数、主次版本号与常量池
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Class 文件中的魔数、主次版本号与常量池
+
 
 ## 1. 前言
 

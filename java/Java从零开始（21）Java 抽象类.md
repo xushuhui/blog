@@ -1,3 +1,8 @@
+---
+title: Java 从零开始（21）Java 抽象类
+zhihu-url: https://zhuanlan.zhihu.com/p/408511591
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 抽象类
 
 本小节我们将学习 Java 中的**抽象类**，你将了解到抽象类的概念和特点，抽象类在程序设计时的应用场景，什么是抽象方法，抽象方法有什么特点，如何声明一个抽象方法等内容。
@@ -58,7 +63,7 @@ abstract class Pet {
 如果你尝试实例化抽象类 `Pet`，编译器将会报错：
 
 ```java
-Pet.java:4: 错误: Pet是抽象的; 无法实例化
+Pet.java:4: 错误：Pet 是抽象的；无法实例化
         new Pet();
         ^
 1 个错误
@@ -92,7 +97,7 @@ class Dog extends Pet {
 编译执行代码，将会报错：
 
 ```java
-Dog.java:1: 错误: Dog不是抽象的, 并且未覆盖Pet中的抽象方法eat()
+Dog.java:1: 错误：Dog 不是抽象的，并且未覆盖 Pet 中的抽象方法 eat()
 public class Dog extends Pet {
        ^
 1 个错误

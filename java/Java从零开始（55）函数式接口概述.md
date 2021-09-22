@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（55）函数式接口概述
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 函数式接口概述
 
 在 Java 里面，所有的方法参数都是有固定类型的，比如将数字 9 作为参数传递给一个方法，它的类型是 int；字符串 “9” 作为参数传递给方法，它的类型是 String。那么 Lambda 表达式的类型由是什么呢？通过本节我们学习什么是函数式接口，它与 Lambda 表达式的关系。
@@ -28,14 +32,13 @@ interface TestFunctionalInterface
 {
     //抽象方法
     public void doTest();
-    //java.lang.Object中的public方法
+    //java.lang.Object 中的 public 方法
     public boolean equals(Object obj);
     public String toString();
     //默认方法
     public default void doDefaultMethod(){System.out.println("call dodefaultMethod");}
     //静态方法
     public static void doStaticMethod(){System.out.println("call doStaticMethod");}
-
 
     public static void main(String...s){
         //实现抽象方法
@@ -48,7 +51,7 @@ interface TestFunctionalInterface
         test.doDefaultMethod();
         //调用静态方法
         TestFunctionalInterface.doStaticMethod();
-        //调用toString方法
+        //调用 toString 方法
         System.out.println(test.toString());
     }
 }
@@ -212,11 +215,11 @@ public class DemoConsumer {
     public static void main(String[] args) {
         //调用默认方法
         consumerString(s -> System.out.println(s));
-        //consumer接口的组合
+        //consumer 接口的组合
         consumerString(
-                // toUpperCase()方法，将字符串转换为大写
+                // toUpperCase() 方法，将字符串转换为大写
                 s -> System.out.println(s.toUpperCase()),
-                // toLowerCase()方法，将字符串转换为小写
+                // toLowerCase() 方法，将字符串转换为小写
                 s -> System.out.println(s.toLowerCase())
         );
     }

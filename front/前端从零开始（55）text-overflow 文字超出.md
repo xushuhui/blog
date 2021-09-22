@@ -38,7 +38,7 @@ text-overflow 用于设置当文字内容超过所在元素设定的范围时候
 
 ```javascript
 <div class="demo">
-    慕课网css3属性教学 text-overflow。
+    css3属性教学 text-overflow。
 </div>
 ```
 
@@ -62,7 +62,7 @@ text-overflow 用于设置当文字内容超过所在元素设定的范围时候
 
 ```javascript
 <div class="demo">
-    慕课网css3属性教学 text-overflow。
+    css3属性教学 text-overflow。
 </div>
 ```
 
@@ -86,7 +86,7 @@ text-overflow 用于设置当文字内容超过所在元素设定的范围时候
 
 ```javascript
 <div class="demo">
-    慕课网css3属性教学 text-overflow。
+    css3属性教学 text-overflow。
 </div>
 ```
 

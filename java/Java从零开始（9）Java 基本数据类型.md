@@ -1,4 +1,10 @@
+---
+title: Java从零开始（9）Java 基本数据类型
+zhihu-url: https://zhuanlan.zhihu.com/p/400050130
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 基本数据类型
+
 
 前面我们学习了变量，每个变量都是有数据类型的。在 Java 中，一共有两大数据类型：
 

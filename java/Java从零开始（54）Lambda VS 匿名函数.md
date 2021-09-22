@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（54）Lambda VS 匿名函数
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Lambda 表达式 VS 匿名内部类
 
 本节我们将重点讨论下 Lambda 表达式与匿名内部类之间除了语法外还有哪些差别。再开始讲解之前我们先列出两者重要的两点区别：
@@ -17,7 +21,7 @@ public class TestLambdaAndInnerClass  {
                 System.out.println("call run in innerRunnable:\t"+this.getClass());
             }
         };
-        //Lambda表达式实现
+        //Lambda 表达式实现
         Runnable lambdaRunnable = () -> System.out.println("call run in lambdaRunnable:\t"+this.getClass());
         new Thread(innerRunnable).start();
         new Thread(lambdaRunnable).start();

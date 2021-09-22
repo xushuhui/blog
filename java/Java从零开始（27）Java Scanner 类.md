@@ -1,3 +1,8 @@
+---
+title: Java 从零开始（27）Java Scanner 类
+zhihu-url: https://zhuanlan.zhihu.com/p/408977185
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java Scanner 类
 
 一直以来，我们都使用`System.out.println()`方法向屏幕打印内容，那么如何接收输入的内容呢？本小节所学习的`Scanner`类就可以实现对输入内容的接收。在本小节，我们将学习`Scanner`类的定义，如何使用`Scanner`类以及其常用方法，在学完这些基础知识后，我们会在最后学习一个比较有趣的实例程序。
@@ -92,11 +97,11 @@ public class ScannerDemo2 {
         String name = scanner.nextLine();
 
         System.out.println("请输入您的年龄：");
-        // 将第二行输入扫描为int类型
+        // 将第二行输入扫描为 int 类型
         int age = scanner.nextInt();
 
         System.out.println("请输入您的身高：");
-        // 将第三行输入扫描为float类型
+        // 将第三行输入扫描为 float 类型
         float height = scanner.nextFloat();
 
         // 打印扫描器所扫描的值
@@ -140,14 +145,14 @@ int age;
 if (scanner.hasNextInt()) {
     age = scanner.nextInt();
 } else {
-    System.out.println("不是int类型");
+    System.out.println("不是 int 类型");
 }
 
 float height;
 if (scanner.hasNextFloat()) {
     height = scanner.nextFloat();
 } else {
-    System.out.println("不是float类型");
+    System.out.println("不是 float 类型");
 }
 ```
 
@@ -156,8 +161,8 @@ if (scanner.hasNextFloat()) {
 前面我们已经对`Scanner`类的基本用法有了一定的了解，下面我们来实现一个示例程序，这个程序用于估算一个人的体脂率，这里事先给出体脂率估算公式：
 
 ```java
-参数a = 腰围（cm）×0.74
-参数b = 体重（kg）× 0.082 + 44.74
+参数 a = 腰围（cm）×0.74
+参数 b = 体重（kg）× 0.082 + 44.74
 脂肪重量（kg）= a － b
 体脂率 =（脂肪重量 ÷ 体重）× 100%。
 ```
@@ -173,7 +178,7 @@ public class GetBodyFat {
         float waistline = 0f;
         // 初始化体重
         float weight = 0f;
-        // 声明浮点型参数a，b，bodyFatWeight（脂肪重量）
+        // 声明浮点型参数 a，b，bodyFatWeight（脂肪重量）
         float a, b, bodyFatWeight;
         Scanner scanner = new Scanner(System.in);
         System.out.println("请输入您的腰围（cm）：");
@@ -184,9 +189,9 @@ public class GetBodyFat {
         if (scanner.hasNextFloat()) {
             weight = scanner.nextFloat();
         }
-        // 计算参数a  公式：参数a = 腰围（cm）× 0.74
+        // 计算参数 a  公式：参数 a = 腰围（cm）× 0.74
         a = waistline * 0.74f;
-        // 计算参数b  公式：参数b = 体重（kg）× 0.082 + 44.74
+        // 计算参数 b  公式：参数 b = 体重（kg）× 0.082 + 44.74
         b = weight * 0.082f + 44.74f;
         // 计算脂肪重量
         bodyFatWeight = a - b;
@@ -204,7 +209,7 @@ public class GetBodyFat {
 70
 请输入您的体重（kg）：
 50
-您的体脂率为5.919998%
+您的体脂率为 5.919998%
 ```
 
 执行代码的流程如下：

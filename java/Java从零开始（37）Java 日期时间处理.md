@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（37）Java 日期时间处理
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 日期和时间
 
 本小节我们将学习 Java 中的日期和时间，日期和时间在我们的实际开发中非常常用，例如用户的注册、数据的增删改、对敏感信息的操作等等都需要记录下日期和时间。通过本小节的学习，你将了解到什么是日期、什么是时间、什么是时区，Java 中 `Date` 类的 API 介绍，`Calendar` 日历类的使用，`LocalDateTime` 类的相关 API 介绍等内容。
@@ -41,7 +45,7 @@
 * `long getTime()`：返回此日期对象表示的自 1970 年 1 月 1 日 00:00:00 GMT 以来的毫秒数；
 * `void setTime()`：将此日期对象设置为表示 1970 年 1 月 1 日 00:00:00 GMT 之后的时间点（毫秒）。
 
-大多数其他方法都已经过期，此处不再一一列举，可翻阅[官方文档](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/util/Date.html)以了解更多内容。
+大多数其他方法都已经过期，此处不再一一列举，可翻阅 [官方文档](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/util/Date.html) 以了解更多内容。
 
 > **Tips**：除了 `java.util` 包下的 `Date` 类，在 `java.sql` 包下也有一个 `Date` 类。它是对应数据库字段的日期类型的类，与数据库交互的时候才会用到，由于目前我们不涉及数据库相关知识，此处做一个了解即可。我们更常用的还是 `java.util` 包下的 `Date` 类。
 
@@ -58,7 +62,7 @@ import java.util.Date;
 public class DateDemo1 {
 
     public static void main(String[] args) {
-        // 实例化一个date对象
+        // 实例化一个 date 对象
         Date date = new Date();
       	// 调用 toString() 方法
         String s = date.toString();
@@ -87,7 +91,7 @@ import java.util.Date;
 public class DateDemo2 {
 
     public static void main(String[] args) {
-        // 实例化一个date对象
+        // 实例化一个 date 对象
         Date date = new Date();
         // 调用 getTime() 方法
         long time = date.getTime();
@@ -130,7 +134,7 @@ Calendar calendar = Calendar.getInstance();
 
 ![](https://xushuhui.gitee.io/image/imooc/5ee07fcd09808dc011910735.jpg)
 
-更多常用方法和静态字段请查阅[官方文档](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/util/Calendar.html)。
+更多常用方法和静态字段请查阅 [官方文档](https://docs.oracle.com/en/java/javase/13/docs/api/java.base/java/util/Calendar.html)。
 
 ### 4.3 实例
 
@@ -165,10 +169,10 @@ public class CalendarDemo1 {
 运行此段代码的时间是 2020 年 06 月 10 日，运行结果如下：
 
 ```java
-今天是这一周的第4天
-今天是这一月的第10天
-今天是这一月的第2周
-今天是这一年的第162天
+今天是这一周的第 4 天
+今天是这一月的第 10 天
+今天是这一月的第 2 周
+今天是这一年的第 162 天
 ```
 
 通过调用 `get()` 方法，我们很方便地获取到了当前时间在日历上是第几天。要特别注意的是，获取月份，返回的值是从 0 开始的（0 ~ 11），依次表示 1 月到 12 月；获取一周的第 `n` 天，这里的返回值为 `1~7`，1 表示周日，2 表示周一，以此类推。
@@ -185,13 +189,13 @@ public class CalendarDemo2 {
 
     public static void main(String[] args) {
         Calendar calendar = Calendar.getInstance();
-        // 设置2022年:
+        // 设置 2022 年：
         calendar.set(Calendar.YEAR, 2022);
-        // 设置9月: (8表示9月)
+        // 设置 9 月：(8 表示 9 月）
         calendar.set(Calendar.MONTH, 8);
-        // 设置9日:
+        // 设置 9 日：
         calendar.set(Calendar.DATE, 9);
-        // 设置时间:
+        // 设置时间：
         calendar.set(Calendar.HOUR_OF_DAY, 0);
         calendar.set(Calendar.MINUTE, 0);
         calendar.set(Calendar.SECOND, 0);
@@ -275,7 +279,7 @@ public class LocalDateTimeDemo1 {
 LocalDate date = LocalDate.of(2020, 9, 30);
 // 14:15:10
 LocalTime time = LocalTime.of(14, 15, 10);
-// 将date和time组合成一个LocalDateTime
+// 将 date 和 time 组合成一个 LocalDateTime
 LocalDateTime dateTime1 = LocalDateTime.of(date, time);
 // 设置 年、月、日、时、分、秒
 LocalDateTime dateTime2 = LocalDateTime.of(2020, 10, 21, 14, 14);

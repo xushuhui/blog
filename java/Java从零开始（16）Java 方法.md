@@ -1,3 +1,8 @@
+---
+title: Java 从零开始（16）Java 方法
+zhihu-url: https://zhuanlan.zhihu.com/p/408075427
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 方法
 
 本小节我们将学习**什么是方法**、**如何自定义方法**，并按照**分类介绍**每种方法的特点，对于有参数的**方法传值**，会讲到基本数据类型作为方法参数和引用数据类型作为方法参数的区别。也会学习可变参数方法的定义语法和使用场景，**方法重载的使用和意义**也是本节的重点学习内容。
@@ -17,9 +22,9 @@
 在 Java 中，定义一个方法的语法为：
 
 ```java
-访问修饰符 返回类型 方法名(参数列表) {
-    若干语句;
-    return 方法返回值;
+访问修饰符 返回类型 方法名（参数列表） {
+    若干语句；
+    return 方法返回值；
 }
 ```
 
@@ -52,15 +57,15 @@ class MethodDemo1 {
     public void printText() {
         // 三条输出语句
         System.out.println("你好新同学");
-        System.out.println("Java是就业前景最好的语言");
-        System.out.println("学Java就来慕课网");
+        System.out.println("Java 是就业前景最好的语言");
+        System.out.println("学 Java 就来");
     }
 }
 ```
 
 上面代码，在类`MethodDemo1`中定义了一个方法`printText`，其中有一些打印语句。那么如何调用这个方法，让其执行呢？
 
-对于**非静态方法**（即非`static`关键字修饰的方法），首先要使用`new`关键字实例化类，生成一个对象，再通过`对象名.方法名()`的方式去调动方法。
+对于**非静态方法**（即非`static`关键字修饰的方法），首先要使用`new`关键字实例化类，生成一个对象，再通过`对象名。方法名 ()`的方式去调动方法。
 
 如下是 MethodDemo1 类方法调用的实例：
 
@@ -70,14 +75,14 @@ class MethodDemo1 {
     public void printText() {
         // 三条输出语句
         System.out.println("你好新同学");
-        System.out.println("Java是就业前景最好的语言");
-        System.out.println("学Java就来慕课网");
+        System.out.println("Java 是就业前景最好的语言");
+        System.out.println("学 Java 就来");
     }
 
     public static void main(String[] args) {
-	    // 实例化MethodDemo1类
+	    // 实例化 MethodDemo1 类
 	    MethodDemo1 methodDemo1 = new MethodDemo1();
-	    // 调用printText方法
+	    // 调用 printText 方法
 	    methodDemo1.printText();
 	}
 }
@@ -87,8 +92,8 @@ class MethodDemo1 {
 
 ```java
 你好新同学
-Java是就业前景最好的语言
-学Java就来慕课网
+Java 是就业前景最好的语言
+学 Java 就来
 ```
 
 > **Tips**：由于我们还没有学习面向对象，此处对于对象的实例化，先记住这种固定写法即可。本节的学习重点在于如何定义方法和调用方法。
@@ -97,8 +102,8 @@ Java是就业前景最好的语言
 
 ```java
 你好新同学
-Java是就业前景最好的语言
-学Java就来慕课网
+Java 是就业前景最好的语言
+学 Java 就来
 ```
 
 ### 3.2 无参带返回值方法
@@ -111,16 +116,16 @@ Java是就业前景最好的语言
 class MethodDemo2 {
   	// 定义无参带返回值方法
   	public String getHelloStr() {
-        // 初始化变量str
+        // 初始化变量 str
       	String str = "Hello World";
-      	// 返回str
+      	// 返回 str
       	return str;
     }
 
   	public static void main(String[] args) {
-      	// 实例化MethodDemo2
+      	// 实例化 MethodDemo2
       	MethodDemo2 methodDemo2 = new MethodDemo2();
-      	// 调用getStr方法，并且使用result变量接收返回值
+      	// 调用 getStr 方法，并且使用 result 变量接收返回值
       	String result = methodDemo2.getHelloStr();
       	// 打印返回值
       	System.out.println(result);
@@ -138,7 +143,7 @@ Hello World
 
 带参数无返回值方法，即带有参数列表，返回值为`void`的方法。
 
-参数列表可能有一个或多个参数，多个参数使用逗号 (`,`) 隔开。定义方式为：`DataType 参数名1, DataType 参数名2`，DateType 为参数的类型。
+参数列表可能有一个或多个参数，多个参数使用逗号 (`,`) 隔开。定义方式为：`DataType 参数名 1, DataType 参数名 2`，DateType 为参数的类型。
 
 下面是一个根据长和宽求长方形面积的方法实例：
 
@@ -151,12 +156,12 @@ class MethodDemo3 {
     }
 
   	public static void main(String[] args) {
-      	// 实例化MethodDemo3
+      	// 实例化 MethodDemo3
       	MethodDemo3 methodDemo3 = new MethodDemo3();
       	// 初始化两个变量
       	float width = 12.3f;
       	float height = 20f;
-      	// 调用printArea方法，并将 width、height变量作为参数传入
+      	// 调用 printArea 方法，并将 width、height 变量作为参数传入
       	methodDemo3.printArea(width, height);
       	// 也可不提前初始化变量，直接传入浮点型字面量作为参数。
       	methodDemo3.printArea(10.2f, 2.5f);
@@ -201,7 +206,7 @@ class MethodDemo4 {
     public int getSumOfSquares(int n) {
         int sum = 0;
         for (int i = 1; i <=n; i++) {
-          	// 求i的平方，并加和赋值给sum
+          	// 求 i 的平方，并加和赋值给 sum
             sum += i * i;
         }
       	// 返回计算结果
@@ -209,11 +214,11 @@ class MethodDemo4 {
     }
 
     public static void main(String[] args) {
-        // 实例化MethodDemo4
+        // 实例化 MethodDemo4
         MethodDemo4 methodDemo4 = new MethodDemo4();
-      	// 调用对象下getSumOfSquares方法，并用sumOfSquares变量接收返回结果
+      	// 调用对象下 getSumOfSquares 方法，并用 sumOfSquares 变量接收返回结果
         int sumOfSquares = methodDemo4.getSumOfSquares(5);
-        System.out.println("1到5的累加平方和为：" + sumOfSquares);
+        System.out.println("1 到 5 的累加平方和为：" + sumOfSquares);
     }
 }
 ```
@@ -221,13 +226,13 @@ class MethodDemo4 {
 运行结果：
 
 ```java
-1到5的累加平方和为：55
+1 到 5 的累加平方和为：55
 ```
 
 我们也可以不定义变量接收返回结果，直接打印方法调用语句：
 
 ```java
-System.out.println（"1到5的累加平方和为：" + methodDemo4.getSumOfSquares(5)）;
+System.out.println（"1 到 5 的累加平方和为：" + methodDemo4.getSumOfSquares(5)）;
 ```
 
 上面有参方法的例子，参数都是简单的基本数据类型，当参数为**数组**时，我们再来看一个实例：
@@ -239,14 +244,14 @@ class MethodDemo5 {
      * 查找数组中元素是否包含指定元素
      * @param arr 待查找数组
      * @param element 所查找的元素
-     * @return boolean 查找结果,true包含; false不包含
+     * @return boolean 查找结果，true 包含；false 不包含
      */
     public boolean contains(int[] arr, int element) {
-      	// 定义返回结果，默认为false，即未找到element元素
+      	// 定义返回结果，默认为 false，即未找到 element 元素
         boolean result = false;
         for (int value : arr) {
             if (value == element) {
-              	// 找到了element元素，将变量更新为true，并跳出循环
+              	// 找到了 element 元素，将变量更新为 true，并跳出循环
                 result = true;
                 break;
             }
@@ -256,19 +261,19 @@ class MethodDemo5 {
     }
 
     public static void main(String[] args) {
-        // 实例化MethodDemo5
+        // 实例化 MethodDemo5
         MethodDemo5 methodDemo5 = new MethodDemo5();
         // 初始化一个数组
         int[] intArray = {1, 3, 5, 6, 7, 9};
         // 初始化待查找元素变量
         int element = 10;
-        // 调用contains方法，并接收返回结果
+        // 调用 contains 方法，并接收返回结果
         boolean contains = methodDemo5.contains(intArray, element);
         // 根据返回结果，输出内容
         if (contains) {
-            System.out.println("数组intArray中包含元素" + element);
+            System.out.println("数组 intArray 中包含元素" + element);
         } else {
-            System.out.println("数组intArray中不包含元素" + element);
+            System.out.println("数组 intArray 中不包含元素" + element);
         }
     }
 }
@@ -277,7 +282,7 @@ class MethodDemo5 {
 运行结果：
 
 ```java
-数组intArray中不包含元素10
+数组 intArray 中不包含元素 10
 ```
 
 代码解析：
@@ -305,12 +310,12 @@ class Car {
     public static void main(String[] args) {
         // 定义小汽车初始速度变量
         int speed = 10;
-        // 实例化Car类，创建一个car对象
+        // 实例化 Car 类，创建一个 car 对象
         Car car = new Car();
-        // 调用car对象下的speed方法
+        // 调用 car 对象下的 speed 方法
         car.speedUp(speed);
         // 打印调用方法后速度参数的值
-        System.out.println("调用speedUp方法后，调用方的speed参数为：" + speed);
+        System.out.println("调用 speedUp 方法后，调用方的 speed 参数为：" + speed);
     }
 }
 ```
@@ -320,7 +325,7 @@ class Car {
 ```java
 小汽车加速前，速度为：10
 小汽车加速后，速度为：11
-调用speedUp方法后，调用方的speed参数为：10
+调用 speedUp 方法后，调用方的 speed 参数为：10
 ```
 
 我们根据输出的结果验证了以上给出的结论。整型参数`speed`是一个基本数据类型，在`speedUp`方法内部进行了自增，但主方法中的`speed`变量的值并不会受到其影响。
@@ -349,7 +354,7 @@ class NBATeam {
         }
         System.out.println();
 
-        // 创建team对象并调用其替换球员方法
+        // 创建 team 对象并调用其替换球员方法
         NBATeam team = new NBATeam();
         team.replaceFirstPlayer(players, "皮蓬");
 
@@ -378,7 +383,7 @@ class NBATeam {
 null 我们可以使用可变参数列表声明方法的参数。可变参数列表的语法：
 
 ```java
-参数类型... 参数名
+参数类型。.. 参数名
 ```
 
 我们可以结合可变参数来实现一个求和方法`sum`，请阅读下面实例：
@@ -472,7 +477,6 @@ public class VariableParameter1 {
 
 ```java
 找到元素：2
-找到元素：2
 ```
 
 上述两种传参方式都是合法的。
@@ -488,15 +492,15 @@ public class VariableParameter1 {
 ```java
 public class Student {
     public void study() {
-        System.out.println("同学真好学!");
+        System.out.println("同学真好学！");
     }
 
     public void study(String name) {
-        System.out.println(name + "同学真好学!");
+        System.out.println(name + "同学真好学！");
     }
 
     public void study(String name, int age) {
-        System.out.println(name + "同学真好学!" + "他今年" + age + "岁了");
+        System.out.println(name + "同学真好学！" + "他今年" + age + "岁了");
     }
 
     public static void main(String[] args) {
@@ -515,9 +519,9 @@ public class Student {
 运行结果：
 
 ```java
-同学真好学!
-Colorful同学真好学!
-小慕同学真好学!他今年20岁了
+同学真好学！
+Colorful 同学真好学！
+小慕同学真好学！他今年 20 岁了
 ```
 
 代码中的三个`study`都是重载方法。通常来说，方法重载的返回值类型都是相同的。
@@ -526,7 +530,7 @@ Colorful同学真好学!
 
 ```java
 public String study() {
-    return "学习Java语言";
+    return "学习 Java 语言";
 }
 ```
 
@@ -538,14 +542,8 @@ public String study() {
 
 `Java`语言本身的类也定义了很多方法重载的例子，例如`String`类的`substring`方法，用于字符串截取：
 
-* ```java
-public String substring(int beginIndex);               // 截取并返回从 beginIndex 位置到结束位置的字符串
-
-```
-
-
-* ```java
-public String substring(int beginIndex. int endIndex); // 截取并返回从beginIndex位置到endIndex-1位置的字符串
+``java
+public String substring(int beginIndex. int endIndex); // 截取并返回从 beginIndex 位置到 endIndex-1 位置的字符串
 ```
 
 如下为实际应用的实例：

@@ -12,7 +12,7 @@
 const store = new Vuex.Store({
   state: {
     count: 12000,
-    name: '慕课网',
+    name: '',
     logo: ''
   }
 })

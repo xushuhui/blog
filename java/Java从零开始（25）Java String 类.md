@@ -1,6 +1,11 @@
+---
+title: Java 从零开始（25）Java String 类
+zhihu-url: https://zhuanlan.zhihu.com/p/408515348
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java String 类
 
-在前面的[Java 字符串](http://www.imooc.com/wiki/javalesson/javastring.html)小节，我们就已经接触了`String`类，但并未提及`String`类相关的操作，现在有了面向对象相关前置知识，我们知道了类下面可以有相关的操作，作为`Java`语言的内置类，`String`类也为我们预先定义了很多好用的方法，本小节我们将介绍`String`类的常用方法，并结合示例辅助理解。
+在前面的 [Java 字符串](http://www.imooc.com/wiki/javalesson/javastring.html) 小节，我们就已经接触了`String`类，但并未提及`String`类相关的操作，现在有了面向对象相关前置知识，我们知道了类下面可以有相关的操作，作为`Java`语言的内置类，`String`类也为我们预先定义了很多好用的方法，本小节我们将介绍`String`类的常用方法，并结合示例辅助理解。
 
 ## 1. String 对象的创建
 
@@ -9,7 +14,7 @@ String 对象的创建有两种方式。
 第 1 种方式就是我们最常见的创建字符串的方式：
 
 ```java
-String str1 = "Hello, 慕课网";
+String str1 = "Hello, ";
 ```
 
 第 2 种方式是对象实例化的方式，使用`new`关键字，并将要创建的字符串作为构造参数：
@@ -33,11 +38,11 @@ String str3 = new String();
 ```java
 public class StringMethod1 {
     public static void main(String[] args) {
-        // 创建String对象str
+        // 创建 String 对象 str
         String str = "hello world!";
-        // 调用对象下length()方法，并使用int类型变量接收返回结果
+        // 调用对象下 length() 方法，并使用 int 类型变量接收返回结果
         int length = str.length();
-        System.out.println("str的长度为：" + length);
+        System.out.println("str 的长度为：" + length);
     }
 }
 ```
@@ -45,7 +50,7 @@ public class StringMethod1 {
 运行结果：
 
 ```java
-str1的长度为：12
+str1 的长度为：12
 ```
 
 注意，`hello world!`中的空格也算一个字符。
@@ -65,7 +70,7 @@ public class StringMethod2 {
     public static void main(String[] args) {
         String str = "I love Java";
         char c = str.charAt(7);
-        System.out.println("索引位置为7的字符为：" + c);
+        System.out.println("索引位置为 7 的字符为：" + c);
     }
 }
 ```
@@ -73,7 +78,7 @@ public class StringMethod2 {
 运行结果：
 
 ```java
-索引位置为7的字符为：J
+索引位置为 7 的字符为：J
 ```
 
 ### 3.2 查找字符串位置
@@ -94,7 +99,7 @@ public class StringMethod2 {
     public static void main(String[] args) {
         String str = "I love Java, I love imooc!";
         int i = str.indexOf('a');
-        System.out.println("字符a在字符串str第一次出现的位置为：" + i);
+        System.out.println("字符 a 在字符串 str 第一次出现的位置为：" + i);
     }
 }
 ```
@@ -102,7 +107,7 @@ public class StringMethod2 {
 运行结果：
 
 ```java
-字符a在字符串str第一次出现的位置为：8
+字符 a 在字符串 str 第一次出现的位置为：8
 ```
 
 1. 获取子串在字符串中第一次出现的位置：
@@ -112,7 +117,7 @@ public class StringDemo2 {
     public static void main(String[] args) {
         String str = "I love Java, I love imooc!";
         int i = str.indexOf("love");
-        System.out.println("子串love在字符串str第一次出现的位置为：" + i);
+        System.out.println("子串 love 在字符串 str 第一次出现的位置为：" + i);
     }
 }
 ```
@@ -120,7 +125,7 @@ public class StringDemo2 {
 运行结果：
 
 ```java
-子串love在字符串str第一次出现的位置为：2
+子串 love 在字符串 str 第一次出现的位置为：2
 ```
 
 关于`lastIndexOf()`，我们也只演示最常用的两个重载方法。
@@ -132,7 +137,7 @@ public class StringMethod2 {
     public static void main(String[] args) {
         String str = "I love Java, I love imooc!";
         int i = str.lastIndexOf('e');
-        System.out.println("字符e在字符串str最后一次出现的位置为：" + i);
+        System.out.println("字符 e 在字符串 str 最后一次出现的位置为：" + i);
     }
 }
 ```
@@ -140,7 +145,7 @@ public class StringMethod2 {
 运行结果：
 
 ```java
-字符e在字符串str最后一次出现的位置为：18
+字符 e 在字符串 str 最后一次出现的位置为：18
 ```
 
 1. 获取子串在字符串中最后一次出现的位置：
@@ -150,7 +155,7 @@ public class StringMethod2 {
     public static void main(String[] args) {
         String str = "I love Java, I love imooc!";
         int i = str.lastIndexOf("I love");
-        System.out.println("字串I love在字符串str最后一次出现的位置为：" + i);
+        System.out.println("字串 I love 在字符串 str 最后一次出现的位置为：" + i);
     }
 }
 ```
@@ -158,7 +163,7 @@ public class StringMethod2 {
 运行结果：
 
 ```java
-字串I love在字符串str最后一次出现的位置为：13
+字串 I love 在字符串 str 最后一次出现的位置为：13
 ```
 
 需要特别注意的是，以上方法的参数都是区分大小写的。这也就意味着，你永远无法在`I love Java`中查找到字符`E`。如果没有查找，上述方法都会返回一个整型值：`-1`。我们来看以下示例：
@@ -194,8 +199,8 @@ public class StringMethod3 {
         String str = "I love Java";
         String substring = str.substring(2);
         String substring1 = str.substring(2, 6);
-        System.out.println("从索引位置2到结束的子串为：" + substring);
-        System.out.println("从索引位置2到索引位置6的子串为：" + substring1);
+        System.out.println("从索引位置 2 到结束的子串为：" + substring);
+        System.out.println("从索引位置 2 到索引位置 6 的子串为：" + substring1);
     }
 }
 ```
@@ -203,8 +208,8 @@ public class StringMethod3 {
 运行结果：
 
 ```java
-从索引位置2到结束的子串为：love Java
-从索引位置2到索引位置6的子串为：love
+从索引位置 2 到结束的子串为：love Java
+从索引位置 2 到索引位置 6 的子串为：love
 ```
 
 要特别注意，方法签名上有两个参数的`substring(int beginIndex, int endIndex)`方法，截取的子串不包含`endIndex`位置的字符。
@@ -220,7 +225,7 @@ public class StringMethod4 {
     public static void main(String[] args) {
 
         String str1 = "I love Java";
-        // 将字符串str1以空格分隔，并将分割结果赋值给strArr数组
+        // 将字符串 str1 以空格分隔，并将分割结果赋值给 strArr 数组
         String[] strArr = str1.split(" ");
         // 遍历数组，打印每一个元素
         for (String str: strArr) {
@@ -244,7 +249,7 @@ I	love	Java
 String str2 = "I*love*Java";
 String[] strArr2 = str2.split("\\*");
 
-// 以\切割
+// 以、切割
 String str3 = "I\\love\\Java";
 String[] strArr4 = str3.split("\\\\");
 
@@ -264,8 +269,8 @@ String[] strArr4 = str4.split("\\|");
 ```java
 public class StringMethod4 {
     public static void main(String[] args) {
-        String str2 = "我喜欢Java";
-        System.out.println("将字符串转换为byte数组：");
+        String str2 = "我喜欢 Java";
+        System.out.println("将字符串转换为 byte 数组：");
         // 将字符串转换为字节数组
         byte[] ascii = str2.getBytes();
         // 遍历字节数组，打印每个元素
@@ -279,14 +284,14 @@ public class StringMethod4 {
 运行结果：
 
 ```java
-将字符串转换为byte数组：
+将字符串转换为 byte 数组：
 -26	-120	-111	-27	-106	-100	-26	-84	-94	74	97	118	97
 ```
 
 将字节数组转换为字符串的方法很简单，直接实例化一个字符串对象，将字节数组作为构造方法的参数即可：
 
 ```java
-// 此处的ascii为上面通过字符串转换的字节数组
+// 此处的 ascii 为上面通过字符串转换的字节数组
 String s = new String(ascii);
 ```
 
@@ -305,9 +310,9 @@ public class StringMethod5 {
     public static void main(String[] args) {
         String str = "HELLO world";
         String s = str.toLowerCase();
-        System.out.println("字符串str为转换为小写后为：" + s);
+        System.out.println("字符串 str 为转换为小写后为：" + s);
         String s1 = s.toUpperCase();
-        System.out.println("字符串s为转换为大写后为：" + s1);
+        System.out.println("字符串 s 为转换为大写后为：" + s1);
     }
 }
 ```
@@ -315,8 +320,8 @@ public class StringMethod5 {
 运行结果：
 
 ```java
-字符串str为转换为小写后为：hello world
-字符串s为转换为大写后为：HELLO WORLD
+字符串 str 为转换为小写后为：hello world
+字符串 s 为转换为大写后为：HELLO WORLD
 ```
 
 试想，如果想把字符串`HELLO world`中的大小写字母互换，该如何实现呢？
@@ -331,7 +336,7 @@ public class StringMethod5 {
         String[] strArr = str.split(" ");
         // 将数组中元素转换大小写并连接为一个新的字符串
         String result = strArr[0].toLowerCase() + " " + strArr[1].toUpperCase();
-        System.out.println("字符串str的大小写互换后为：" + result);
+        System.out.println("字符串 str 的大小写互换后为：" + result);
     }
 }
 ```
@@ -339,7 +344,7 @@ public class StringMethod5 {
 运行结果：
 
 ```java
-字符串str的大小写互换后为：hello WORLD
+字符串 str 的大小写互换后为：hello WORLD
 ```
 
 当然，实现方式不止一种，你可以结合所学写出更多的方式。
@@ -357,10 +362,9 @@ public class StringMethod6 {
         String str1 = "hello";
         String str2 = "hello";
         String str3 = new String("hello");
-        System.out.println("使用equals()方法比较str1和str2的结果为：" + str1.equals(str2));
-        System.out.println("使用==运算符比较str1和str2的结果为：" + (str1 == str2));
-        System.out.println("使用==运算符比较str1和str2的结果为：" + (str1 == str2));
-        System.out.println("使用==运算符比较str1和str3的结果为：" + (str1 == str3));
+        System.out.println("使用 equals() 方法比较 str1 和 str2 的结果为：" + str1.equals(str2));
+        System.out.println("使用==运算符比较 str1 和 str2 的结果为：" + (str1 == str2));
+        System.out.println("使用==运算符比较 str1 和 str3 的结果为：" + (str1 == str3));
     }
 }
 ```
@@ -368,10 +372,10 @@ public class StringMethod6 {
 运行结果：
 
 ```java
-使用equals()方法比较str1和str2的结果为：true
-使用==运算符比较str1和str2的结果为：true
-使用equals()方法比较str1和str3的结果为：true
-使用==运算符比较str1和str3的结果为：false
+使用 equals() 方法比较 str1 和 str2 的结果为：true
+使用==运算符比较 str1 和 str2 的结果为：true
+使用 equals() 方法比较 str1 和 str3 的结果为：true
+使用==运算符比较 str1 和 str3 的结果为：false
 ```
 
 代码中三个字符串`str1`，`str2`和`str3`的内容都是`hello`，因此使用`equals()`方法对它们进行比较，其结果总是为`true`。

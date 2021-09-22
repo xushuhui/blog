@@ -1,10 +1,15 @@
+---
+title: Java 从零开始（41）Lambda 表达式
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b
+---
+
 # Lambda 表达式
 
 Lambda 表达式是一个 Java 8 以后开始支持的一个非常优雅的新特性，本小节我们将学习什么是 Lambda 表达式，为什么需要 Lambda 表达式，Lambda 表达式的基础语法，以及 Lambda 表达式的实际应用等内容。
 
 ## 1. 什么是 Lambda 表达式
 
-> Lambda 表达式基于数学中的[ λ 演算](https://baike.baidu.com/item/%CE%BB%E6%BC%94%E7%AE%97)得名，直接对应于其中的 lambda 抽象（lambda abstraction），是一个匿名函数，即没有函数名的函数。
+> Lambda 表达式基于数学中的 [ λ 演算](https://baike.baidu.com/item/%CE%BB%E6%BC%94%E7%AE%97) 得名，直接对应于其中的 lambda 抽象（lambda abstraction），是一个匿名函数，即没有函数名的函数。
 
 Lambda 表达式是一个匿名函数，匿名函数由 `LISP` 语言在 1958 年首先采用，此后，越来越多的编程语言开始陆续采用。
 

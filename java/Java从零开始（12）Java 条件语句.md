@@ -1,4 +1,10 @@
+---
+title: Java从零开始（12）Java 条件语句
+zhihu-url: https://zhuanlan.zhihu.com/p/407010694
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 条件语句
+
 
 条件语句通过判断给定条件的**真假**来控制程序的执行。在上一小节中，我们已经简要介绍过了语句和块的概念。那么本小节我们将进一步展开介绍 `Java` 中所有类型的条件语句。
 

@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（44）Java 流式操作
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 流式操作
 
 流式操作，是 `Java 8` 除了`Lambda`表达式外的又一重大改变。学习流式操作，就是学习`java.util.stream`包下的`API`，我们称之为`Stream API`，它把真正的函数式编程引入到了 Java 中。
@@ -189,7 +193,7 @@ public class StreamDemo2 {
     }
 
     /**
-     * 创建一个Person的集合
+     * 创建一个 Person 的集合
      * @return List
      */
     public static List<Person> createPeople() {
@@ -211,7 +215,7 @@ public class StreamDemo2 {
         List<Person> people = createPeople();
         // 创建 Stream 对象
         Stream<Person> stream = people.stream();
-        // 过滤年龄大于 20 的person
+        // 过滤年龄大于 20 的 person
         Stream<Person> personStream = stream.filter(person -> person.getAge() >= 20);
         // 触发终止操作才能执行中间操作，遍历列表中元素并打印
         personStream.forEach(System.out::println);
@@ -281,7 +285,7 @@ public class StreamDemo3 {
     }
 
     /**
-     * 创建一个Person的集合
+     * 创建一个 Person 的集合
      * @return List
      */
     public static List<Person> createPeople() {
@@ -400,7 +404,7 @@ public class StreamDemo4 {
     }
 
     /**
-     * 创建一个Person的集合
+     * 创建一个 Person 的集合
      * @return List
      */
     public static List<Person> createPeople() {
@@ -409,9 +413,6 @@ public class StreamDemo4 {
         people.add(new Person("小芳", 20));
         people.add(new Person("小李", 18));
         people.add(new Person("小付", 23));
-        people.add(new Person("小付", 23));
-        people.add(new Person("大飞", 22));
-        people.add(new Person("大飞", 22));
         people.add(new Person("大飞", 22));
         return people;
     }
@@ -441,9 +442,6 @@ Person{name='小明', age=15}
 Person{name='小芳', age=20}
 Person{name='小李', age=18}
 Person{name='小付', age=23}
-Person{name='小付', age=23}
-Person{name='大飞', age=22}
-Person{name='大飞', age=22}
 Person{name='大飞', age=22}
 去重后，集合中元素有：
 Person{name='小明', age=15}
@@ -476,7 +474,7 @@ public class StreamDemo5 {
     public static void main(String[] args) {
         // 创建一个包含小写字母元素的字符串列表
         List<String> stringList = Arrays.asList("php", "js", "python", "java");
-        // 调用 map() 方法，将String下的toUpperCase()方法作为参数，这个方法会被应用到每个元素上，映射成一个新元素，最后打印映射后的元素
+        // 调用 map() 方法，将 String 下的 toUpperCase() 方法作为参数，这个方法会被应用到每个元素上，映射成一个新元素，最后打印映射后的元素
         stringList.stream().map(String::toUpperCase).forEach(System.out::println);
     }
 
@@ -514,7 +512,7 @@ public class StreamDemo6 {
 
     public static void main(String[] args) {
         List<Integer> integers = Arrays.asList(10, 12, 9, 8, 20, 1);
-        // 调用sorted()方法自然排序，并打印每个元素
+        // 调用 sorted() 方法自然排序，并打印每个元素
         integers.stream().sorted().forEach(System.out::println);
     }
 
@@ -606,25 +604,25 @@ public class StreamDemo7 {
         // 使用 allMatch(Predicate p) 检查是否匹配所有元素，如果匹配，则返回 true；否则返回 false
         boolean b1 = integers.stream().allMatch(integer -> integer > 0);
         if (b1) {
-            System.out.println(integers + "列表中所有的元素都大于0");
+            System.out.println(integers + "列表中所有的元素都大于 0");
         } else {
-            System.out.println(integers + "列表中不是所有的元素都大于0");
+            System.out.println(integers + "列表中不是所有的元素都大于 0");
         }
 
         // 使用 anyMatch(Predicate p) 检查是否至少匹配一个元素
         boolean b2 = integers.stream().anyMatch(integer -> integer >= 20);
         if (b2) {
-            System.out.println(integers + "列表中至少存在一个的元素都大于等于20");
+            System.out.println(integers + "列表中至少存在一个的元素都大于等于 20");
         } else {
-            System.out.println(integers + "列表中不存在任何一个大于等于20的元素");
+            System.out.println(integers + "列表中不存在任何一个大于等于 20 的元素");
         }
 
         // 使用 noneMath(Predicate p) 检查是否没有匹配所有元素
         boolean b3 = integers.stream().noneMatch(integer -> integer > 100);
         if (b3) {
-            System.out.println(integers + "列表中不存在大于100的元素");
+            System.out.println(integers + "列表中不存在大于 100 的元素");
         } else {
-            System.out.println(integers + "列表中存在大于100的元素");
+            System.out.println(integers + "列表中存在大于 100 的元素");
         }
     }
 
@@ -634,9 +632,9 @@ public class StreamDemo7 {
 运行结果：
 
 ```java
-[10, 12, 9, 8, 20, 1]列表中所有的元素都大于0
-[10, 12, 9, 8, 20, 1]列表中至少存在一个的元素都大于等于20
-[10, 12, 9, 8, 20, 1]列表中不存在大于100的元素
+[10, 12, 9, 8, 20, 1] 列表中所有的元素都大于 0
+[10, 12, 9, 8, 20, 1] 列表中至少存在一个的元素都大于等于 20
+[10, 12, 9, 8, 20, 1] 列表中不存在大于 100 的元素
 ```
 
 查找元素的相关方法使用实例如下：
@@ -679,11 +677,11 @@ public class StreamDemo8 {
 运行结果：
 
 ```java
-[10, 12, 9, 8, 20, 1]列表中第一个元素为：Optional[10]
+[10, 12, 9, 8, 20, 1] 列表中第一个元素为：Optional[10]
 列表中任意元素：Optional[10]
-[10, 12, 9, 8, 20, 1]列表中元素总数为6
-[10, 12, 9, 8, 20, 1]列表中最大值为Optional[20]
-[10, 12, 9, 8, 20, 1]列表中最小值为Optional[1]
+[10, 12, 9, 8, 20, 1] 列表中元素总数为 6
+[10, 12, 9, 8, 20, 1] 列表中最大值为 Optional[20]
+[10, 12, 9, 8, 20, 1] 列表中最小值为 Optional[1]
 ```
 
 实例中，我们观察到`findFirst()`、`findAny()`、`max()`等方法的返回值类型为`Optional`类型，关于这个`Optional`类，我们将在下一小节具体介绍。

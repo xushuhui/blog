@@ -75,7 +75,7 @@
 <body>
     <div class="out-box">
         <div class="demo">
-            慕课网：计算函数学习
+            ：计算函数学习
         </div>
     </div>
 </body>
@@ -126,7 +126,7 @@
 <body>
     <div class="out-box">
         <div class="demo">
-            慕课网：计算函数学习
+            ：计算函数学习
         </div>
     </div>
 </body>
@@ -177,7 +177,7 @@
 <body>
     <div class="out-box">
         <div class="demo">
-            慕课网：计算函数学习
+            ：计算函数学习
         </div>
     </div>
 </body>

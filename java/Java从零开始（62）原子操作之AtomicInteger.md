@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（62）原子操作之 AtomicInteger
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 原子操作之 AtomicInteger
 
 ## 1. 前言
@@ -33,9 +37,9 @@ atomicInteger.set(1000);
 ...
 // 获取当前值
 atomicInteger.get();
-// 先获取当前值，之后再对原值加100
+// 先获取当前值，之后再对原值加 100
 atomicInteger.getAndAdd(100)
-// 先获取当前值，之后再对原值减1
+// 先获取当前值，之后再对原值减 1
 atomicInteger.getAndDecrement()
 ...
 ```
@@ -62,7 +66,7 @@ public class AtomicIntegerTest {
     private static AtomicInteger currentTicketCount = new AtomicInteger(10);
     // 主程序
     public static void main(String[] args) {
-        // 定义3个售票窗口
+        // 定义 3 个售票窗口
         for(int i=1; i<=3; i++) {
             TicketOffice ticketOffice = new TicketOffice(currentTicketCount, i);
             // 每个售票窗口开始售票
@@ -104,7 +108,7 @@ public class TicketOffice implements Runnable {
             try {
                 Thread.sleep(new Random().nextInt(1000));
             } catch (Exception e) {}
-            // 当总票数减1后不为负数时，出票成功
+            // 当总票数减 1 后不为负数时，出票成功
             int ticketIndex = currentTicketCount.decrementAndGet();
             if (ticketIndex >= 0) {
                 System.out.println(ticketOfficeNo + "已出票，还剩" + ticketIndex + "张票");
@@ -117,19 +121,19 @@ public class TicketOffice implements Runnable {
 在 TicketOffice 类中，首先通过 get () 获取了当前可售的总票数，在有余票的情况下继续售票。然后随机休眠代替售票过程，最后使用 decrementAndGet () 尝试出票。我们观察一下运行结果。
 
 ```java
-第3售票窗口已出票，还剩9张票
-第1售票窗口已出票，还剩8张票
-第2售票窗口已出票，还剩7张票
-第1售票窗口已出票，还剩6张票
-第3售票窗口已出票，还剩5张票
-第3售票窗口已出票，还剩4张票
-第2售票窗口已出票，还剩3张票
-第1售票窗口已出票，还剩2张票
-第3售票窗口已出票，还剩1张票
-第2售票窗口已出票，还剩0张票
-票已售完，第2售票窗口结束售票
-票已售完，第1售票窗口结束售票
-票已售完，第3售票窗口结束售票
+第 3 售票窗口已出票，还剩 9 张票
+第 1 售票窗口已出票，还剩 8 张票
+第 2 售票窗口已出票，还剩 7 张票
+第 1 售票窗口已出票，还剩 6 张票
+第 3 售票窗口已出票，还剩 5 张票
+第 3 售票窗口已出票，还剩 4 张票
+第 2 售票窗口已出票，还剩 3 张票
+第 1 售票窗口已出票，还剩 2 张票
+第 3 售票窗口已出票，还剩 1 张票
+第 2 售票窗口已出票，还剩 0 张票
+票已售完，第 2 售票窗口结束售票
+票已售完，第 1 售票窗口结束售票
+票已售完，第 3 售票窗口结束售票
 ```
 
 在这个案例中，因为存在多个售票窗口同时对一场电影进行售票，如果不对可售票数做并发售票控制，很可能会出现多卖出票的尴尬。例子中没有直接使用 synchronized 关键字做同步控制，而是使用 JDK 封装好的 AtomicInteger 原子工具类实现了并发控制整型变量的操作，是不是很方便呢。
@@ -147,9 +151,9 @@ public class TicketOffice implements Runnable {
 ```java
 AtomicInteger atomicInteger = new AtomicInteger();
 System.out.println(atomicInteger.get());            // 0
-System.out.println(atomicInteger.getAndAdd(10));    // 0，获取当前值并加10
+System.out.println(atomicInteger.getAndAdd(10));    // 0，获取当前值并加 10
 System.out.println(atomicInteger.get());            // 10
-System.out.println(atomicInteger.addAndGet(20));    // 30，当前值先加20再获取
+System.out.println(atomicInteger.addAndGet(20));    // 30，当前值先加 20 再获取
 System.out.println(atomicInteger.get());            // 30
 ```
 
@@ -160,9 +164,9 @@ System.out.println(atomicInteger.get());            // 30
 ```java
 AtomicInteger atomicInteger = new AtomicInteger();
 System.out.println(atomicInteger.get());  // 0
-System.out.println(atomicInteger.getAndIncrement()); // 0，获取当前值并自增1
+System.out.println(atomicInteger.getAndIncrement()); // 0，获取当前值并自增 1
 System.out.println(atomicInteger.get());  // 1
-System.out.println(atomicInteger.incrementAndGet()); // 2，当前值先自增1再获取
+System.out.println(atomicInteger.incrementAndGet()); // 2，当前值先自增 1 再获取
 System.out.println(atomicInteger.get());  // 2
 ```
 
@@ -176,7 +180,7 @@ System.out.println(atomicInteger.get()); // 10
 int expect = 12;
 int update = 20;
 Boolean b =atomicInteger.compareAndSet(expect, update);
-System.out.println(b); // 10 不等于 12 不满足期望，所以返回false，且保持原值不变
+System.out.println(b); // 10 不等于 12 不满足期望，所以返回 false，且保持原值不变
 System.out.println(atomicInteger.get());
 ```
 

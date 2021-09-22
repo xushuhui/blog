@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（38）Java 多线程
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 多线程
 
 本小节我们将学习 Java 多线程，通过本小节的学习，你将了解到什么是线程，如何创建线程，创建线程有哪几种方式，线程的状态、生命周期等内容。掌握多线程的代码编写，并理解线程生命周期等内容是本小节学习的重点。
@@ -10,7 +14,7 @@
 
 线程是操作系统能够进行运算调度的**最小单位**。大部分情况下，它被包含在进程之中，是进程中的实际运作单位。也就是说**一个进程可以包含多个线程，** 因此线程也被称为轻量级进程。
 
-如果你还是对于进程和线程的概念有所困惑，推荐一篇比较优秀的[文章](https://www.ruanyifeng.com/blog/2013/04/processes_and_threads.html)，有助于帮助你理解进程和线程的概念。
+如果你还是对于进程和线程的概念有所困惑，推荐一篇比较优秀的 [文章](https://www.ruanyifeng.com/blog/2013/04/processes_and_threads.html)，有助于帮助你理解进程和线程的概念。
 
 ## 2. 创建线程
 
@@ -47,7 +51,7 @@
 
 > **Tips：**`run()` 方法是一个非常重要的方法，它是用于编写**线程执行体**的方法，不同线程之间的一个最主要区别就是 `run()` 方法中的代码是不同的。
 
-可翻阅[官方文档](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/Thread.html)以查看更多 API。
+可翻阅 [官方文档](https://docs.oracle.com/en/java/javase/14/docs/api/java.base/java/lang/Thread.html) 以查看更多 API。
 
 #### 2.1.3 实例
 
@@ -123,8 +127,8 @@ public class ThreadDemo2 {
 
     public static void main(String[] args) {
         // 创建两个线程对象
-        MyThread thread1 = new MyThread("线程1");
-        MyThread thread2 = new MyThread("线程2");
+        MyThread thread1 = new MyThread("线程 1");
+        MyThread thread2 = new MyThread("线程 2");
         // 启动线程
         thread1.start();
         thread2.start();
@@ -136,12 +140,12 @@ public class ThreadDemo2 {
 运行结果：
 
 ```java
-线程2 i = 3
-线程1 i = 3
-线程1 i = 2
-线程2 i = 2
-线程1 i = 1
-线程2 i = 1
+线程 2 i = 3
+线程 1 i = 3
+线程 1 i = 2
+线程 2 i = 2
+线程 1 i = 1
+线程 2 i = 1
 ```
 
 代码中我们是先启动了线程 1，再启动了线程 2 的，观察运行结果，线程并不是按照我们所预想的顺序执行的。这里就要划重点了，**不同线程，执行顺序是随机的**。如果你再执行几次代码，可以观察到每次的运行结果都可能不同：
@@ -188,8 +192,8 @@ public class RunnableDemo1 implements Runnable {
         RunnableDemo1 runnableDemo1 = new RunnableDemo1();
         RunnableDemo1 runnableDemo2 = new RunnableDemo1();
         // 创建两个线程对象
-        Thread thread1 = new Thread(runnableDemo1, "线程1");
-        Thread thread2 = new Thread(runnableDemo2, "线程2");
+        Thread thread1 = new Thread(runnableDemo1, "线程 1");
+        Thread thread2 = new Thread(runnableDemo2, "线程 2");
         // 启动线程
         thread1.start();
         thread2.start();
@@ -201,16 +205,16 @@ public class RunnableDemo1 implements Runnable {
 运行结果：
 
 ```java
-线程1 i = 5
-线程1 i = 4
-线程1 i = 3
-线程1 i = 2
-线程2 i = 5
-线程1 i = 1
-线程2 i = 4
-线程2 i = 3
-线程2 i = 2
-线程2 i = 1
+线程 1 i = 5
+线程 1 i = 4
+线程 1 i = 3
+线程 1 i = 2
+线程 2 i = 5
+线程 1 i = 1
+线程 2 i = 4
+线程 2 i = 3
+线程 2 i = 2
+线程 2 i = 1
 ```
 
 ### 2.3 Callable 接口
@@ -288,7 +292,7 @@ public class SleepDemo implements Runnable {
     public void run() {
         for (int i = 1; i <= 5; i ++) {
             // 打印语句
-            System.out.println(Thread.currentThread().getName() + ":执行第" + i + "次");
+            System.out.println(Thread.currentThread().getName() + ": 执行第" + i + "次");
             try {
                 // 使当前线程休眠
                 Thread.sleep(1000);
@@ -297,7 +301,6 @@ public class SleepDemo implements Runnable {
             }
         }
     }
-
 
     public static void main(String[] args) {
         // 实例化 Runnable 的实现类
@@ -314,11 +317,11 @@ public class SleepDemo implements Runnable {
 运行结果：
 
 ```java
-Thread-0:执行第1次
-Thread-0:执行第2次
-Thread-0:执行第3次
-Thread-0:执行第4次
-Thread-0:执行第5次
+Thread-0: 执行第 1 次
+Thread-0: 执行第 2 次
+Thread-0: 执行第 3 次
+Thread-0: 执行第 4 次
+Thread-0: 执行第 5 次
 ```
 
 ![](https://xushuhui.gitee.io/image/imooc/5eeb28ec0ab9799823221470.jpg)

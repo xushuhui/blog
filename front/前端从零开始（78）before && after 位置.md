@@ -34,7 +34,7 @@ after：元素的内容之后插入新内容。
 ## 5. 实例
 
 ```javascript
-<div class="demo">慕课网</div>
+<div class="demo"></div>
 ```
 
 1. 在元素内容之前插入文字：姓名。
@@ -65,7 +65,7 @@ after：元素的内容之后插入新内容。
     </style>
 </head>
 <body>
-    <div class="demo">慕课网</div>
+    <div class="demo"></div>
 </body>
 </html>
 ```
@@ -98,7 +98,7 @@ after：元素的内容之后插入新内容。
     </style>
 </head>
 <body>
-    <div class="demo">慕课网</div>
+    <div class="demo"></div>
 </body>
 </html>
 ```
@@ -167,7 +167,7 @@ after：元素的内容之后插入新内容。
 1. 在元素内容开始前插入图片。
 
 ```javascript
-<div class="demo">慕课网</div>
+<div class="demo"></div>
 ```
 
 ```javascript
@@ -208,7 +208,7 @@ after：元素的内容之后插入新内容。
     </style>
 </head>
 <body>
-    <div class="demo">慕课网</div>
+    <div class="demo"></div>
 </body>
 </html>
 ```

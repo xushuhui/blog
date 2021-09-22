@@ -1,3 +1,8 @@
+---
+title: Java 从零开始（23）Java 内部类
+zhihu-url: https://zhuanlan.zhihu.com/p/408512977
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 内部类
 
 本节我们将介绍 Java 中的内部类。通过本节的学习，我们将了解到**什么是内部类**，内部类的**分类**和**作用**。在内部类的分类部分，我们将逐一学习各个类型的**内部类如何定义，如何实例化以及各自的特点**，要注意区分不同类型内部类的异同。有了这些基础知识之后，我们也会结合示例介绍**为什么需要内部类**。
@@ -59,7 +64,7 @@ Car.class
 
 内部类在外部使用时，无法直接实例化，需要借助外部类才能完成实例化操作。关于成员内部类的实例化，有 3 种方法：
 
-1. 我们可以通过 `new 外部类().new 内部类()` 的方式获取内部类的实例对象：
+1. 我们可以通过 `new 外部类 ().new 内部类 ()` 的方式获取内部类的实例对象：
 
 ```java
 // 外部类 Car
@@ -73,9 +78,9 @@ public class Car {
     }
 
     public static void main(String[] args) {
-        // 1.实例化外部类后紧接着实例化内部类
+        // 1. 实例化外部类后紧接着实例化内部类
         Engine engine = new Car().new Engine();
-        // 2.调用内部类的方法
+        // 2. 调用内部类的方法
         engine.run();
     }
 }
@@ -91,11 +96,11 @@ public class Car {
 
 ```java
 public static void main(String[] args) {
-    // 1.实例化外部类
+    // 1. 实例化外部类
     Car car = new Car();
-    // 2.通过外部类实例对象再实例化内部类
+    // 2. 通过外部类实例对象再实例化内部类
     Engine engine = car.new Engine();
-    // 3.调用内部类的方法
+    // 3. 调用内部类的方法
     engine.run();
 }
 ```
@@ -127,11 +132,11 @@ public class Car {
     }
 
     public static void main(String[] args) {
-		// 1.实例化外部类
+		// 1. 实例化外部类
     	Car car = new Car();
-    	// 2.调用实例方法getEngine(),获取内部类实例
+    	// 2. 调用实例方法 getEngine(), 获取内部类实例
     	Engine engine = car.getEngine();
-    	// 3.调用内部类的方法
+    	// 3. 调用内部类的方法
     	engine.run();
     }
 }
@@ -192,7 +197,7 @@ public class Car {
 
 还存在一个同名成员的问题：如果内部类中也存在一个同名成员，那么优先访问内部类的成员。可理解为就近原则。
 
-这种情况下如果依然希望访问外部类的属性，可以使用`外部类名.this.成员`的方式，例如：
+这种情况下如果依然希望访问外部类的属性，可以使用`外部类名。this. 成员`的方式，例如：
 
 ```java
 // 外部类 Car
@@ -213,7 +218,7 @@ public class Car {
         private String name = "引擎";
         // 发动机的起动方法
         private void run() {
-            System.out.println("Engine中的成员属性name=" + name);
+            System.out.println("Engine 中的成员属性 name=" + name);
             System.out.println(Car.this.name + "的发动机启动了！");
             Car.this.run(Car.this.name);
         }
@@ -235,7 +240,7 @@ public class Car {
 运行结果：
 
 ```java
-Engine中的成员属性name=引擎
+Engine 中的成员属性 name=引擎
 大奔奔的发动机启动了！
 大奔奔跑起来了！
 ```
@@ -253,7 +258,7 @@ public class Car1 {
     // 静态内部类
     static class Engine {
         public void run() {
-            System.out.println("我是静态内部类的run()方法");
+            System.out.println("我是静态内部类的 run() 方法");
             System.out.println("发动机启动了");
         }
     }
@@ -267,14 +272,14 @@ public class Car1 {
 ```java
 // 直接创建静态内部类对象
 Engine engine = new Engine();
-// 调用对象下run()方法
+// 调用对象下 run() 方法
 engine.run();
 ```
 
 运行结果：
 
 ```java
-我是静态内部类的run()方法
+我是静态内部类的 run() 方法
 发动机启动
 ```
 
@@ -287,7 +292,7 @@ public class Car1 {
 
     String brand = "宝马";
 
-    static String name = "外部类的静态属性name";
+    static String name = "外部类的静态属性 name";
 
     // 静态内部类
     static class Engine {
@@ -306,10 +311,10 @@ public class Car1 {
 在 `run()` 方法中，打印的 `name` 属性就是外部类中所定义的静态属性 `name`。编译执行，将会输出：
 
 ```java
-外部类的静态属性name
+外部类的静态属性 name
 ```
 
-对于内外部类存在同名属性的问题，同样遵循就近原则。这种情况下依然希望调用外部类的静态成员，可以使用`外部类名.静态成员`的方式来进行调用。这里不再一一举例。
+对于内外部类存在同名属性的问题，同样遵循就近原则。这种情况下依然希望调用外部类的静态成员，可以使用`外部类名。静态成员`的方式来进行调用。这里不再一一举例。
 
 如果想要访问外部类的非静态属性，可以通过对象的方式调用，例如在 `run()` 方法中调用 `Car1` 的实例属性 `brand`：
 
@@ -332,17 +337,17 @@ public void run() {
 ```java
 public class Car2 {
 
-	// 外部类的run()方法
+	// 外部类的 run() 方法
     public void run() {
         class Engine {
             public void run() {
-                System.out.println("方法内部类的run()方法");
+                System.out.println("方法内部类的 run() 方法");
                 System.out.println("发动机启动了");
             }
         }
-        // 在Car2.run()方法的内部实例化其方法内部类Engine
+        // 在 Car2.run() 方法的内部实例化其方法内部类 Engine
         Engine engine = new Engine();
-        // 调用Engine的run()方法
+        // 调用 Engine 的 run() 方法
         engine.run();
     }
 
@@ -356,7 +361,7 @@ public class Car2 {
 运行结果：
 
 ```java
-方法内部类的run()方法
+方法内部类的 run() 方法
 发动机启动了
 ```
 
@@ -379,16 +384,16 @@ public class Car2 {
 匿名内部类就是没有名字的内部类。使用匿名内部类，通常令其实现一个抽象类或接口。请阅读如下代码：
 
 ```java
-// 定义一个交通工具抽象父类，里面只有一个run()方法
+// 定义一个交通工具抽象父类，里面只有一个 run() 方法
 public abstract class Transport {
     public void run() {
-        System.out.println("交通工具run()方法");
+        System.out.println("交通工具 run() 方法");
     }
 
     public static void main(String[] args) {
         // 此处为匿名内部类，将对象的定义和实例化放到了一起
         Transport car = new Transport() {
-            // 实现抽象父类的run()方法
+            // 实现抽象父类的 run() 方法
             @Override
             public void run() {
                 System.out.println("汽车跑");
@@ -398,7 +403,7 @@ public abstract class Transport {
         car.run();
 
         Transport airPlain = new Transport() {
-            // 实现抽象父类的run()方法
+            // 实现抽象父类的 run() 方法
             @Override
             public void run() {
                 System.out.println("飞机飞");
@@ -421,7 +426,7 @@ public abstract class Transport {
 
 #### 2.4.2 特点
 
-* 含有匿名内部类的类被编译之后，匿名内部类会单独生成一个字节码文件，文件名的命名方式为：`外部类名称$数字.class`。例如，我们将上面含有两个匿名内部类的 `Transport.java` 编译，目录下将会生成三个字节码文件：
+* 含有匿名内部类的类被编译之后，匿名内部类会单独生成一个字节码文件，文件名的命名方式为：`外部类名称$数字。class`。例如，我们将上面含有两个匿名内部类的 `Transport.java` 编译，目录下将会生成三个字节码文件：
 
 ```java
 Transport$1.class
@@ -468,18 +473,18 @@ public class SuperClass2 {
 
 // SubClass.java
 public class SubClass {
-	// 定义内部类1
+	// 定义内部类 1
     class InnerClass1 extends SuperClass1 {
-        // 重写父类1方法
+        // 重写父类 1 方法
         @Override
         public void method1() {
             super.method1();
         }
     }
 
-    // 定义内部类2
+    // 定义内部类 2
     class InnerClass2 extends SuperClass2 {
-        // 重写父类2方法
+        // 重写父类 2 方法
         @Override
         public void method2() {
             super.method2();
@@ -487,11 +492,11 @@ public class SubClass {
     }
 
     public static void main(String[] args) {
-        // 实例化内部类1
+        // 实例化内部类 1
         InnerClass1 innerClass1 = new SubClass().new InnerClass1();
-        // 实例化内部类2
+        // 实例化内部类 2
         InnerClass2 innerClass2 = new SubClass().new InnerClass2();
-        // 分别调用内部类1、内部类2的方法
+        // 分别调用内部类 1、内部类 2 的方法
         innerClass1.method1();
         innerClass2.method2();
     }
@@ -537,7 +542,7 @@ public class Demo2 extends One {
     // 重写父类方法
     @Override
     public void test() {
-        System.out.println("在外部类实现了父类的test()方法");
+        System.out.println("在外部类实现了父类的 test() 方法");
     }
 
     // 定义内部类
@@ -545,16 +550,16 @@ public class Demo2 extends One {
         // 重写接口方法
         @Override
         public void test() {
-            System.out.println("在内部类实现了接口的test()方法");
+            System.out.println("在内部类实现了接口的 test() 方法");
         }
     }
 
     public static void main(String[] args) {
-        // 实例化子类Demo2
+        // 实例化子类 Demo2
         Demo2 demo2 = new Demo2();
         // 调用子类方法
         demo2.test();
-        // 实例化子类Demo2的内部类
+        // 实例化子类 Demo2 的内部类
         InnerClass innerClass = demo2.new InnerClass();
         // 调用内部类方法
 		innerClass.test();
@@ -565,8 +570,8 @@ public class Demo2 extends One {
 运行结果：
 
 ```java
-在外部类实现了父类的test()方法
-在内部类实现了接口的test()方法
+在外部类实现了父类的 test() 方法
+在内部类实现了接口的 test() 方法
 ```
 
 ## 4. 小结

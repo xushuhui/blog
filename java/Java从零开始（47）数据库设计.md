@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（47）数据库设计
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 实战 - 数据库设计
 
 经过上一小节的需求分析，我们将系统分为了鉴权模块、商品模块和分类模块，本节中，我们将围绕功能模块，进行数据库设计。你将学习到实际开发中的一些数据库设计技巧。请确保在你的开发环境下，已经准备好了一个 `MySQL`数据库。
@@ -104,9 +108,9 @@ CREATE TABLE `imooc_goods`  (
 -- ----------------------------
 -- Records of imooc_goods
 -- ----------------------------
-INSERT INTO `imooc_goods` VALUES (1, '测试商品1', '', 0, 12.30, 3, '2020-07-20 16:53:19', '2020-07-20 16:53:19', NULL);
-INSERT INTO `imooc_goods` VALUES (2, '测试商品2', '', 0, 33.20, 10, '2020-07-20 17:17:53', '2020-07-20 17:17:53', NULL);
-INSERT INTO `imooc_goods` VALUES (3, '测试商品3', '', 0, 20.00, 50, '2020-07-20 17:18:09', '2020-07-20 17:18:09', NULL);
+INSERT INTO `imooc_goods` VALUES (1, '测试商品 1', '', 0, 12.30, 3, '2020-07-20 16:53:19', '2020-07-20 16:53:19', NULL);
+INSERT INTO `imooc_goods` VALUES (2, '测试商品 2', '', 0, 33.20, 10, '2020-07-20 17:17:53', '2020-07-20 17:17:53', NULL);
+INSERT INTO `imooc_goods` VALUES (3, '测试商品 3', '', 0, 20.00, 50, '2020-07-20 17:18:09', '2020-07-20 17:18:09', NULL);
 ```
 
 ### 2.4 分类表
@@ -139,7 +143,7 @@ CREATE TABLE `imooc_category`  (
 
 ## 3. 小结
 
-本小节，我们一起创建了数据库和表，表结构比较简单，大家可以去我的[代码仓库](https://github.com/colorful3/goods-cms/blob/master/src/main/resources/imooc_goods_cms.sql)找到`SQL`文件，并直接在你的数据库中执行，下一小节，我们将着手业务代码的实现。
+本小节，我们一起创建了数据库和表，表结构比较简单，大家可以去我的 [代码仓库](https://github.com/colorful3/goods-cms/blob/master/src/main/resources/imooc_goods_cms.sql) 找到`SQL`文件，并直接在你的数据库中执行，下一小节，我们将着手业务代码的实现。
 
 ### 微信公众号老徐说
 

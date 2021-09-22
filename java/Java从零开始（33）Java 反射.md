@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（33）Java 反射
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 反射
 
 本小节我们来学习一个 Java 语言中较为深入的概念 —— 反射（**reflection**），很多小伙伴即便参与了工作，可能也极少用到 Java 反射机制，但是如果你想要开发一个 web 框架，反射是不可或缺的知识点。本小节我们将了解到** 什么是反射**，**反射的使用场景**，不得不提的 `Class` 类，如何**通过反射访问类内部的字段、方法以及构造方法**等知识点。
@@ -56,8 +60,7 @@ public class ImoocStudent {
     // 昵称
     private String nickname;
 
-
-    // 定义getter和setter方法
+    // 定义 getter 和 setter 方法
     public String getNickname() {
         return nickname;
     }
@@ -123,8 +126,7 @@ public class ImoocStudent {
     // 昵称
     private String nickname;
 
-
-    // 定义getter和setter方法
+    // 定义 getter 和 setter 方法
     public String getNickname() {
         return nickname;
     }
@@ -134,14 +136,14 @@ public class ImoocStudent {
     }
 
     public static void main(String[] args) throws ClassNotFoundException {
-        // 方法1：类名.class
+        // 方法 1：类名。class
         Class cls1 = ImoocStudent.class;
 
-        // 方法2：对象.getClass()
+        // 方法 2：对象。getClass()
         ImoocStudent student = new ImoocStudent();
         Class cls2 = student.getClass();
 
-        // 方法3：Class.forName("包名.类名")
+        // 方法 3：Class.forName("包名。类名")
         Class cls3 = Class.forName("com.imooc.reflect.ImoocStudent");
     }
 
@@ -164,7 +166,7 @@ public class ImoocStudent {
 通常我们调用类的构造方法，这样写的（以 `StringBuilder` 为例）：
 
 ```java
-// 实例化StringBuilder对象
+// 实例化 StringBuilder 对象
 StringBuilder name = new StringBuilder("Hello Imooc");
 ```
 
@@ -224,7 +226,7 @@ public class ImoocStudent1 {
     public String position;
 
     public static void main(String[] args) throws NoSuchFieldException {
-        // 类名.class 方式获取 Class 实例
+        // 类名。class 方式获取 Class 实例
         Class cls1 = ImoocStudent1.class;
         // 获取 public 的字段 position
         Field position = cls1.getField("position");
@@ -255,7 +257,7 @@ name=balance	type=float
 name=position	type=class java.lang.String
 ```
 
-`ImoocStudent1` 类中含有 3 个属性，其中 `position` 为公有属性，`nickname` 和 `balance` 为私有属性。我们通过`类名.class` 的方式获取了 `Class` 实例，通过调用其实例方法并打印其返回结果，验证了获取字段，获取单个字段方法，在没有找到该指定字段的情况下，会抛出一个 `NoSuchFieldException`。
+`ImoocStudent1` 类中含有 3 个属性，其中 `position` 为公有属性，`nickname` 和 `balance` 为私有属性。我们通过`类名。class` 的方式获取了 `Class` 实例，通过调用其实例方法并打印其返回结果，验证了获取字段，获取单个字段方法，在没有找到该指定字段的情况下，会抛出一个 `NoSuchFieldException`。
 
 调用获取所有字段方法，返回的是一个 `Field` 类型的数组。可以调用 `Field` 类下的 `getName()` 方法来获取字段名称，`getType()` 方法来获取字段类型。
 
@@ -472,7 +474,7 @@ public class UploaderFactory {
 ```java
 public class UploaderFactory {
 
-    // 通过配置文件获取到的配置，实现类的包名.类名
+    // 通过配置文件获取到的配置，实现类的包名。类名
     private String uploader;
 
     // 创建实现类对象的方法

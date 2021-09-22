@@ -68,7 +68,7 @@ letter-spacing 属性增加或减少字符间的空白（字符间距）。
 
 ```javascript
 <div class="demo">
-    <span>慕课网</span>
+    <span></span>
     <span>学习</span>
 </div>
 ```

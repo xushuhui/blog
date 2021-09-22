@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（52）Lambda 变量和作用域
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Lambda 表达式的变量与作用域
 
 本节我们将分析 Lambda 表达式的局部变量及其作用域进行分析，在这基础上我们会探讨其访问规则背后的原因。
@@ -38,7 +42,7 @@ public class LambdaTest1 {
     public static void main(String[] args) {
         final int delta = -1;
         BinaryOperator<Integer> add = (x, y) -> x+y+delta;
-        Integer apply = add.apply(1, 2);//结果是2
+        Integer apply = add.apply(1, 2);//结果是 2
         System.out.println(apply);
     }
 
@@ -58,7 +62,7 @@ public class LambdaTest2 {
     public static void main(String[] args) {
         int delta = -1;
         BinaryOperator<Integer> add = (x, y) -> x+y+delta;
-        Integer apply = add.apply(1, 2);//结果是2
+        Integer apply = add.apply(1, 2);//结果是 2
         System.out.println(apply);
     }
 

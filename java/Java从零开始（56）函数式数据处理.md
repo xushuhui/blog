@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（56）函数式数据处理
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 函数式数据处理
 
 Java 8 中新增的特性其目的是为了帮助开发人员写出更好地代码，其中关键的一部分就是对核心类库的改进。流（ Stream ）和集合类库便是核心类库改进的内容。
@@ -86,10 +90,10 @@ public class Test{
         Collections.addAll(numbers,new Integer[]{1,2,3,4,5,6,7});
         Stream stream1 = numbers.stream();
         numbers.remove(6);
-        //直接使用numbers的stream()
+        //直接使用 numbers 的 stream()
         long counter = numbers.stream().filter(e->e>5).count();
         System.out.println(counter);
-        //调用之前的stream1
+        //调用之前的 stream1
         counter = stream1.filter(ex-> (Integer)ex>5).count();
         System.out.println(counter);
     }
@@ -99,7 +103,6 @@ public class Test{
 返回结果：
 
 ```java
-1
 1
 ```
 
@@ -239,7 +242,6 @@ public static void main(String...s){
     String formatted = collected.stream().collect(Collectors.joining(",","[","]"));
     System.out.println(formatted);
 }
-}
 ```
 
 ```java
@@ -272,7 +274,6 @@ public static void main(String...s){
         collected.add(string.toUpperCase());
     }
     System.out.println(collected);
-}
 }
 ```
 
@@ -348,7 +349,6 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.stream.Collectors;
-
 
 public class Test{
 	public static void main(String...s) {

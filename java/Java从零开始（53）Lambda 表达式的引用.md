@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（53）Lambda 表达式的引用
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Lambda 表达式的引用
 
 所谓 Lambda 表达式的方法引用可以理解为 Lambda 表达式的一种快捷写法，相较于通常的 Lambda 表达式而言有着更高的**可读性**和**重用性**。
@@ -95,10 +99,10 @@ Finder finder =(s1，s2)-> s1.indexOf(s2);
 //参数方法引用
 Finder finder = String :: indexOf;
 
-//调用find方法
+//调用 find 方法
 int findIndex = finder.find("abc","bc")
-//输出find结果。
-System.out.println("返回结果:"+findIndex)
+//输出 find 结果。
+System.out.println("返回结果："+findIndex)
 ```
 
 输出为：

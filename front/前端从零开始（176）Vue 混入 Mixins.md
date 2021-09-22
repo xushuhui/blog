@@ -177,7 +177,7 @@ var vm = new Vue({
           title: 'Mixins 基础教程',
           desc: '本教程将讲解如何使用 mixins',
           author: {
-            name: '慕课网',
+            name: '',
             location: '北京'
           }
         }
@@ -311,7 +311,7 @@ mixin created 执行
   var myMixin = {
     methods: {
       sayName() {
-        console.log('我是慕课网')
+        console.log('我是')
       },
       sayHello() {
         console.log('hello 大家好')

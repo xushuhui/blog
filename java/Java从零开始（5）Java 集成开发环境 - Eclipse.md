@@ -1,3 +1,9 @@
+---
+title: Java 从零开始（5）Java 集成开发环境 - Eclipse
+zhihu-url: https://zhuanlan.zhihu.com/p/399978689
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b
+---
+
 # Java 集成开发环境 - Eclipse
 
 本小节我们将介绍如何在我们的电脑上安装并配置开发工具：`Eclipse IDE`

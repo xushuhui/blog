@@ -1,3 +1,8 @@
+---
+title: Java 从零开始（35）Java 输入输出流
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b
+---
+
 # Java 输入输出流
 
 本小节将会介绍基本输入输出的 Java 标准类，通过本小节的学习，你将了解到**什么是输入和输入**，**什么是流**；输入输出流的应用场景，`File`类的使用，什么是文件，Java 提供的输入输出流相关 API 等内容。
@@ -46,7 +51,7 @@ public class ScannerDemo {
         // 可以将用户输入的内容扫描为字符串
         String name = scanner.nextLine();
         // 打印输出
-        System.out.println("你好 ".concat(name).concat(" ，欢迎来到慕课网！"));
+        System.out.println("你好 ".concat(name).concat(" ，欢迎来到！"));
         // 关闭扫描器
         scanner.close();
     }
@@ -58,7 +63,7 @@ public class ScannerDemo {
 ```java
 请输入您的姓名：
 Colorful
-你好 Colorful ，欢迎来到慕课网！
+你好 Colorful ，欢迎来到！
 ```
 
 ## 2. 什么是流（Stream）

@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（49）业务实现 2
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 实战 - 业务实现 2
 
 这一小节，是 Java 基础教程的最后一节，很感谢大家能够坚持看到这里。本小节我将带领大家优化用户鉴权服务，并完成商品模块的实现。为了检验大家的学习成果，分类模块的实现将交给大家自行来完成。
@@ -20,14 +24,14 @@ public class MD5Util {
         StringBuilder stringBuilder = new StringBuilder();
         try {
             MessageDigest messageDigest = MessageDigest.getInstance("MD5");
-            // 将一个byte数组进行加密操作，返回的是一个加密的byte数组，二进制的哈西计算，md5加密的第一步
+            // 将一个 byte 数组进行加密操作，返回的是一个加密的 byte 数组，二进制的哈西计算，md5 加密的第一步
             byte[] digest = messageDigest.digest(source.getBytes());
             for (byte b : digest) {
                 int result = b & 0xff;
-                // 将得到的int类型的值转化为16进制的值
+                // 将得到的 int 类型的值转化为 16 进制的值
                 String hexString = Integer.toHexString(result);
                 if (hexString.length() < 2) {
-                    //系统会自动把0省略，所以添加0
+                    //系统会自动把 0 省略，所以添加 0
                     stringBuilder.append("0");
                 }
                 stringBuilder.append(hexString);
@@ -107,11 +111,11 @@ private static void dashboard() {
         }
         switch (code1) {
             case 1:
-                System.out.println("正在查询商品列表...");
+                System.out.println("正在查询商品列表。..");
                 // TODO 实现商品模块
                 break;
             case 2:
-                System.out.println("正在查询分类列表...");
+                System.out.println("正在查询分类列表。..");
                 // TODO 实现分类模块
                 break;
             default:
@@ -163,7 +167,7 @@ private static void printGoodsListTips() {
 ```java
 case 1:
     while (true) {
-        System.out.println("正在查询商品列表...");
+        System.out.println("正在查询商品列表。..");
         // TODO 查询并显示商品列表
         printGoodsListTips();
         code2 = scanner.nextInt();
@@ -285,7 +289,7 @@ public class GoodsService {
 
 ### 3.3 删除商品
 
-新增商品、删除商品、查看商品详情等功能都是简单的`SQL`语句，这里不再具体写出实现，大家可以参考[源码](https://github.com/fujiale33/goods-cms)自行实现。但关于删除商品，我要特殊说明一下。对于实际的项目，往往不用对数据执行`DELETE`操作，对于数据的删除往往是更新操作，这也是我们设置了一个公用字段`delete_time`的意义，当这个`delete_time`字段不为`null`的时候，才会被查询出来。在`GoodsDAO`类下，新增如下方法：
+新增商品、删除商品、查看商品详情等功能都是简单的`SQL`语句，这里不再具体写出实现，大家可以参考 [源码](https://github.com/fujiale33/goods-cms) 自行实现。但关于删除商品，我要特殊说明一下。对于实际的项目，往往不用对数据执行`DELETE`操作，对于数据的删除往往是更新操作，这也是我们设置了一个公用字段`delete_time`的意义，当这个`delete_time`字段不为`null`的时候，才会被查询出来。在`GoodsDAO`类下，新增如下方法：
 
 ```java
 public boolean deleteGoodsById(Integer id) {
@@ -316,7 +320,7 @@ public boolean deleteGoodsById(Integer id) {
 ```java
 /**
  * 删除商品
- * @param id 商品id
+ * @param id 商品 id
  */
 public void removeGoodsById(Integer id) {
     goodsDAO.deleteGoodsById(id);
@@ -353,7 +357,7 @@ public List<Goods> searchGoodsByName(String name) {
 
 通过实战阶段的学习，我们知道了数据表中的密码字段，是不能够明文存储的，通常使用一些加密算法进行加密，也复习了`switch case`条件结构的使用，对于商品模糊查询，我们使用了 Java 8 中的 `Stream API`。
 
-中间还讲解了项目的分层技术、MySQL 的增删改查操作、JDBC API 的封装与使用以及`Scanner`类的使用等知识，实际的项目基本不会使用`Scanner`来与用户进行交互，都是通过优美的前端界面与用户进行交互的，建议大家可以去看看[Lin CMS](http://face.cms.talelin.com)的示例`demo`，它是一个能够达到企业级应用标准的内容管理系统开发框架。
+中间还讲解了项目的分层技术、MySQL 的增删改查操作、JDBC API 的封装与使用以及`Scanner`类的使用等知识，实际的项目基本不会使用`Scanner`来与用户进行交互，都是通过优美的前端界面与用户进行交互的，建议大家可以去看看 [Lin CMS](http://face.cms.talelin.com) 的示例`demo`，它是一个能够达到企业级应用标准的内容管理系统开发框架。
 
 当然，想要上手使用`Lin CMS`，大家还有很长的一段路要走，但是请记住，莫要浮空建高楼，Java 的基础知识在任何时候都是不能忽视的，希望大家反复学习。Java 基础的学习到此也就结束了，再次感谢大家能够坚持看完！
 

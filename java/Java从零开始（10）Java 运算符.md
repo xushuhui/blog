@@ -1,4 +1,10 @@
+---
+title: Java从零开始（10）Java 运算符
+zhihu-url: https://zhuanlan.zhihu.com/p/400051818
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 运算符
+
 
 我们已经学会了如何声明变量和赋值变量。那么你可能想知道如何对它们进行操作。本小节我们学习的运算符就可以对它们进行运算。
 

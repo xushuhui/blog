@@ -1,12 +1,15 @@
+---
+title: Java从零开始（1）在 Windows 上安装 Java
+zhihu-url: https://zhuanlan.zhihu.com/p/393139333
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 在 Windows 上安装 Java
+
 
 本小节我们将介绍如何在 Windows 平台安装 Java 。由于微软已正式终止对 Win7 操作系统的支持，作为新时代的程序员，我们使用 Win10 操作系统来进行安装演示。
 
-如果你想在其他平台安装 Java，请查看对应平台的安装教程：
 
-* [在 MacOS 上安装 Java](https://www.imooc.com/wiki/javalesson/installationmacos.html)
 
-* [在 Linux 上安装 Java](https://www.imooc.com/wiki/javalesson/installationlinux.html)
 
 ## 1. 下载安装包
 

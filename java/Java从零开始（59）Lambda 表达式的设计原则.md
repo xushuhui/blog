@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（59）Lambda 表达式的设计原则
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Lambda 表达式的设计原则
 
 Java 编程最基本的原则就是要追求高内聚和低耦合的解决方案和代码模块设计，这里我们主要讨论在 Lambda 表达式的环境下来设计我们程序时的两点原则：**单一原则** 和 **开放闭合原则**。

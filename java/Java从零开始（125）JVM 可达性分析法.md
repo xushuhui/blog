@@ -1,4 +1,9 @@
+---
+title: Java从零开始（125）JVM 可达性分析法
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # JVM 可达性分析法
+
 
 ## 1. 前言
 

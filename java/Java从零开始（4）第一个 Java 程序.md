@@ -1,6 +1,12 @@
+---
+title: Java从零开始（4）第一个 Java 程序
+zhihu-url: https://zhuanlan.zhihu.com/p/399978194
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 第一个 Java 程序
 
-本节我们将以`Windows`操作系统为例，编写并执行第一个`Java`程序。在这之前，请确保你的操作系统上已经安装了[JDK](https://www.imooc.com/wiki/javalesson/installationwindows.html)
+
+本节我们将以`Windows`操作系统为例，编写并执行第一个`Java`程序。在这之前，请确保你的操作系统上已经安装了[JDK](https://zhuanlan.zhihu.com/p/393139333)
 
 ## 1. 编译程序
 
@@ -135,7 +141,7 @@ public class HelloWorld {
 ```java
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("我爱慕课网!");
+        System.out.println("我爱!");
     }
 }
 ```

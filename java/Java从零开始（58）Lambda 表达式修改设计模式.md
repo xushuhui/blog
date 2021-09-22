@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（58）Lambda 表达式修改设计模式
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Lambda 表达式修改设计模式
 
 本节内容并不是讨论设计模式，而是讨论如何使用 Lambda 表达式让现有的设计模式变得更简洁，或者在某些情况是有一些不同的实现方式。我们可以从另一个角度来学习使用和理解 Lambda 表达式。
@@ -19,7 +23,7 @@
 命令者模式被大量运用在组件化的图形界面系统、撤销功能、线城市、事务和向导中。我们来看一个例子，我们实现一个将一系列命令录制下来的功能，有点类似于 Word 中的撤销功能那样记录每一步的操作。
 
 ```java
-//定义一个命令接收者,包含打开、关闭和保存三个操作
+//定义一个命令接收者，包含打开、关闭和保存三个操作
 public class Editor{
 	public void save(){
 		System.out.println("do save")
@@ -158,7 +162,7 @@ public interface CompressionStrategy{
 	public OutputStream compress(OutputStream data) throws IOException;
 }
 
-//gzip压缩策略
+//gzip 压缩策略
 public class GzipStrategy implements CompressionStrategy{
 	@Override
 	public OutputStream compress(OutputStream data) throws IOException {
@@ -166,7 +170,7 @@ public class GzipStrategy implements CompressionStrategy{
 	}
 }
 
-//zip压缩策略
+//zip 压缩策略
 public class ZipStrategy implements  CompressionStrategy{
 	@Override
 	public OutputStream compress(OutputStream data) throws IOException {
@@ -190,9 +194,9 @@ public class Compressor{
 
 ```java
 //使用具体的策略初始化压缩策略
-//gzip策略
+//gzip 策略
 Compressor gzipCompressor = new Compressor(new GzipStrategy());
-//zip策略
+//zip 策略
 Compressor zipCompressor = new Compressor(new ZipStrategy());
 ```
 
@@ -200,9 +204,9 @@ Compressor zipCompressor = new Compressor(new ZipStrategy());
 
 ```java
 //使用构造器引用优化初始化压缩策略
-//gzip策略
+//gzip 策略
 Compressor gzipCompressor = new Compressor(GzipStrategy::new);
-//zip策略
+//zip 策略
 Compressor zipCompressor = new Compressor(ZipStrategy::new);
 ```
 
@@ -248,7 +252,6 @@ private void addObserver(Observer observer) {
 public static class BinaryObserver implements Observer{
 ​
 	private Subject subject;
-	​
 	​
 	@Override
 	public void update(int num) {

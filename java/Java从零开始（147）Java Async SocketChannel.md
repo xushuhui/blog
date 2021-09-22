@@ -1,4 +1,9 @@
+---
+title: Java从零开始（147）Java Async SocketChannel
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java AsynchronousSocketChannel 介绍
+
 
 ## 1. 前言
 
@@ -367,7 +372,7 @@ public class AsyncServerCompletionHandler {
 
 ## 6. 总结
 
-本小节重点是介绍 Java NIO2 中引入的异步 Socket 的功能。异步 Socket 的核心是每一个 I/O 方法（connect、accept、read、write）的调用只是向系统投递一个事件，方法执行完会立即返回。如果要获取 I/O 执行的结果，可以通过 Future 或者 CompletionHandler 获取。Java 的这个机制非常类似 Windows IOCP（完成端口）的功能，如果有兴趣可以参考[慕课网专栏](1) IOCP 一节，或者 [IOCP 相关实现代码](2)。
+本小节重点是介绍 Java NIO2 中引入的异步 Socket 的功能。异步 Socket 的核心是每一个 I/O 方法（connect、accept、read、write）的调用只是向系统投递一个事件，方法执行完会立即返回。如果要获取 I/O 执行的结果，可以通过 Future 或者 CompletionHandler 获取。Java 的这个机制非常类似 Windows IOCP（完成端口）的功能，如果有兴趣可以参考[专栏](1) IOCP 一节，或者 [IOCP 相关实现代码](2)。
 
 ## 7. 参考
 

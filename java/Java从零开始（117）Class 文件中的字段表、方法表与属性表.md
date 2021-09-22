@@ -1,4 +1,9 @@
+---
+title: Java从零开始（117）Class 文件中的字段表、方法表与属性表
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Class 文件中的字段表、方法表与属性表
+
 
 ## 1. 前言
 

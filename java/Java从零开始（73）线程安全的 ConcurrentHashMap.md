@@ -1,4 +1,9 @@
+---
+title: Java从零开始（73）线程安全的 ConcurrentHashMap
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 并发容器 ConcurrentHashMap
+
 
 ## 1. 前言
 

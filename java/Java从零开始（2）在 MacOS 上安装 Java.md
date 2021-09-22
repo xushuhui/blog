@@ -1,12 +1,14 @@
+---
+title: Java从零开始（2）在 MacOS 上安装 Java
+zhihu-url: https://zhuanlan.zhihu.com/p/393773178
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 在 MacOS 上安装 Java
+
 
 本小节我们将介绍如何在 MacOS 平台安装 Java 。
 
-如果你想在其他平台安装 Java，请查看对应平台的安装教程：
 
-* [在 Windows 上安装 Java](https://www.imooc.com/wiki/javalesson/installationwindows.html)
-
-* [在 Linux 上安装 Java](https://www.imooc.com/wiki/javalesson/installationlinux.html)
 
 ## 1. 下载安装包
 

@@ -1,4 +1,9 @@
+---
+title: Java从零开始（114）JVM 参数：配置堆空间与栈空间
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # JVM 参数：配置堆空间与栈空间
+
 
 ## 1. 前言
 

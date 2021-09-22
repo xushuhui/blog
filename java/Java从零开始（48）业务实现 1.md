@@ -1,3 +1,7 @@
+---
+title: Java 从零开始（48）业务实现 1
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # 实战 - 业务实现 1
 
 上一小节我们完成了数据库的设计和创建，也向数据表中插入了一些初始数据，本小节我们将开始具体业务代码的实现，如果大家还没有完成上一小节的任务，请务必先完成再来学习本节内容。
@@ -250,7 +254,7 @@ src
 │   │   └── com
 │   │       └── colorful
 │   │           ├── App.java    # 入口文件
-│   │           ├── dao         # 数据访问对象（Data Access Object，提供数据库操作的一些方法)
+│   │           ├── dao         # 数据访问对象（Data Access Object，提供数据库操作的一些方法）
 │   │           ├── model       # 实体类（类字段和数据表字段一一对应）
 │   │           ├── service     # 服务层（提供业务逻辑层服务）
 │   │           └── util        # 一些帮助类

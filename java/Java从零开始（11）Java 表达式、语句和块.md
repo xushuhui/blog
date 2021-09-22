@@ -1,4 +1,10 @@
+---
+title: Java从零开始（11）Java 表达式、语句和块
+zhihu-url: https://zhuanlan.zhihu.com/p/407010244
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+---
 # Java 表达式、语句和块
+
 
 我们在前面的小节中，已经学习了变量和运算符。有了这些前置知识，我们就可以学习表达式、语句和块了。
 
