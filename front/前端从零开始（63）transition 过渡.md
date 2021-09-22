@@ -60,7 +60,7 @@ transition 属性是一个简写属性，用于设置四个过渡属性：
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5ea7a07c0a988dcc01350232.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea7a07c0a988dcc01350232.jpg)
 
  `hover` 之后高度变化效果图
 
@@ -98,7 +98,7 @@ transition 属性是一个简写属性，用于设置四个过渡属性：
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5ea7a08c0aede55402220213.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea7a08c0aede55402220213.jpg)
 
  `hover` 宽高变化效果图
 
@@ -121,7 +121,7 @@ transition 属性是一个简写属性，用于设置四个过渡属性：
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5ea7a0a30a025d9402190221.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea7a0a30a025d9402190221.jpg)
 
  改变过渡完成的速度效果图
 
@@ -144,7 +144,7 @@ transition 属性是一个简写属性，用于设置四个过渡属性：
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5ea7a0af0a034a9102100204.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea7a0af0a034a9102100204.jpg)
 
  时间设置效果图
 
@@ -179,7 +179,7 @@ transition 属性是一个简写属性，用于设置四个过渡属性：
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5ea7a0bc0a4be8bb01590104.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea7a0bc0a4be8bb01590104.jpg)
 
  改变按钮的位置和背景颜色效果图
 
@@ -193,6 +193,6 @@ transition 属性是一个简写属性，用于设置四个过渡属性：
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

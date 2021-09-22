@@ -46,7 +46,7 @@ letter-spacing 属性增加或减少字符间的空白（字符间距）。
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3e55e089cbef402260074.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3e55e089cbef402260074.jpg)
 
  字符之间增加 5px 的间距效果图
 
@@ -60,7 +60,7 @@ letter-spacing 属性增加或减少字符间的空白（字符间距）。
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3e56c09a2a59902130036.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3e56c09a2a59902130036.jpg)
 
  设置字符之间距离为 -2px 效果图
 
@@ -87,7 +87,7 @@ letter-spacing 属性增加或减少字符间的空白（字符间距）。
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3e578096aff2501200085.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3e578096aff2501200085.jpg)
 
  使用 letter-spacing 清除空格效果图
 
@@ -109,6 +109,6 @@ letter-spacing 属性增加或减少字符间的空白（字符间距）。
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

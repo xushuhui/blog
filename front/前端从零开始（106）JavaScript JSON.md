@@ -190,7 +190,7 @@ console.log(json3); // 使用 *-* 控制的缩进
 
 传入参数后就会将处理后的 JSON 字符串进行格式化，缩进部分根据传入的参数值决定。
 
-![图片描述](https://img.mukewang.com/wiki/5e7a44c20a01631711460686.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e7a44c20a01631711460686.jpg)
 
 ## 3. 其他注意点
 
@@ -343,6 +343,6 @@ JSON 几乎是目前前后端交互最常用的数据格式，所以 JSON 对象
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

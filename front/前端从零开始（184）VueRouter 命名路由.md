@@ -289,6 +289,6 @@ JS 代码第 29-31 行，我们定义来 jump 函数，通过 router.push 实现
 * 通过 `<router-link>` 跳转指定名称的路由地址。
 * 通过 $router 跳转指定名称的路由地址。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

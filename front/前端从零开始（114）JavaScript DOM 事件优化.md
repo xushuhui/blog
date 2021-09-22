@@ -71,7 +71,7 @@
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e9c6cc00a18b40818280756.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e9c6cc00a18b40818280756.jpg)
 
 上述例子没有在用户第一次点击后，对按钮做一个禁止，或者采用一些上锁操作。
 
@@ -141,7 +141,7 @@
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e9c6d0e0a1e014a18280756.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e9c6d0e0a1e014a18280756.jpg)
 
 在用户第一次点击按钮后，就给予按钮禁止点击的状态，同时通过样式区分给予用户一个反馈，在提高用户体验的同时，优化了整个事件。
 
@@ -309,7 +309,7 @@
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e9c6d550a518d1018280756.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e9c6d550a518d1018280756.jpg)
 
 稍微改写一下之前的例子，不采用事件委托的方式，这个列表中新增的项点击删除按钮是无用的，将这个例子改成事件委托的方式：
 
@@ -397,7 +397,7 @@
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e9c6d910a590f1818280756.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e9c6d910a590f1818280756.jpg)
 
 新增的项目是不需要再重新绑定事件的。
 
@@ -435,7 +435,7 @@
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e9c6dcc0ac51be917400762.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e9c6dcc0ac51be917400762.jpg)
 
 可以看到，resize 事件的响应是非常快的，与之类似的还有 `scroll` 事件，即滚动条滚动时触发的事件。
 
@@ -474,7 +474,7 @@
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e9c6f060a7733fb12180533.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e9c6f060a7733fb12180533.jpg)
 
 对例子做了一个简单的修改，增加了 `timer` 变量，用于存放定时器的标志值（定时器的返回值），每当事件触发时，给 timer 赋值，这个时候事件就会处于一个锁住的状态，直到 300 毫秒后，timer 再次被设置为 null，表示可以触发事件。
 
@@ -515,7 +515,7 @@
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e9c6e6d0a2c8e8917400432.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e9c6e6d0a2c8e8917400432.jpg)
 
 假设输出的就是服务端返回的联想内容。
 
@@ -553,7 +553,7 @@
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e9c6e8d0a24680717400432.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e9c6e8d0a24680717400432.jpg)
 
 通过定时器，来延迟执行事件处理器，每次触发事件，就取消上一次事件处理器，这样就达到了防抖的效果。
 
@@ -587,6 +587,6 @@ el.addEventListener('click', async () => {
 
 事件的优化不一定要只从代码方面入手，还可以从其他方面，如交互上进行思考。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

@@ -62,7 +62,7 @@ n 从 0 开始计数的正整数。
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb17681094b2e2701110421.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb17681094b2e2701110421.jpg)
 
 第三个背景变红效果图
 
@@ -116,7 +116,7 @@ n 从 0 开始计数的正整数。
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb17681094b2e2701110421.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb17681094b2e2701110421.jpg)
 
 第三个背景变红效果图
 
@@ -170,7 +170,7 @@ n 从 0 开始计数的正整数。
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb17681094b2e2701110421.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb17681094b2e2701110421.jpg)
 
 第三个背景变红效果图
 
@@ -249,7 +249,7 @@ n 从 0 开始计数的正整数。
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb176a809a3eb7402170545.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb176a809a3eb7402170545.jpg)
 
 `nth-of-type` 和 `nth-child` 效果图
 
@@ -321,7 +321,7 @@ n 从 0 开始计数的正整数。
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb176ee0958ef1001150415.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb176ee0958ef1001150415.jpg)
 
 偶数的背景变红 效果图
 
@@ -359,6 +359,6 @@ n 从 0 开始计数的正整数。
 
 1. 使用 `nth-of-type(3n+1)` 起作用，而 `nth-of-type(1+3n)` 不起作用，所以 `n` 一定要放在最前面。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

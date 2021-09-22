@@ -32,13 +32,13 @@
 var enum = 1; // 报错：Unexpected strict mode reserved word
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5f5a624c09daba2709420084.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f5a624c09daba2709420084.jpg)
 
 ```javascript
 var package = 1; // 通过
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5f5a625309f7e7eb07740106.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f5a625309f7e7eb07740106.jpg)
 
 ```javascript
 'use strict';
@@ -46,7 +46,7 @@ var package = 1; // 通过
 var package = 1; // 报错：Unexpected strict mode reserved word
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5f5a625b0957b80709780140.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f5a625b0957b80709780140.jpg)
 
 以下是被未来关键字：
 
@@ -60,6 +60,6 @@ var package = 1; // 报错：Unexpected strict mode reserved word
 
 尽量不要使用未来关键字作为变量，因为将来浏览器升级，可能造成一些严重的 BUG。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

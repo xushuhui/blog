@@ -47,7 +47,7 @@ after：元素的内容之后插入新内容。
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb160e109bb346f01070030.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb160e109bb346f01070030.jpg)
 
 元素内容之前插入文字：姓名 效果图
 
@@ -80,7 +80,7 @@ after：元素的内容之后插入新内容。
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb1616909c05ee701140032.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb1616909c05ee701140032.jpg)
 
 在元素内容之后插入：很好 效果图
 
@@ -130,7 +130,7 @@ after：元素的内容之后插入新内容。
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb161900978367c01000089.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb161900978367c01000089.jpg)
 
  使用伪类 after 清除浮动 效果图
 
@@ -178,12 +178,12 @@ after：元素的内容之后插入新内容。
     height:12px;
     font-size:12px;
     line-height:12px;
-    background: url(https://img.mukewang.com/wiki/5eea2f6809a8d35e00400040.jpg) center  no-repeat;
+    background: url(https://xushuhui.gitee.io/image/imooc/5eea2f6809a8d35e00400040.jpg) center  no-repeat;
     background-size: cover;
 }
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eb161bb09a1685b01020032.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb161bb09a1685b01020032.jpg)
 
 元素内容开始前插入图片 效果图
 
@@ -202,7 +202,7 @@ after：元素的内容之后插入新内容。
             height:12px;
             font-size:12px;
             line-height:12px;
-            background: url(https://img.mukewang.com/wiki/5eea2f6809a8d35e00400040.jpg) center  no-repeat;
+            background: url(https://xushuhui.gitee.io/image/imooc/5eea2f6809a8d35e00400040.jpg) center  no-repeat;
             background-size: cover;
         }
     </style>
@@ -227,6 +227,6 @@ after：元素的内容之后插入新内容。
 }
 ```
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

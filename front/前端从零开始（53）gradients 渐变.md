@@ -89,7 +89,7 @@ CSS3 定义了两种类型的渐变（gradients）：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3df35097d2dac01150112.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3df35097d2dac01150112.jpg)
 
 创建一个从上到下颜色由红变绿的线性渐变效果图
 
@@ -107,7 +107,7 @@ CSS3 定义了两种类型的渐变（gradients）：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3df4109946c9501080113.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3df4109946c9501080113.jpg)
 
 让红色在元素 70% 的位置之后在开始向绿色渐变效果图
 
@@ -125,7 +125,7 @@ CSS3 定义了两种类型的渐变（gradients）：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3df4d09779bd001090114.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3df4d09779bd001090114.jpg)
 
 创建一个从左到右的渐变背景色效果图
 
@@ -141,7 +141,7 @@ CSS3 定义了两种类型的渐变（gradients）：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3df5c098c87d001230120.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3df5c098c87d001230120.jpg)
 
 创建一个从左上到右下的渐变颜色效果图
 
@@ -159,7 +159,7 @@ CSS3 定义了两种类型的渐变（gradients）：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3df6909f3756701120110.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3df6909f3756701120110.jpg)
 
 创建一个 30 度角的线性渐变效果图
 
@@ -175,7 +175,7 @@ CSS3 定义了两种类型的渐变（gradients）：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3df7509e23ec401130119.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3df7509e23ec401130119.jpg)
 
 创建一个 0 度角的线性渐变效果图
 
@@ -193,7 +193,7 @@ CSS3 定义了两种类型的渐变（gradients）：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3df9209ee608302090109.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3df9209ee608302090109.jpg)
 
 创建一个红色到绿色的径向渐变效果图
 
@@ -210,7 +210,7 @@ CSS3 定义了两种类型的渐变（gradients）：
 
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ea3df9f095c653901080110.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3df9f095c653901080110.jpg)
 
 创建一个椭圆红色到绿色的假圆形径向渐变效果图
 
@@ -226,7 +226,7 @@ CSS3 定义了两种类型的渐变（gradients）：
 }
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ea3df9f095c653901080110.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3df9f095c653901080110.jpg)
 
 创建一个真正的圆形渐变效果图
 
@@ -242,7 +242,7 @@ CSS3 定义了两种类型的渐变（gradients）：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3dfbd0986ce7601100116.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3dfbd0986ce7601100116.jpg)
 
 创建一个重复的径向渐变效果图
 
@@ -274,7 +274,7 @@ CSS3 定义了两种类型的渐变（gradients）：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3dfcb095cc00405540115.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3dfcb095cc00405540115.jpg)
 
 设定渐变的不同 size 我们左下对比效果图
 
@@ -292,7 +292,7 @@ CSS3 定义了两种类型的渐变（gradients）：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3dfd70988067201220119.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3dfd70988067201220119.jpg)
 
 改变渐变的中心点效果图
 
@@ -336,6 +336,6 @@ left 前面一定要加上 at 不然它的兼容性很不好。
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

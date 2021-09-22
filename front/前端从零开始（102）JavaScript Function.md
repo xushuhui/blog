@@ -22,7 +22,7 @@ var result = fn(1, 3);
 console.log(result); // 输出：4
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e7a45b80aace13814600432.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e7a45b80aace13814600432.jpg)
 
 将上面创建函数的方式“翻译”成常用的创建方式可以是：
 
@@ -120,6 +120,6 @@ console.log(number, flag);
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

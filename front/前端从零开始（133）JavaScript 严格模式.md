@@ -31,7 +31,7 @@ function Test() {
 Test(); // 输出：this: undefined
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfba6809d3db4f07460212.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfba6809d3db4f07460212.jpg)
 
 ### 1.2 对一个函数开启严格模式
 
@@ -76,7 +76,7 @@ with (person) {
 }
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfba5809e5c1df10080300.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfba5809e5c1df10080300.jpg)
 
 ### 2.2 变量必须被声明
 
@@ -96,7 +96,7 @@ console.log(number); // 输出：1
 number = 1; // 报错：ReferenceError: number is not defined
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfba900966596510120172.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfba900966596510120172.jpg)
 
 ### 2.3 eval 会创建自己的作用域
 
@@ -112,7 +112,7 @@ eval('var number = 3; console.log(number)'); // 输出：3
 console.log(number); // 输出：3
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbaca0931ceba08800232.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbaca0931ceba08800232.jpg)
 
 ```javascript
 // 严格模式下
@@ -125,7 +125,7 @@ eval('var number = 3; console.log(number)'); // 输出：3
 console.log(number); // 输出：1
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbad609fd69ee08660286.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbad609fd69ee08660286.jpg)
 
 ### 2.4 函数的 arguments 不能被修改
 
@@ -143,7 +143,7 @@ function fn() {
 fn(1, 2, 3);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbae2095aa8dd09860344.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbae2095aa8dd09860344.jpg)
 
 ```javascript
 'use strict';
@@ -158,7 +158,7 @@ function fn() {
 fn(1, 2, 3);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbaee094e582b10120340.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbaee094e582b10120340.jpg)
 
 ### 2.5 函数的 this 规则有些变化
 
@@ -174,7 +174,7 @@ function testThis() {
 testThis();
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbb0109ab669f09400284.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbb0109ab669f09400284.jpg)
 
 ```javascript
 // 严格模式下
@@ -186,7 +186,7 @@ function testThis() {
 testThis();
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbb0c09b39aa709880286.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbb0c09b39aa709880286.jpg)
 
 ## 2.6 caller 与 arguments.callee 被禁用
 
@@ -204,7 +204,7 @@ function fn1() {
 fn1();
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbb1a092ace3508920190.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbb1a092ace3508920190.jpg)
 
 ```javascript
 'use strict';
@@ -215,7 +215,7 @@ function fn1() {
 fn1();
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbb2209af302e10120342.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbb2209af302e10120342.jpg)
 
 ### 2.7 删除 configurable 为 false 的属性时报错
 
@@ -236,7 +236,7 @@ delete obj.prop;
 console.log(obj);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbb2e0937e94608920436.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbb2e0937e94608920436.jpg)
 
 ```javascript
 'use strict';
@@ -254,7 +254,7 @@ delete obj.prop;
 console.log(obj);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbb3a09ba277209520504.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbb3a09ba277209520504.jpg)
 
 ### 2.8 修改 writable 为 false 的属性时会报错
 
@@ -275,7 +275,7 @@ obj.prop = 2;
 console.log(obj.prop);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbb5c09b65dae09540424.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbb5c09b65dae09540424.jpg)
 
 ```javascript
 'use strict';
@@ -293,7 +293,7 @@ obj.prop = 2;
 console.log(obj.prop);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbb3a09ba277209520504.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbb3a09ba277209520504.jpg)
 
 ### 2.9 禁止书写八进制的字面量
 
@@ -320,7 +320,7 @@ var num = 010;
 console.log(num); // 输出：8
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbb8509e3ebd609420202.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbb8509e3ebd609420202.jpg)
 
 ### 2.10 新增了一些不能作为变量的关键字
 
@@ -332,7 +332,7 @@ var yield = 1;
 console.log(yield);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbb9409f7ea7209100136.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbb9409f7ea7209100136.jpg)
 
 ```javascript
 'use strict';
@@ -342,7 +342,7 @@ var yield = 1;
 console.log(yield);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5edfbba1091c2a3209040188.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5edfbba1091c2a3209040188.jpg)
 
 根据 `MDN` 提供的内容，保留字有：
 
@@ -366,6 +366,6 @@ console.log(yield);
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

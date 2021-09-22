@@ -114,6 +114,6 @@ console.log(target.c);  // undefined
 * 合并对象时后面的对象会覆盖前面的对象；
 * 拷贝时发生异常，前面已拷贝的不会受到影响，异常后面的对象则不会被拷贝。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

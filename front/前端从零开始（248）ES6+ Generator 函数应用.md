@@ -109,6 +109,6 @@ function co(it) {
 
 本节主要讲解了 Generator 函数在异步中的应用，解决了某些场景下还会产生回调地狱的问题，通过封装 co 方法让我们的代码写起来像是同步一样，但是 Generator 函数还不是我们解决异步的终极方案，下一节我们将学习 async 函数，看它是怎么来解决异步的。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

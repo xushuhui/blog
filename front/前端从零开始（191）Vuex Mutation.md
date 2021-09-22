@@ -311,6 +311,6 @@ var vm = new Vue({
 其中，使用 Mutation 需要注意以下几点：    1. Mutation 必须是一个同步函数。
     2. Mutation 需遵守 Vue 的响应规则：只能通过 Vue.set 添加 state 中的属性，只能通过 store.replaceState 替换这个 state。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

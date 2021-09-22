@@ -77,6 +77,6 @@ console.log(str.endsWith("e", 6));      // true
 
 在查询字符串中的结尾时最好使用 `endsWith` 进行查询，它的效率要比 `includes()` 高，而且 `endsWith` 也具有语义化。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

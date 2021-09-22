@@ -134,9 +134,9 @@ Object.keys('imooc') // ["0", "1", "2", "3", "4"]
 
 上面的代码中，参数是数值时为什么会返回空数组呢？是因为数值转换为对象时没有可提取的属性，而字符串在 ES5 时会报错，ES6 进行了修复，因为 String 对象有可提取的属性。看下面两张图：
 
-![图片描述](http://img.mukewang.com/wiki/5f153d3d0824406102880074.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f153d3d0824406102880074.jpg)
 
-![图片描述](http://img.mukewang.com/wiki/5f153d65087cc81302870170.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f153d65087cc81302870170.jpg)
 
 ## 3.2 获取属性列表
 
@@ -158,6 +158,6 @@ Object.keys('imooc') // ["0", "1", "2", "3", "4"]
 
 本节主要学习了 `Object.keys()` 方法用于获取对象上可枚举属性，并返回属性的数组，数组中的元素的排列顺序和使用 `for...in` 循环遍历返回的顺序是一致的。这里需要注意的是，如果对象上的属性是数值时，会被排序。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

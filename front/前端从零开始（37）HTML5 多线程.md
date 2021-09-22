@@ -146,6 +146,6 @@ onmessage = function(message){//监听主线程的数据请求
 
 早期的 JavaScript 由于考虑操作 DOM 的一致性问题，以及当时的网页没有过多的交互所以不需要大量的计算，所以只支持单线程。这在多核 CPU 时代的劣势愈发明显，所以 HTML5 中推出多线程解决这个问题。回顾本章主要介绍了 Web Worker 的使用方式以及其适用场景。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

@@ -333,6 +333,6 @@ AAAASUVORK5CYII='/>
 
 本章介绍了几种 HTML 定义图片的方式，以及图片的各种属性，最后介绍了几种加载优化方式。图片是 HTML 中使用最频繁的多媒体标签，因此需要熟悉它的使用方式
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

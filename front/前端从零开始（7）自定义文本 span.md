@@ -2,7 +2,7 @@
 
 我们在上一章节已经学过了段落标签 P 标签，而且我们也学习了 P 标签是可以嵌套其他标签的。当我们定义的段落里，有一些文字或者一句话有单独的样式时，则我们需要单独的处理这些内容，最好的方式则是用 span 标签将这些内容包裹起来。例如：
 
-![图片描述](https://img.mukewang.com/wiki/5f07be6909f86af106710209.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07be6909f86af106710209.jpg)
 
 ## 1. SPAN 标签的作用
 
@@ -20,13 +20,13 @@ span 标签为双标签，所以必须有首尾标签。文本的内容既为 sp
 
 SPAN 标签没有默认样式，所以上述内容会在页面上呈现以下效果：
 
-![图片描述](https://img.mukewang.com/wiki/5f07be880965550c01860050.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07be880965550c01860050.jpg)
 
 ## 3 .SPAN 标签的特点
 
 1. span 标签为行内元素，行内元素和块级元素（p 标签）不同，默认是在同一排排列，如我们写两个 span 标签，会呈现以下效果：
 
-![图片描述](https://img.mukewang.com/wiki/5f07be990934605903150050.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07be990934605903150050.jpg)
 
 2. span 不能使用 CSS 为其设置宽高，即使**设置了宽高也会无效**。
 
@@ -55,7 +55,7 @@ SPAN 标签没有默认样式，所以上述内容会在页面上呈现以下效
 
 那么两个 span 标签之间左右会有间距，如下图所示：
 
-![图片描述](https://img.mukewang.com/wiki/5f07beb109abb33204150037.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07beb109abb33204150037.jpg)
 
 如何解决这个问题呢，我们只需要讲所有代码写在同一行即可，如：
 
@@ -65,7 +65,7 @@ SPAN 标签没有默认样式，所以上述内容会在页面上呈现以下效
 
 那么问题就解决了，如下图所示：
 
-![图片描述](https://img.mukewang.com/wiki/5f07beda0923edd904000032.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07beda0923edd904000032.jpg)
 
 2. span 标签为行内元素，不能对其设置宽高属性，如果既想保持行内元素在同一行排列的特性，又想为其设置宽高，我们可以利用 CSS 的 display 属性将其设置为行内块元素即可。
 
@@ -125,8 +125,8 @@ SPAN 标签没有默认样式，所以上述内容会在页面上呈现以下效
 
 5. span 标签不会自动换行，他们会在同一行显示，但是左右会有间隙。如想解决此问题，把代码书写在一行即可。
 
-![图片描述](https://img.mukewang.com/wiki/5f62fed109c3cb1210370732.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f62fed109c3cb1210370732.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

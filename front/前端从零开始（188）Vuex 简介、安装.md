@@ -62,7 +62,7 @@
 
 以下是一个表示 “单向数据流” 理念的简单示意：
 
-![图片描述](https://img.mukewang.com/wiki/5ed849de09f23d6a12800866.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ed849de09f23d6a12800866.jpg)
 
 但是，当我们的应用遇到多个组件共享状态时，单向数据流的简洁性很容易被破坏：
 
@@ -178,6 +178,6 @@ Vue.use(Vuex)
 * Vuex 的安装和使用方法。
 * 使用 new Vuex.Store ({…}) 创建数据仓库。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

@@ -74,6 +74,6 @@ str.trimRight() 	// "  imooc"
 * trim 方法会去除字符串两边的空白字符串；
 * 如果只去除一般字符串时可以使用 `trimStart()` 和 `trimEnd()`。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

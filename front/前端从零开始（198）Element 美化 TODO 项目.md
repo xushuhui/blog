@@ -392,12 +392,12 @@ export default {
 
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ee2de070a251d0c19020936.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ee2de070a251d0c19020936.jpg)
 
 ## 9. 小结
 
 本小节我们主要带大家一起使用 Element 优化了我们之前的 TODO 项目，并在项目中，把我们在之前章节中学习的知识点加以运用。其实，诸如 Element 之类的 Vue 组件库还有很多，比如： 嘀嘀团队的 Cube-UI、有赞团队的 Vant 等等，使用这些组件库可以让我们快速高效地完成项目。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

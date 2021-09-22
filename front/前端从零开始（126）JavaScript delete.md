@@ -53,7 +53,7 @@ Object.defineProperty(person, 'age', {
 delete person.age; // TypeError: Cannot delete property 'age'
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ebd8325096b5f2812420372.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ebd8325096b5f2812420372.jpg)
 
 ## 3. 对使用 var 声明的变量进行 delete
 
@@ -67,7 +67,7 @@ delete number; // false
 console.log(number);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ebd82ec093902a809460186.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ebd82ec093902a809460186.jpg)
 
 这里的 `number` 是 `window`下的一个属性，可以使用 `Object.getOwnPropertyDescriptor` 来查看属性的描述符。
 
@@ -77,7 +77,7 @@ var number = 996;
 Object.getOwnPropertyDescriptor(window, 'number');
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ebd82f809ca1f1510880240.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ebd82f809ca1f1510880240.jpg)
 
 ## 4. 使用 delete 删除数组成员
 
@@ -91,7 +91,7 @@ delete arr[0]; // true
 console.log(arr);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ebd83010921f72608460194.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ebd83010921f72608460194.jpg)
 
 > 有关数组 empty 相关的内容可以查阅数组章节。
 
@@ -103,6 +103,6 @@ console.log(arr);
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

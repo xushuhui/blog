@@ -37,7 +37,7 @@
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e92b29a0af269b811000432.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e92b29a0af269b811000432.jpg)
 
 输入一个字符的动作包含`按下键`和`松开键`，对应的事件就是 `onkeydown` 和 `onkeyup`，如果使用二级 DOM 事件，则可以不加 `on` 前缀。
 
@@ -90,7 +90,7 @@ target 表示当前事件最终捕获到的目标。
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e92b2b90a0f104c10680432.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e92b2b90a0f104c10680432.jpg)
 
 可以看到事件绑定在类名为 `a` 的节点上，点击其子节点的时候，子节点就是最终捕获到的元素。
 
@@ -134,7 +134,7 @@ target 表示当前事件最终捕获到的目标。
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e92b2d50a6e384210680432.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e92b2d50a6e384210680432.jpg)
 
 不论点击的是哪个子节点，currentTarget 都是表示当前触发事件的节点。
 
@@ -207,7 +207,7 @@ target 表示当前事件最终捕获到的目标。
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e92b2e80a97192f18080468.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e92b2e80a97192f18080468.jpg)
 
 上述例子，在点击按钮的时候，虽然完成了删除操作，但还是会弹出一个框，触发到了父级的事件，这是冒泡特性导致的，所以需要阻止向上冒泡，
 
@@ -277,7 +277,7 @@ target 表示当前事件最终捕获到的目标。
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e92b2f50a5887f218080468.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e92b2f50a5887f218080468.jpg)
 
 #### 2.2.2 preventDefault
 
@@ -299,7 +299,7 @@ target 表示当前事件最终捕获到的目标。
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e92b3090a02094015960432.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e92b3090a02094015960432.jpg)
 
 ## 3. 兼容性问题
 
@@ -321,7 +321,7 @@ target 表示当前事件最终捕获到的目标。
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e92b3340a41fd5810080448.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e92b3340a41fd5810080448.jpg)
 
 以下代码在 IE8 中，第一个 alert 将会返回 undefined，第二个才会是事件对象。
 
@@ -333,6 +333,6 @@ target 表示当前事件最终捕获到的目标。
 
 事件对象包含了事件相关的信息，有事件对象，才能对各个事件做更深层次的交互优化。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

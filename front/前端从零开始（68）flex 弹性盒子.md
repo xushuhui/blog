@@ -72,7 +72,7 @@ div>.item{
 
 效果图
 
-![块级元素平均分配空间](https://img.mukewang.com/wiki/5eb0fdc1096fc75402220076.jpg)
+![块级元素平均分配空间](https://xushuhui.gitee.io/image/imooc/5eb0fdc1096fc75402220076.jpg)
 
 ```html
 <!DOCTYPE html>
@@ -131,7 +131,7 @@ div>.item{
 
 效果图
 
-![内联元素平分空间效果图](https://img.mukewang.com/wiki/5eb0febe09a6006602510074.jpg)
+![内联元素平分空间效果图](https://xushuhui.gitee.io/image/imooc/5eb0febe09a6006602510074.jpg)
 
 ```html
 <!DOCTYPE html>
@@ -193,7 +193,7 @@ demo 和文字在一行，demo 变成内联元素了。
 
 效果图
 
-![左侧100px，右侧自适应的，左右布局效果图](https://img.mukewang.com/wiki/5eb0ffa509d1c40a06340113.jpg)
+![左侧100px，右侧自适应的，左右布局效果图](https://xushuhui.gitee.io/image/imooc/5eb0ffa509d1c40a06340113.jpg)
 
 ```html
 <!DOCTYPE html>
@@ -240,7 +240,7 @@ demo 和文字在一行，demo 变成内联元素了。
 }
 ```
 
-![左右布局](https://img.mukewang.com/wiki/5eb1044a0958c0e108060109.jpg)
+![左右布局](https://xushuhui.gitee.io/image/imooc/5eb1044a0958c0e108060109.jpg)
 
 ```html
 <!DOCTYPE html>

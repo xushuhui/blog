@@ -146,7 +146,7 @@ for (;;) {
 
 这样的循环语句会陷入无限循环。
 
-![图片描述](https://img.mukewang.com/wiki/5e7ae94e0a91c46413760596.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e7ae94e0a91c46413760596.jpg)
 
 **大部分无限循环会让浏览器卡死，需要强制退出浏览器！**
 
@@ -209,6 +209,6 @@ console.log(result); // 输出：24
 
 1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

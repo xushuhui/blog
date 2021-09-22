@@ -20,7 +20,7 @@ input 的类型有很多，我们依次为大家介绍。
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cc00090c2c5c05630051.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cc00090c2c5c05630051.jpg)
 
 input 标签的 type 属性默认为`text`。
 
@@ -34,7 +34,7 @@ input 标签的 type 属性默认为`text`。
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cbe0095a831605330061.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cbe0095a831605330061.jpg)
 
 ### 2.3. 邮箱框
 
@@ -46,11 +46,11 @@ input 标签的 type 属性默认为`text`。
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cc21094ab7d106060152.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cc21094ab7d106060152.jpg)
 
-![图片描述](https://img.mukewang.com/wiki/5f07cc35095b786a05010146.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cc35095b786a05010146.jpg)
 
-![图片描述](https://img.mukewang.com/wiki/5f07cc4509bdae4d03950126.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cc4509bdae4d03950126.jpg)
 
 ### 2.4. 网址框
 
@@ -60,7 +60,7 @@ input 标签的 type 属性默认为`text`。
 <input type="url">
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5f07cc840991f49103540120.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cc840991f49103540120.jpg)
 
 > **Tips**：这里的网站和我们平时输入的网站不同，前面必须加上网络协议，既 http:// 或者 https://
 
@@ -74,7 +74,7 @@ input 标签的 type 属性默认为`text`。
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cd8d0929100404220159.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cd8d0929100404220159.jpg)
 
 ### 2.6. 单选框
 
@@ -88,7 +88,7 @@ input 标签的 type 属性默认为`text`。
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cda709da7f0a03110084.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cda709da7f0a03110084.jpg)
 
 单选框可以添加 `checked` 属性，表示默认选中一项。代码如下：
 
@@ -100,7 +100,7 @@ input 标签的 type 属性默认为`text`。
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cdc509e87dab02720093.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cdc509e87dab02720093.jpg)
 
 > **Tips**：如果给多个单选框设置 `checked` 属性，则会默认选中最后一个设置 `checked`属性的选项。
 
@@ -117,7 +117,7 @@ input 标签的 type 属性默认为`text`。
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cdd9093118c905020147.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cdd9093118c905020147.jpg)
 
 ### 2.8. 占位符
 
@@ -129,7 +129,7 @@ INPUT 标签可以设置 `placeholder`属性为占位符。占位符的作用为
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cdee0964352e04140123.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cdee0964352e04140123.jpg)
 
 ## 3. 注意事项
 
@@ -170,8 +170,8 @@ INPUT 标签可以设置 `placeholder`属性为占位符。占位符的作用为
 3. 邮箱框、网站框需要按照一定规则书写内容。
 4. 输入框类型比较多，可以根据实际需求决定使用哪个类型。
 
-![图片描述](https://img.mukewang.com/wiki/5f63049609b82c3d14010715.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f63049609b82c3d14010715.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

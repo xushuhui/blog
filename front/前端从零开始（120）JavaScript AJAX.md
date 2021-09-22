@@ -30,7 +30,7 @@ xhr.open('GET', '/', true); // 设定 GET 请求，请求的路径是 /，并且
 xhr.send(); // 发送！
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eb2d8f40a37769217430926.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb2d8f40a37769217430926.jpg)
 
 `onreadystatechange` 是一个事件处理器属性，每次 `readyState` 改变的时候都会触发。
 
@@ -60,6 +60,6 @@ IE6 之前是没有 XHR 对象的，需要使用 `ActiveXObject` 对象，这是
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

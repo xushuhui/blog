@@ -42,7 +42,7 @@
 
 **效果如下：**
 
-![图片描述](https://img.mukewang.com/wiki/5f07cae70994cc2306420162.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cae70994cc2306420162.jpg)
 
 我们可以给表格添加 `border`属性给表格添加边框，`border`属性的值为正整数，默认为 0，则无边框，我们把`border` 设置为 1，**代码如下：**
 
@@ -55,7 +55,7 @@
 
 则会呈现以下效果：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cb0109b47e5d04450128.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cb0109b47e5d04450128.jpg)
 
 我们还可以给 table 设置`cellpadding`来使用单元格填充来创建单元格内容与其边框之间的空白，`cellpadding`值也是正整数，我们把表格的 `cellpadding`设置为 10，**代码如下：**
 
@@ -68,7 +68,7 @@
 
 则效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cb3a097b19ff04650191.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cb3a097b19ff04650191.jpg)
 
 我们还可以给 table 设置`cellspacing`来设置单元格与单元格直接的距离，`cellspacing`值也是正整数，我们把表格的 `cellspacing`设置为 10，**代码如下：**
 
@@ -81,7 +81,7 @@
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cb49094591be04570160.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cb49094591be04570160.jpg)
 
 我们也可以为表格添加标题，那么我们就需要在 thead 标签前加上 caption 标签，而 caption 标签的内容则是表格的标题，**代码如下：**
 
@@ -95,7 +95,7 @@
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cb570944745f04130197.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cb570944745f04130197.jpg)
 
 ## 3. 注意事项
 
@@ -159,8 +159,8 @@
 3. tr 里只能嵌套 th 和 td， th 一般用来表示表头，有加粗的样式。 td 代表表头对应的具体数据。
 4. 原生的表格样式比较丑，我们可以通过 CSS 为表格设置样式。
 
-![图片描述](https://img.mukewang.com/wiki/5f6302ba0968ecb514250831.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f6302ba0968ecb514250831.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

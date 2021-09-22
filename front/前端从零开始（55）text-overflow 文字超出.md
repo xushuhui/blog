@@ -54,7 +54,7 @@ text-overflow 用于设置当文字内容超过所在元素设定的范围时候
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3e2ab09cae9a801350036.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3e2ab09cae9a801350036.jpg)
 
 文字超出后裁剪内容效果图
 
@@ -78,7 +78,7 @@ text-overflow 用于设置当文字内容超过所在元素设定的范围时候
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3e2b70922f6bd01200031.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3e2b70922f6bd01200031.jpg)
 
 文字超出元素后使用省略号效果图
 
@@ -102,7 +102,7 @@ text-overflow 用于设置当文字内容超过所在元素设定的范围时候
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3e2c30923179901190032.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3e2c30923179901190032.jpg)
 
 文字超出后使用 `！`效果图
 
@@ -121,6 +121,6 @@ text-overflow 用于设置当文字内容超过所在元素设定的范围时候
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

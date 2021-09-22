@@ -20,7 +20,7 @@ DIV 标签为双标签，所以必须有首尾标签。区域内的内容既为 
 
 那么在页面上就会程序一下效果：
 
-![图片描述](https://img.mukewang.com/wiki/5f07c45b09b8424e01340032.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07c45b09b8424e01340032.jpg)
 
 ## 3. div 标签的特点
 
@@ -28,7 +28,7 @@ DIV 标签为双标签，所以必须有首尾标签。区域内的内容既为 
 
 如我们写两个 div 标签，会呈现以下效果：
 
-![图片描述](https://img.mukewang.com/wiki/5f07c46c094376e901430049.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07c46c094376e901430049.jpg)
 
 2. div 没有任何的默认样式，所以它不会像 P 标签和 H 标签一样，有上下间距。
 
@@ -85,8 +85,8 @@ DIV 标签为双标签，所以必须有首尾标签。区域内的内容既为 
 4. 可以使用 div 元素来组合元素，这样就可以使用样式对它们进行格式化。
 5. div 默认占一整行，而且没有任何默认样式。
 
-![图片描述](https://img.mukewang.com/wiki/5f62ff5e09410b1210040747.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f62ff5e09410b1210040747.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

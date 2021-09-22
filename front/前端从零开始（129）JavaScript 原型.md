@@ -40,7 +40,7 @@ console.log(obj.__proto__);
 
 在输出的原型对象中可以找到 `toString` 方法。
 
-![图片描述](https://img.mukewang.com/wiki/5ed2213b09618fb219160600.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ed2213b09618fb219160600.jpg)
 
 可以通过相等运算符来判断调用的 `toString` 方法是不是原型上的方法。
 
@@ -69,7 +69,7 @@ var point = new Point(1, 2);
 console.log(point.__proto__);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ed2216e099e1d1516260354.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ed2216e099e1d1516260354.jpg)
 
 这样打印出来的 `point` 的原型对象，除了 `constructor` 和 `__proto__` 属性，就什么都没有了。
 
@@ -92,7 +92,7 @@ point.info(); // 输出："x: 1, y: 2"
 console.log(point.__proto__);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ed2218f09873d8a14380488.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ed2218f09873d8a14380488.jpg)
 
 这样输出的 `point` 的原型对象，就具有了一个 `info` 方法。
 
@@ -126,7 +126,7 @@ console.log(
 
 事实上对象的 `constructor` 属性就是直接从原型上继承的。
 
-![图片描述](https://img.mukewang.com/wiki/5ed221c40994d01020460814.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ed221c40994d01020460814.jpg)
 
 ### 1.3 原型链
 
@@ -165,7 +165,7 @@ console.log(
 
 有些同学会有疑问，为什么 `Point.prototype` 的原型是 `Object.prototype`。其实 `Point.prototype` 也是一个对象，可以理解成这个对象是通过 `new Object` 创建的，所以原型自然是 `Object.prototype`。
 
-![图片描述](https://img.mukewang.com/wiki/5ed221d3092e0dd521041098.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ed221d3092e0dd521041098.jpg)
 
 ## 2. **proto** 属性
 
@@ -218,6 +218,6 @@ console.log(dateProto === date.__proto__); // 输出：true
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

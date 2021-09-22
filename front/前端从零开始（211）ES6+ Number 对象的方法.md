@@ -122,6 +122,6 @@ Number.isSafeInteger(3.0);                  // true
 
 本节学习了 Number 对象下的方法，讲解了为什么把全局的方法移植到 Number 对象下，以及对比没有 ES6 时是怎么判断数值为整数的情况，通过对 Number 对象下的方法的学习，可以看到 ES6 在收敛全局的方法，使语言逐步模块化，更加符合语言的规范。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

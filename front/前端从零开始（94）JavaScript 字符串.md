@@ -144,7 +144,7 @@ document.body.innerHTML = [
 ].join('');
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e7ae5740a0cb1d920121314.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e7ae5740a0cb1d920121314.jpg)
 
 > 数组的 `join` 方法会将参数作为分隔符，将数组成员连接成一个字符串，默认的分隔符是逗号。
 
@@ -303,6 +303,6 @@ console.log(str.concat('gugu')); // 输出：do sth.gugu
 
 4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

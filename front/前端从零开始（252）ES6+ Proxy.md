@@ -174,6 +174,6 @@ function createReactiveObject(target) {
 
 本节主要通过代理和 `Object.defineProperty()` API 的学习来理解 ES6 的新增知识点 ——Proxy，并且通过 Vue2 和 Vue3 实现响应式原理来对比 `Object.defineProperty()` 和 Proxy 的优缺点，从而更深入地理解 Proxy。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

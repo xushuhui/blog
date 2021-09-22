@@ -22,7 +22,7 @@
 
 然后 `Brendan Eich` 就被指定开发这个“简易 Java”。
 
-![图片描述](https://img.mukewang.com/wiki/5e78e45208dcdefc11530649.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e78e45208dcdefc11530649.jpg)
 
 Brendan Eich
 
@@ -48,7 +48,7 @@ Brendan Eich
 
 表单验证、动画效果甚至 3D 应用，均可以由 JavaScript 来完成。
 
-![](https://img.mukewang.com/wiki/5e78e66e0a1e6f1203360193.jpg)使用 WebGL 制作的 3D 应用，可以直接运行在现代浏览器
+![](https://xushuhui.gitee.io/image/imooc/5e78e66e0a1e6f1203360193.jpg)使用 WebGL 制作的 3D 应用，可以直接运行在现代浏览器
 
 ### 3.2 服务端应用开发
 
@@ -58,7 +58,7 @@ Brendan Eich
 
 开发者可以使用 `JavaScript` 语言开发 `Node.js` 应用。
 
-![图片描述](https://img.mukewang.com/wiki/5e78e6a209e5fdb212240618.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e78e6a209e5fdb212240618.jpg)
 
 Node.js
 
@@ -70,7 +70,7 @@ Node.js
 
 `Visual Studio Code`、`Atom`、`Skype` 等应用都是使用 `Electron` 开发的。
 
-![图片描述](https://img.mukewang.com/wiki/5e78e6ea09b722da08000420.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e78e6ea09b722da08000420.jpg)
 
 Electron
 
@@ -78,7 +78,7 @@ Electron
 
 移动端应用也可以使用 `JavaScript` 进行开发，如 `React Native` 或者 `Weex` 等框架。
 
-![图片描述](https://img.mukewang.com/wiki/5e78e715093f448912100590.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e78e715093f448912100590.jpg)
 
 Weex 框架
 
@@ -94,6 +94,6 @@ Weex 框架
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

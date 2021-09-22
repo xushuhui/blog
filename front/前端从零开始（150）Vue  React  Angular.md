@@ -72,6 +72,6 @@ btn.addEventListener('click', function() {
 前端框架是目前必备技能，可以选其一针对学习研究，再扩展其他。
 
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

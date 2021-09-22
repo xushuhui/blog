@@ -50,7 +50,7 @@ console.log(arr.constructor === Array;); // true
 
 在解释上面的代码时，先看下数组的原型链指向示意图：
 
-![原型链](https://img.mukewang.com/wiki/5f16615008dfbf8215400232.jpg)
+![原型链](https://xushuhui.gitee.io/image/imooc/5f16615008dfbf8215400232.jpg)
 
 数组实例的原型链指向的是 `Array.prototype` 属性，`instanceof` 运算符就是用来检测 `Array.prototype` 属性是否存在于数组的原型链上，上面代码中的 arr 变量就是一个数组，所有拥有 `Array.prototype` 属性，返回值 `true`，这样就很好的判断数组类型了。
 
@@ -82,7 +82,7 @@ arr.constructor === Array;	//true
 
 下面我们通过构造函数的示意图来进行分析：
 
-![图片描述](https://img.mukewang.com/wiki/5f1683a40842ccee13780616.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1683a40842ccee13780616.jpg)
 
 由上面的示意图可以知道，我们 new 出来的实例对象上的原型对象有 `constructor` 属性指向构造函数 Array，由此我们可以判断一个数组类型。
 
@@ -142,6 +142,6 @@ if (!Array.isArray){
 
 本节介绍了判断一个值是数组类型的方法 `Array.isArray()` 此方法可以很准确地判断数组，学习了在 ES5 中判断数组类型的几个方法的缺陷。在不支持 ES6 的情况下也可以通过 `Object.prototype.toString` 自定义 `Array.isArray()` 方法。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

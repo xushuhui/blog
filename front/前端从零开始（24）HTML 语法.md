@@ -74,7 +74,7 @@ HTML 以文档的形式存储，文档的后缀可以是 .html .htm .xhtml，有
 <span>我是默认的文本</span>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ef022d80946561302100102.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ef022d80946561302100102.jpg)
 
 这段代码中，定义了一个段落，并设置了字体为红色，当忘记使用闭合标签时
 
@@ -85,7 +85,7 @@ HTML 以文档的形式存储，文档的后缀可以是 .html .htm .xhtml，有
 
 在浏览器的展示效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5ef022f70960b41f03180052.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ef022f70960b41f03180052.jpg)
 
 可以看到，样式出现了错乱。
 
@@ -131,7 +131,7 @@ function count(){
 
 上述代码，通过使用 JavaScript 设置表单元素的 value 属性，实现了一个简单的加法计算器。
 
-![图片描述](https://img.mukewang.com/wiki/5ef0231d09233f8608090048.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ef0231d09233f8608090048.jpg)
 
 ### 4.4 注释
 
@@ -181,7 +181,7 @@ function count(){
 
 这样的话，浏览器的展示效果并未有什么变化，但是当打开浏览器调试工具可以发现：
 
-![图片描述](https://img.mukewang.com/wiki/5ef0233e098afcd505270192.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ef0233e098afcd505270192.jpg)
 
 浏览器帮我们补齐的缺失的标签。
 
@@ -189,12 +189,12 @@ function count(){
 
 开发过程中需要调试、查看代码，在浏览器中可以通过开发者工具方便的查看源码，这里以 Chrome 举例，在网页中点击右键 ->查看网页源代码 / 检查，即可查看源码。
 
-![图片描述](https://img.mukewang.com/wiki/5ef0235709669ff118020855.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ef0235709669ff118020855.jpg)
 
 # 总结
 
 本章主要从标签语法、属性用途、文件格式、框架结构等几个方面大致介绍了 HTML 的规范和标准，只是预热一下，没有作深入讨论。之后的章节里，我们会根据以上内容延伸讲解。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

@@ -61,6 +61,6 @@ console.log(str.startsWith("ove", 3));    // true
 
 在查询字符串中的开头时可以使用 `startsWith` 或者 `includes()`，在字符串少的情况下，它们的效率基本没有差别。但是如果在查询以某字符串开头的时候，使用 `startsWith` 会很有语义化，利于代码阅读。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

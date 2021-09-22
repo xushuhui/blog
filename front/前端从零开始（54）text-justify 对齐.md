@@ -80,7 +80,7 @@
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3e1e709c12c2305270176.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3e1e709c12c2305270176.jpg)
 
 默认文字排版效果图
 
@@ -120,7 +120,7 @@
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3e1fa092bf7f905270178.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3e1fa092bf7f905270178.jpg)
 
 浏览器默认对齐方式效果图
 
@@ -144,7 +144,7 @@
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3e2070913e27705210172.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3e2070913e27705210172.jpg)
 
 使用 `inter-ideograph` 来实现文字对齐效果图
 
@@ -168,7 +168,7 @@
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3e214093730d605230173.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3e214093730d605230173.jpg)
 
 使用 `inter-word` 来实现文本排版对齐效果图
 
@@ -192,7 +192,7 @@
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3e2220934d33b05190168.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3e2220934d33b05190168.jpg)
 
 使用 `inter-cluster` 来实现文本排版对齐效果图
 
@@ -207,6 +207,6 @@
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

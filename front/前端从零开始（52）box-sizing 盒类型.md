@@ -14,7 +14,7 @@ Chrome 浏览器使用的是标准盒模型 content-box，IE 盒模型是 border
 
 下面就是一个盒模型的结构图
 
-![](https://img.mukewang.com/wiki/5ea3da6808fbe08505000450.jpg)
+![](https://xushuhui.gitee.io/image/imooc/5ea3da6808fbe08505000450.jpg)
 
 ## 3. 语法
 
@@ -67,7 +67,7 @@ heigth = border + padding + content heigth
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3da0609b50c5702600150.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3da0609b50c5702600150.jpg)
 
 不同浏览器中的展示效果图
 
@@ -89,7 +89,7 @@ heigth = border + padding + content heigth
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3da1b0969371f01480144.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3da1b0969371f01480144.jpg)
 
 使用`border-box`效果图
 
@@ -109,7 +109,7 @@ heigth = border + padding + content heigth
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3da290911f80501870164.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3da290911f80501870164.jpg)
 
 使用`content-box`效果图
 
@@ -125,6 +125,6 @@ heigth = border + padding + content heigth
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

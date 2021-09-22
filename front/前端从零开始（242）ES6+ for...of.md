@@ -200,6 +200,6 @@ for (let n of fib) {
 * 对于数组的处理尽量使用 `for...of` 去迭代数据；
 * 如果要遍历的是对象，并且没有顺序的限制可以使用 `for...in` 方式遍历对象更好的处理数据。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

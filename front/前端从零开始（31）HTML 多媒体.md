@@ -120,7 +120,7 @@ audio 是 HTML5 中的新标签，用于播放音频流，格式如下：
 
 上述代码相当于在浏览器中定义了一个播放器，展示效果如下
 
-![图片描述](https://img.mukewang.com/wiki/5ef0539c092cf53504310099.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ef0539c092cf53504310099.jpg)
 
 ### 4.1 autoplay 属性
 
@@ -171,7 +171,7 @@ your browser does not support the video tag
 
 视觉效果如下
 
-![图片描述](https://img.mukewang.com/wiki/5ef053cf09856a6704750333.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ef053cf09856a6704750333.jpg)
 
 ## 7. 兼容性
 
@@ -190,6 +190,6 @@ HTML 中定义多媒体元素不是很复杂，但是难点在于各种浏览器
 
 本章介绍了多媒体技术在 HTML4 和 HTML5 中的使用方式，以及在不同的浏览器中的兼容性问题
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

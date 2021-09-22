@@ -18,7 +18,7 @@ throw '发生了一个错误！';
 alert('出错后');
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eafbdc50a4abd5717600678.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eafbdc50a4abd5717600678.jpg)
 
 当出现 `throw` 时，程序将会中断执行。
 
@@ -42,7 +42,7 @@ try {
 }
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eafbdd80a7bab9517600678.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eafbdd80a7bab9517600678.jpg)
 
 需要注意的是，以前 catch 后面的错误参数是必须接收的，否则会报错。
 
@@ -60,7 +60,7 @@ try {
 }
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eafbde80a8ce81c17600678.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eafbde80a8ce81c17600678.jpg)
 
 由于是比较新的提案，所以建议没有工具参与代码编译时，还是写上错误参数的接收，避免因浏览器兼容性造成的问题。
 
@@ -80,7 +80,7 @@ try {
 }
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eafbdfc0a20c52417600678.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eafbdfc0a20c52417600678.jpg)
 
 ## 3. 可以写条件的 catch 语句
 
@@ -130,7 +130,7 @@ try {
 }
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eafbe160a3acb8c17600678.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eafbe160a3acb8c17600678.jpg)
 
 和大部分内置对象一样，Error 实例也可以不使用 `new` 关键字创建。
 
@@ -142,7 +142,7 @@ try {
 }
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eafbe230aca231d17600678.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eafbe230aca231d17600678.jpg)
 
 抛出 Error 实例，可以得到出现异常的文件和对应的行号。
 
@@ -170,7 +170,7 @@ try {
 }
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eafc5bb0afe160a16080692.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eafc5bb0afe160a16080692.jpg)
 
 因为 `notDefinedVariable` 并没有定义，所以浏览器会抛出 `ReferenceError` 异常，同时提示变量没有定义。
 
@@ -182,6 +182,6 @@ try {
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

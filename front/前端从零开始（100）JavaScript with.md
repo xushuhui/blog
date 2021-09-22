@@ -64,7 +64,7 @@ function fn(obj) {
 
 这个场景其实和上面的类似，假如 obj 中没有属性 b ，则会造成上层作用域的污染。
 
-![图片描述](https://img.mukewang.com/wiki/5e7ad9b60a72d5dc13760432.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e7ad9b60a72d5dc13760432.jpg)
 
 ---
 
@@ -114,6 +114,6 @@ with 的使用需要谨慎，尽量在可控范围内使用。
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

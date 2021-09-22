@@ -291,6 +291,6 @@ Vuex.mapGetters({
 * 通过让 getter 返回一个函数给 getter 传参。
 * 使用 mapGetters 辅助函数简化获取 getter 的写法。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

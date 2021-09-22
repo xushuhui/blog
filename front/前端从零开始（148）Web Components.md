@@ -8,7 +8,7 @@
 
 这些子节点通常是看不见的，藏起来的，但是通过 `Chrome` 的设置可以显示出来。
 
-![图片描述](https://img.mukewang.com/wiki/5f2f97950a18eec015390755.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f2f97950a18eec015390755.jpg)
 
 这种看不见的子节点被称为 `Shadow DOM`，许多文献称为 `影子节点` 或者 `影子 DOM`。
 
@@ -57,7 +57,7 @@ window.customElements.define('to-imooc', ToImooc);
 <to-imooc></to-imooc>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5f2f97ce0ae642c620080954.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f2f97ce0ae642c620080954.jpg)
 
 这样就完成了一个简单的组件，可以重复使用。
 
@@ -65,7 +65,7 @@ window.customElements.define('to-imooc', ToImooc);
 
 根据 `Can I Use` 可以看出，该特性现在浏览器支持并不广泛，不太适合在生产环境使用，但基于该特性，还是衍射除了许多 “未来”。
 
-![图片描述](https://img.mukewang.com/wiki/5f2f97dd096b8dc325861372.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f2f97dd096b8dc325861372.jpg)
 
 ### 2.1 微前端
 
@@ -87,6 +87,6 @@ window.customElements.define('to-imooc', ToImooc);
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

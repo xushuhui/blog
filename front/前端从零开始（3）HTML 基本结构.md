@@ -1,3 +1,9 @@
+---
+title: 前端从零开始（3）HTML 基本结构
+zhihu-url: https://zhuanlan.zhihu.com/p/412778045
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b
+
+---
 # HTML 文件基本结构
 
 HTML 文件和普通文本文件不一样的地方还在于，我们如果想在 HTML 文件当中编写网页的内容，我们不仅要遵循 HTML 的语法，我们还必须按照 HTML 文件的结构来编写我们的代码，只有我们按照规定的结构来编写代码，才能达到我们想要的效果。
@@ -67,8 +73,8 @@ HTML 文件和普通文本文件不一样的地方还在于，我们如果想在
 </HTML>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5f62fa8f0961c9ad13450542.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f62fa8f0961c9ad13450542.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

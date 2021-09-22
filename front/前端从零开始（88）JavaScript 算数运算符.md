@@ -131,7 +131,7 @@ console.log(total); // 输出：8
 console.log(-8 ** 2); // 在JavaScript会报错
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5e7a13380a2de70515320432.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e7a13380a2de70515320432.jpg)
 
 以上幂运算是会报错的，因为 JavaScript 无法知道是要在计算完 8 的 2 次方后求反，还是计算 -8 的 2 次方。
 
@@ -279,6 +279,6 @@ var res = 1 + (((2 / 3) * 4) % (5 ** 7));
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

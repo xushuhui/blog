@@ -59,11 +59,11 @@ Chrome 和 Safari 支持替代的 -webkit-perspective 属性。
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5ea79586099b089b01000100.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea79586099b089b01000100.jpg)
 
 无透视
 
-![图片描述](https://img.mukewang.com/wiki/5ea795bc09d02f3001000101.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea795bc09d02f3001000101.jpg)
 
 有透视效果图
 
@@ -87,7 +87,7 @@ Chrome 和 Safari 支持替代的 -webkit-perspective 属性。
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5ea795ec089e096006440192.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea795ec089e096006440192.jpg)
 
 设置透视的 x 轴和 y 轴。
 
@@ -105,6 +105,6 @@ Chrome 和 Safari 支持替代的 -webkit-perspective 属性。
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

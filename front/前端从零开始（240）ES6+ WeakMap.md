@@ -20,7 +20,7 @@ console.log(wm)
 
 上面的代码打印结果如下：
 
-![图片描述](http://img.mukewang.com/wiki/5f4c8bab09d6716a12720376.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f4c8bab09d6716a12720376.jpg)
 
 从打印的结果可以大概了解 WeakMap 的存储方式，WeakMap 的实例本来就是一个对象。
 
@@ -102,6 +102,6 @@ var obj = {a: 10, b: 88};
 
 本节主要介绍了 WeakMap 的使用和应用场景，这里要说明的一点是：WeakMap 不算真正意义上的弱引用方式，只要键仍然存在，它就强引用其上的内容。最新的 ES 方案提出了 WeakRef 的 API 作为真正的弱引用方式，现在还处于不稳定期间，也还存在一些问题，如果有兴趣的可以研究一下。最后，在 WeakMap 的使用上，大多数都是用来进行一些必要的逻辑判断的。在 WeakMap 实例上添加一个对已知对象的引用，从而在需要使用时，对该对象进行必要的逻辑判断。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

@@ -333,6 +333,6 @@ console.log(obj.print()); //"imooc ES6 wiki"
 * 键是有顺序，根据添加的顺序决定的；
 * Map 是一个完善的 Hash 结构，在存放大数据，或在频繁增、删键值时表现优异。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

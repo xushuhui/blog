@@ -1,3 +1,10 @@
+---
+title: 前端从零开始（5）HTML 注释
+
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b
+
+zhihu-url: https://zhuanlan.zhihu.com/p/412825678
+---
 # HTML 文件的注释
 
 HTML 注释标签是在 HTML 源代码中添加说明 / 注释，使用该标签注释的内容将不在浏览器中显示。
@@ -140,8 +147,8 @@ HTML 注释标签是在 HTML 源代码中添加说明 / 注释，使用该标签
 1. 注释只是起一个批注解释作用，并不会在页面上产生实际的内容。
 2. HTML 文件中注释写在 `<!-- -->` 中。
 
-![图片描述](https://img.mukewang.com/wiki/5f62faec09c111c209660552.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f62faec09c111c209660552.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

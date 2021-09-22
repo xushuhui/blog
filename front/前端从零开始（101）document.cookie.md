@@ -8,7 +8,7 @@ cookie 可以作为单独知识了解，这里其实介绍的是 `document.cooki
 
 通过 document.cookie 可以获取与设置 cookie 。
 
-![图片描述](https://img.mukewang.com/wiki/5e7a48070aa0746917041128.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e7a48070aa0746917041128.jpg)
 
 ## 2. 获取 cookie
 
@@ -58,7 +58,7 @@ document.cookie = '名称=值; 属性1=属性值1; 属性2=属性值2';
 
 在开发者工具的 `Application` 面板，`cookie` 分类下，每一条 cookie 都可以看到对应的属性。
 
-![图片描述](https://img.mukewang.com/wiki/5e7a368209f2c94932702054.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e7a368209f2c94932702054.jpg)
 
 ## 5. 注意点
 
@@ -98,6 +98,6 @@ document.cookie = cookie;
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

@@ -49,6 +49,6 @@ HTML5 就是指万维网联盟 W3C 制定的 HTML 的第五代标准，那么为
 * shtml 是基于 ssi 技术的网页，全拼 server side include 服务端包含指令。通俗的说就是简化版的 CGI，就是说网页需要服务器预处理之后再呈现给浏览器解析
 * XHTML 是 HTML 的严谨版，它集结了 XML 和 HTML 的优点，比如强制使用 `<!DOCTYPE>` 标签
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

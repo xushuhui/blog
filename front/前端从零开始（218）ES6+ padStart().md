@@ -94,6 +94,6 @@ var date = String(new Date().getDate()).padStart(2, '0'); 			// 03
 * 在没有第二个参数时，则用空格填充；
 * 在实战中使用在日期前的补充会使代码变得非常简洁。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

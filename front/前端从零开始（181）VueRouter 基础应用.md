@@ -139,6 +139,6 @@ JS 代码第 24 行，通过 router 配置参数注入路由。
 * 通过 CDN、NPM、Yarn 等方式下载 VueRouter；
 * 使用 VueRouter 配置一个简单的单页应用。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

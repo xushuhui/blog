@@ -259,6 +259,6 @@ switch(x) {
 3. `let` 声明的变量不允许重复声明，无论重复用 `var` 或者其他声明都不行；
 4. 尽量使用 `let` 去代替 `var` 来声明变量。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

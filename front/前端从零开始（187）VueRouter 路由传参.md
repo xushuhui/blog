@@ -364,6 +364,6 @@ var vm = new Vue({
 * 通过 params 传递参数。
 * 通过 query 传递参数。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

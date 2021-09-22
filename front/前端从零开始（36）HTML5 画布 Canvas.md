@@ -29,7 +29,7 @@ var a = document.getElementById("test"); //根据id调用Canvas
 
 画布左上角 (0,0) 默认原点，x 坐标向右方增长，y 坐标则向下方延伸：
 
-![图片描述](https://img.mukewang.com/wiki/5f0d6464095d20b202280225.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f0d6464095d20b202280225.jpg)
 
 但是，Canvas 的坐标体系并不是一成不变的，原点是可改变的。坐标变换：可以对 Canvas 坐标系统进行移动 translate、旋转 rotate 和缩放等操作。坐标变换之后绘制的图形 x,y 偏移量都以新原点为准， 旋转角度，缩放比，以新坐标系角度为准。
 
@@ -368,6 +368,6 @@ function isFinish(x1,y1,isTrue) {//判断是否结束棋局
 
 本章介绍了 HTM5 中新增的绘图工具 Canvas，Canvas 的历史，以及通过几种简单的实操方式介绍了如何实际使用画布。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

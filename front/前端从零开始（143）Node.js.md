@@ -18,21 +18,21 @@
 
 windows 下可以直接在开始中进行搜索，搜索命令提示符，打开搜索结果。
 
-![图片描述](https://img.mukewang.com/wiki/5f1d1eff09383ce308530636.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1d1eff09383ce308530636.jpg)
 
 打开后在命令提示符中输入 `node -v` 并回车，如果有正确输出安装的 `Node.js` 的版本号，则表示安装成功。
 
-![图片描述](https://img.mukewang.com/wiki/5f1d1fe609e3fb3e06940370.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1d1fe609e3fb3e06940370.jpg)
 
 ### 1.2 Mac OS 下打开终端
 
 在 `Mac OS` 操作系统下，打开 `聚焦搜索` ，输入 `终端` 后回车即可打开终端。
 
-![图片描述](https://img.mukewang.com/wiki/5f1d1f7c09e393bb13600860.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1d1f7c09e393bb13600860.jpg)
 
 打开终端后输入 `node -v`，如果正确输出了版本号，则表示安装成功。
 
-![图片描述](https://img.mukewang.com/wiki/5f1d1f9309e345e911700730.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1d1f9309e345e911700730.jpg)
 
 > 因为两个平台下的命令几乎一致，后续内容不再区分平台，统一使用 Mac OS 下的终端。
 
@@ -44,7 +44,7 @@ windows 下可以直接在开始中进行搜索，搜索命令提示符，打开
 npm -v
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5f1d206109039ca706980174.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1d206109039ca706980174.jpg)
 
 `npm` 的全称是 `Node Package Manager`，翻译过来就是 `node.js` 的包管理工具。
 
@@ -60,7 +60,7 @@ npm -v
 
 可以通过 `npm` 提供的命令创建一个 `package.json`，可以先创建一个项目目录，然后在终端中进入到这个目录，使用 `npm init -y` 命令，就可以创建一个最简单的 `package.json`。
 
-![图片描述](https://img.mukewang.com/wiki/5f1d20a009081cd210980626.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1d20a009081cd210980626.jpg)
 
 当然现在的工程化的前端项目，也会用 `package.json` 来描述项目信息，来管理依赖、工作里等，一个包不一定要发送到 npm 上。
 
@@ -138,7 +138,7 @@ console.log(text);
 
 写完这三行代码，保存后就可以去终端执行代码了。
 
-![图片描述](https://img.mukewang.com/wiki/5f1d20c60ad937e111080630.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1d20c60ad937e111080630.jpg)
 
 `fs` 模块的 `readFileSync` 方法，表示可以同步的读取一个文件，然后将读取到的文件放在 `text` 变量中。
 
@@ -164,7 +164,7 @@ npm init -y
 npm i md5
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5f1d20e70a67e24210920522.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1d20e70a67e24210920522.jpg)
 
 然后新建一个 `.js` 文件，尝试着使用 `md5` 这个包。
 
@@ -179,7 +179,7 @@ var encode = md5(password);
 console.log(encode);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5f1d20fa09a5299008140174.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1d20fa09a5299008140174.jpg)
 
 安装好的包直接通过 `require` 引入，然后跟着包的文档使用即可。
 
@@ -193,6 +193,6 @@ console.log(encode);
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

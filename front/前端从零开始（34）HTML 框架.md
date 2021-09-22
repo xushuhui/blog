@@ -151,6 +151,6 @@ iframe.onload = function(){
 
 框是 HTML 中引用外部网页的方式，本章介绍了 iframe 元素的使用方式，以及使用框的优缺点。在实际项目开发中需要结合网页设计中的网络加载时间、性能、代码可用性等因素考虑，决定是否需要使用 iframe。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

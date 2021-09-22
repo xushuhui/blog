@@ -381,6 +381,6 @@ HTML 代码第 2-4 行，我们使用 keep-alive 包裹动态组件 component。
 * 使用 include 属性指定需要缓存的组件；
 * 使用 exclude 属性指定不需要缓存的组件。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

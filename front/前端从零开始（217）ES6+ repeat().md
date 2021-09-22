@@ -77,6 +77,6 @@ let resultString = str.repeat(count);
 * 重复次数不能为负数；
 * 重复次数必须小于 infinity，且长度不会大于最长的字符串。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

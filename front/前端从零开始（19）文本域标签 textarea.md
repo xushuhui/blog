@@ -12,7 +12,7 @@
 
 效果如下：
 
-![20200709154411323](https://img.mukewang.com/wiki/5f07cede097177db02960114.jpg)
+![20200709154411323](https://xushuhui.gitee.io/image/imooc/5f07cede097177db02960114.jpg)
 
 我们可以通过可以通过 COLS 和 ROWS 属性来规定 textarea 的尺寸。cols 设置文本域的宽度，rows 设置文本域的高度。代码如下：
 
@@ -22,7 +22,7 @@
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cef1098548e504410266.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cef1098548e504410266.jpg)
 
 需要注意的是，文本域的右下角有一个可以拖拽的区域，可以通过拖拽来改变文本的宽高，如果想要取消这个功能，需要通过 CSS 样式来取消。
 
@@ -30,7 +30,7 @@
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cf0609e1f03304310278.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cf0609e1f03304310278.jpg)
 
 如果在文本域标签当中写入了内容，那么这些内容会显示文本域的区域内。代码如下：
 
@@ -40,7 +40,7 @@
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07cf1609b3bffd04710262.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07cf1609b3bffd04710262.jpg)
 
 ## 2. 注意事项
 
@@ -67,8 +67,8 @@
 2. 文本域可以通过设置 cols 和 rows 来改变文本域的宽高。
 3. 文本域可以设置`placeholder` 属性来添加占位符。
 
-![图片描述](https://img.mukewang.com/wiki/5f6305ea09e4b5b214070662.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f6305ea09e4b5b214070662.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

@@ -24,7 +24,7 @@ npm init -y
 npm i typescirpt -D
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5f2f94770a73672011280692.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f2f94770a73672011280692.jpg)
 
 由于 `TS` 也是在开发过程中才会使用，上线前都会编译成 `JavaScript`，所以作为开发环境下的依赖。
 
@@ -57,7 +57,7 @@ npm run ts
 
 类型是 `TS` 最重要的特性之一，特别是在开发过程中，这一特性会帮助开发工具进行类型推断：
 
-![图片描述](https://img.mukewang.com/wiki/5f2f94f20a9835f911280692.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f2f94f20a9835f911280692.jpg)
 
 ## 3. 配置文件
 
@@ -75,6 +75,6 @@ npm run ts
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

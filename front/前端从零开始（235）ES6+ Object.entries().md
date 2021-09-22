@@ -135,6 +135,6 @@ console.log(obj);     // {name: "imooc", age: 7}
 
 本节主要讲解了 ES6 提供了获取可枚举对象上的键值对的方法，这个方法在开发中很常用，主要用于 `for...of` 循环和 Map 数据结构的转化。另外，`Object.fromEntries()` 是 `Object.entries()` 的反转函数，他们的操作是相反的，主要用在对 Map 数据结构转换为普通的对象结构。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

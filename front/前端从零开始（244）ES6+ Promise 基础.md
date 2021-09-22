@@ -86,7 +86,7 @@ Promise.all([request(url1), request(url1), request(url1)]).then((result) => {
 
 首先需要明确 Promise 是一个类，我们在 VSCode 中输入 `new Promise()` 会给我们如下的提示：
 
-![图片描述](http://img.mukewang.com/wiki/5f834b9e0971024c10660378.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f834b9e0971024c10660378.jpg)
 
 在 `new Promise()` 时需要默认需要传入一个回调函数，这个回调函数是 executor（执行器），默认会立即执行。执行器会提供两个方法（resolve 和 reject）用于改变 promise 的状态。`resolve` 会触发成功状态，`reject` 会触发失败状态，无论成功或失败都会传入一个返回值，这个返回值会在实例调用 `then` 方法后作为响应值获取。
 
@@ -174,6 +174,6 @@ promise.then(null, (err) => {
 
 本节主要通过 JavaScript 中回调地狱的一个案例来引出为什么使用 Promise，以及 Promise 所带来的好处。然后学习了 Promise 的基本使用和链式调用 then 方法，需要注意的是，then 中执行成功或是失败是根据它上一层的返回值，如果返回的是一个普通值或成功的 Promise 则会走 then 的成功回调；如果抛出异常或返回失败的 Promise 则走 then 的失败回调。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

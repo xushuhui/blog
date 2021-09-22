@@ -2,7 +2,7 @@
 
 label 标签的作用为 input 元素定义标注（标记）。label 元素不会向用户呈现任何特殊效果。不过，它为鼠标用户改进了可用性。如果您在 label 元素内点击文本，就会触发此控件。就是说，当用户选择该标签时，浏览器就会自动将焦点转到和标签相关的表单控件上。例如：
 
-![图片描述](https://img.mukewang.com/wiki/5f07ce4209f8dd3908560474.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07ce4209f8dd3908560474.jpg)
 
 ## 1. label 标签的使用
 
@@ -15,7 +15,7 @@ label 需要和 input 标签搭配一起使用。LABEL 标签的 `for` 属性需
 
 效果如下：
 
-![图片描述](https://img.mukewang.com/wiki/5f07ce5209d5484803930114.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07ce5209d5484803930114.jpg)
 
 ## 2. label 标签的作用
 
@@ -65,8 +65,8 @@ label 需要和 input 标签搭配一起使用。LABEL 标签的 `for` 属性需
 3. 点击 label 标签的内容，会让 input 输入框获取焦点。
 4. label 标签的 `for` 属性必须和 input 的 `id`属性一致。
 
-![图片描述](https://img.mukewang.com/wiki/5f6308a909f077a414530721.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f6308a909f077a414530721.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

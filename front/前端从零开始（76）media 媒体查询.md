@@ -163,7 +163,7 @@ mediatype 有一个表：
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb0cdc10a46bcd111400472.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb0cdc10a46bcd111400472.jpg)
 
 ```javascript
 <!DOCTYPE html>
@@ -202,7 +202,7 @@ mediatype 有一个表：
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb0ce1b0ae2c16711400472.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb0ce1b0ae2c16711400472.jpg)
 
 ```javascript
 <!DOCTYPE html>
@@ -238,7 +238,7 @@ mediatype 有一个表：
 
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eb0ce530a4daf5111400472.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb0ce530a4daf5111400472.jpg)
 
 ```javascript
 <!DOCTYPE html>
@@ -276,6 +276,6 @@ mediatype 有一个表：
 
 说明：`@media` 变成了标签属性 `media` , 上面的意思就是用来区分移动设备是横向还是纵向的。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

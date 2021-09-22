@@ -1,8 +1,14 @@
+---
+title: 前端从零开始（0）HTML 介绍
+zhihu-url: https://zhuanlan.zhihu.com/p/412619102
+zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b
+
+---
 # HTML 介绍
 
 各位慕课网的小伙伴们，大家好，从今天开始，我们一起来学习 HTML。如果我们要编写网页，那么我们肯定离不开 HTML 。HTML 组成了每个网页的基本结构，不管是我们的企业门户网站，还是例如淘宝，京东这种复杂的电商网站，要完成网页的搭建，第一步都是 HTML ，那么 HTML 到底是什么呢？让我们一起探索吧。
 
-![](https://img.mukewang.com/wiki/5f8fc9d909a139e909250515.jpg)
+![](https://xushuhui.gitee.io/image/imooc/5f8fc9d909a139e909250515.jpg)
 
 HTML
 
@@ -65,6 +71,6 @@ HTML 现在最新标准为第五代标准，又简称为 **HTML5** 。HTML 在 W
 
 本课程适用于对于前端没有基础，想要了解学习前端 HTML 知识内容的同学们。
 
-### 微信公众号
-
+### 微信公众号老徐说
+欢迎关注公众号老徐说
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

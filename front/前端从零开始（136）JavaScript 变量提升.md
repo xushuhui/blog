@@ -16,7 +16,7 @@ var number = 1;
 console.log(number); // 输出：1
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eedc32809dcaafb10180232.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eedc32809dcaafb10180232.jpg)
 
 这段代码先输出了 `undefined` 再输出了 `1`。
 
@@ -48,7 +48,7 @@ number = 1;
 console.log(number);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eedc339090cfa3f10640226.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eedc339090cfa3f10640226.jpg)
 
 这样就会抛出变量不存在的异常。
 
@@ -64,7 +64,7 @@ function fn(str) {
 }
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eedc34509ec849810260200.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eedc34509ec849810260200.jpg)
 
 这段代码可以被正常执行，函数也能被正常调用，因为在生成执行上下文阶段，整个函数会提升到最前面。
 
@@ -95,6 +95,6 @@ var fn = function(str) {
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

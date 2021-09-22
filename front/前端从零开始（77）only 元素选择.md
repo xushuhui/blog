@@ -53,7 +53,7 @@
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb1563709bdf1cf00800054.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb1563709bdf1cf00800054.jpg)
 
 一个标签时候背景变成红色效果图
 
@@ -99,7 +99,7 @@
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb156c109377b6101340045.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb156c109377b6101340045.jpg)
 
 无效果效果图
 
@@ -140,7 +140,7 @@
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb1575209a60dc700870092.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb1575209a60dc700870092.jpg)
 
 一个元素效果图
 
@@ -186,7 +186,7 @@
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb157b2094034d601370072.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb157b2094034d601370072.jpg)
 
  demo 内部只有 一个 demo 时候 内部的 demo 变成红色效果图
 
@@ -235,7 +235,7 @@
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb1563709bdf1cf00800054.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb1563709bdf1cf00800054.jpg)
 
  demo 变红效果图
 
@@ -281,7 +281,7 @@
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb158d00981f13702160104.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb158d00981f13702160104.jpg)
 
  变红效果图
 
@@ -315,6 +315,6 @@
 
 这两个伪类功能很类似，我们不容易区分但是这里有个小技巧 `:only-child` 就像 JS 中的 `id` 一样，只能是唯一的。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

@@ -92,7 +92,7 @@ for (i = 0, j = arr.length - 1; arr[i]; i++, j--) {
 }
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5eb1784e09f3ed4417940412.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb1784e09f3ed4417940412.jpg)
 
 输出对角线，就是输出 `arr[0][2]` 、 `arr[1][1]` 、 `arr[2][0]`，利用逗号运算符就能很轻易的做到。
 
@@ -142,6 +142,6 @@ var i = 1, j, person = {}, arr = [];
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

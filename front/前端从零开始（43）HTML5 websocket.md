@@ -234,6 +234,6 @@ switch (ws.readyState){
 
 本章介绍了 websocket 的前世今生，详细说明其对应的 API 的调用方式，最后使用了一个简单的聊天室的例子来对其函数串通了一下，最后延伸了一下实际项目中使用 websocket 需要注意的地方，希望大家在实际开发中针对其优缺点来选择合适的使用场景。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

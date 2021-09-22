@@ -374,6 +374,6 @@ JS 代码第 24 行，通过 router 配置参数注入路由。
 * 通过 redirect 属性指定路由重定向地址。
 * 通过 alias 属性配置路由别名。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

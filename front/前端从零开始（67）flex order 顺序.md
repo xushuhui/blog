@@ -64,7 +64,7 @@ order 属性设置或检索弹性盒模型对象的子元素出现的順序。
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb0ea02095d2d2a02120113.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb0ea02095d2d2a02120113.jpg)
 
 ```javascript
 <!DOCTYPE html>
@@ -139,7 +139,7 @@ order 属性设置或检索弹性盒模型对象的子元素出现的順序。
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb0eab709b707c801150211.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb0eab709b707c801150211.jpg)
 
 ```javascript
 <!DOCTYPE html>
@@ -191,6 +191,6 @@ order 属性设置或检索弹性盒模型对象的子元素出现的順序。
 
 1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

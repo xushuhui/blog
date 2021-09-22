@@ -165,6 +165,6 @@ for (let i = 0; i < 3; i++) {
 3. `let` 和 `const` 声明的变量，都不能变量提升，都存在暂存死区；
 4. `let` 和 `const` 声明的变量不允许重复声明，无论重复用 `var` 或者其他声明都不行。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

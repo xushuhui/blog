@@ -64,7 +64,7 @@ border: [border-width ||border-style ||border-color |inherit] ;
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea2b8d009e3bb3e01110112.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea2b8d009e3bb3e01110112.jpg)
 
 为 demo 增加边框效果图
 
@@ -83,7 +83,7 @@ border: [border-width ||border-style ||border-color |inherit] ;
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea2b8ed098e23b201110113.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea2b8ed098e23b201110113.jpg)
 
 只给 demo 的顶部增加一个边框效果图
 
@@ -103,7 +103,7 @@ border: [border-width ||border-style ||border-color |inherit] ;
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea2b8ff0971ee5901090035.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea2b8ff0971ee5901090035.jpg)
 
 修改 button 默认的边框样式效果图
 
@@ -125,7 +125,7 @@ border: [border-width ||border-style ||border-color |inherit] ;
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea2b910090d82b201120113.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea2b910090d82b201120113.jpg)
 
 个性化 demo 每个边框的颜色效果图
 
@@ -169,6 +169,6 @@ border-width:2px;
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

@@ -53,7 +53,7 @@ flex-wrap: nowrap|wrap|wrap-reverse|initial|inherit;
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb13aa8099506c307380211.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb13aa8099506c307380211.jpg)
 
 换行效果图
 
@@ -110,7 +110,7 @@ flex-wrap: nowrap|wrap|wrap-reverse|initial|inherit;
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb13ac809db0d0f07480213.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb13ac809db0d0f07480213.jpg)
 
 换行反向效果图
 
@@ -154,6 +154,6 @@ flex-wrap: nowrap|wrap|wrap-reverse|initial|inherit;
 
 1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

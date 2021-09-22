@@ -214,6 +214,6 @@ const shapeType = {
 
 本节学习了 ES6 新增数据类型 `Symbol`，使用它可以声明一个独一无二的变量，通常会作为对象的属性存在，解决属性名冲突的问题。注意这个属性是不能被迭代的，如果想要迭代它可以使用 `Reflect.ownKeys()` 的方式去获取 key 值。最后介绍了 `Symbol` 在实战中的应用。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

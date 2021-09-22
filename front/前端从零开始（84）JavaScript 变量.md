@@ -12,7 +12,7 @@
 
 每个变量都有唯一的变量名，使用变量名来区分变量。
 
-![图片描述](https://img.mukewang.com/wiki/5e7ae7af09c9e23014400452.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e7ae7af09c9e23014400452.jpg)
 
 ## 1. 声明变量
 
@@ -139,7 +139,7 @@ var $number = 1;
 
 以上是一些简单的示例，可以根据规则自己在控制台尝试寻找规则。
 
-![图片描述](https://img.mukewang.com/wiki/5e7a42720a59717f10810372.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e7a42720a59717f10810372.jpg)
 
 ### 3.2 变量对大小写敏感
 
@@ -464,6 +464,6 @@ define('DB_PASSWORD', 'root');
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

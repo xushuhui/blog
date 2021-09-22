@@ -203,6 +203,6 @@ vue-devtools 可以从 chrome 商店直接下载安装。我们可以打开 chro
 
 在本小节我们介绍了什么是 `vue-cli`，如何安装 `vue-cli`。介绍了调试工具 `VueDevTools` 的安装和使用。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

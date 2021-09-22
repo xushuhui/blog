@@ -19,7 +19,7 @@ var fn = function() {
 fn();
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ee4718e0925603808600322.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ee4718e0925603808600322.jpg)
 
 全局的作用域很好理解，即全局下的变量、函数在任何地方都能被访问到。
 
@@ -46,7 +46,7 @@ fn();
 console.log(str); // 输出：ReferenceError: str is not defined
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ee4719b09882f6714280548.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ee4719b09882f6714280548.jpg)
 
 函数内的变量 `str` 在函数外部无法访问到，因为其所在的作用域是函数 `fn` 的作用域，所以只在 `fn` 函数内能被访问。
 
@@ -70,7 +70,7 @@ console.log(number1); // 输出：1
 console.log(number2); // 输出：ReferenceError: number2 is not defined
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ee471af09fd7bf112620466.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ee471af09fd7bf112620466.jpg)
 
 本身 eval 用到的情况就少，所以这种情况下做个了解即可。
 
@@ -120,11 +120,11 @@ var fn1 = function() {
 fn1();
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ee471ca09ae9f0b11740758.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ee471ca09ae9f0b11740758.jpg)
 
 例子中的 `fn3` 就具有访问 `fn2作用域`、`fn1作用域`、`全局作用域`的能力。
 
-![图片描述](https://img.mukewang.com/wiki/5ee471d209e69ed119120730.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ee471d209e69ed119120730.jpg)
 
 这样从内往外就形成了一条作用域链。
 
@@ -159,6 +159,6 @@ fn1();
 
 
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

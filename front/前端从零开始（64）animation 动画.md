@@ -96,7 +96,7 @@ animation-direction 参数值详解：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea7c90a0a2be66404890128.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea7c90a0a2be66404890128.jpg)
 
 动画效果图
 
@@ -123,7 +123,7 @@ animation-direction 参数值详解：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea7c9170a036f4704890128.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea7c9170a036f4704890128.jpg)
 
 通过设置动画函数修改动画执行的快慢效果图
 
@@ -152,7 +152,7 @@ animation-direction 参数值详解：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea7c9220ad35b7d04890128.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea7c9220ad35b7d04890128.jpg)
 
 延迟动画效果图
 
@@ -181,7 +181,7 @@ animation-direction 参数值详解：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea7c92e0ad249b604890128.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea7c92e0ad249b604890128.jpg)
 
 多次播放动画效果图
 
@@ -208,7 +208,7 @@ animation-direction 参数值详解：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea7c9390a2e321b04890128.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea7c9390a2e321b04890128.jpg)
 
 无限循环效果图
 
@@ -256,7 +256,7 @@ animation-direction 参数值详解：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5efab18e0ace011605160529.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5efab18e0ace011605160529.jpg)
 
 ```javascript
 <!DOCTYPE html>
@@ -347,7 +347,7 @@ animation-direction 参数值详解：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5efa0a050a4b5d8905020508.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5efa0a050a4b5d8905020508.jpg)
 
 效果图
 
@@ -422,7 +422,7 @@ animation-direction 参数值详解：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5efa0af60aed937305020340.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5efa0af60aed937305020340.jpg)
 
 设置动画开始和结束状态效果图
 
@@ -501,7 +501,7 @@ animation-direction 参数值详解：
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea7c97b0a9ee73003370051.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea7c97b0a9ee73003370051.jpg)
 
 说明： `transition` 不能实现（隐藏 / 显示）之间的过渡效，原因是 `diaplay:none` 设置之后虽然元素在页面中，但是这个标签不在浏览器的渲染进程里面。如果这个元素属性为 `display：block` 相当于元素从新渲染出来，这时里面的 `opacity: 0` 到 1 就不起作用了。所以这里使用 `animation` 正好可以弥补这个问题。
 
@@ -510,6 +510,6 @@ animation-direction 参数值详解：
 1. 尽量停止不可以见的动画，以减少卡顿。
 2. 尽量使用 `transform` 属性完成动画内部属性的切换，因为它是使用 GPU 计算的，也会提升动画的性能。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

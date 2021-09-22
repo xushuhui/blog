@@ -8,7 +8,7 @@ H 标签直观的告诉用户，网页哪部分是重要的，哪些是不那么
 
 当我们需要在页面上，特别是为文章或段落定义标题时，我们就需要用 H 标签了。**例如：**
 
-![图片描述](https://img.mukewang.com/wiki/5f07c19f09f2370405240125.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07c19f09f2370405240125.jpg)
 
 而 HTML 给我们提供了从 H1 - H6 6 个选择，让我们可以超大标题到超小标题自由选择，可以适应各种场景。
 
@@ -27,7 +27,7 @@ H1 - H6 标签都为双标签，所以必须有首尾标签。**例如：**
 
 那么在页面上会呈现以下效果：
 
-![图片描述](https://img.mukewang.com/wiki/5f07c3db0975d91d02810285.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07c3db0975d91d02810285.jpg)
 
 ## 3. H 标签的特点
 
@@ -37,7 +37,7 @@ H1 - H6 标签都为双标签，所以必须有首尾标签。**例如：**
 
 **例如：**
 
-![图片描述](https://img.mukewang.com/wiki/5f07c3e8094e0e5203800323.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f07c3e8094e0e5203800323.jpg)
 
 ## 4. 注意事项
 
@@ -67,8 +67,8 @@ H1 - H6 标签都为双标签，所以必须有首尾标签。**例如：**
 3. H 标签均为块级元素，既默认占一整行，自带换行效果；
 4. H 标签均有上下边距，既 CSS 中的外边距。
 
-![图片描述](https://img.mukewang.com/wiki/5f62ff100956a50610640732.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f62ff100956a50610640732.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

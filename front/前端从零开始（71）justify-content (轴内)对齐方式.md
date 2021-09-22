@@ -119,7 +119,7 @@ justify-content: flex-start|flex-end|center|space-between|space-around|initial|i
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb144cc0956750305600768.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb144cc0956750305600768.jpg)
 
  各种对齐方式的效果图
 
@@ -129,6 +129,6 @@ justify-content: flex-start|flex-end|center|space-between|space-around|initial|i
 
 4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

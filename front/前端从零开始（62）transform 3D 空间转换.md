@@ -18,7 +18,7 @@ transform: none|transform-functions;
 
 3D 空间坐标轴
 
-![坐标轴](https://img.mukewang.com/wiki/5ea79e8008dcde4804200440.jpg)
+![坐标轴](https://xushuhui.gitee.io/image/imooc/5ea79e8008dcde4804200440.jpg)
 
 坐标轴值说明
 
@@ -92,7 +92,7 @@ body{
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea79e1c089a217a05280260.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea79e1c089a217a05280260.jpg)
 
 demo 在 z 坐标轴向内延伸 100px ，效果图
 
@@ -108,7 +108,7 @@ demo 在 z 坐标轴向内延伸 100px ，效果图
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea79e3b085cfe5402440236.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea79e3b085cfe5402440236.jpg)
 
 demo 在 z 轴空间上缩放效果图
 
@@ -124,7 +124,7 @@ demo 在 z 轴空间上缩放效果图
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea79e4b080baf2b03020288.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea79e4b080baf2b03020288.jpg)
 
 demo-3d 在 z 轴上旋转效果图
 
@@ -142,7 +142,7 @@ demo-3d 在 z 轴上旋转效果图
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5ea79e590864104f06240404.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea79e590864104f06240404.jpg)
 
 在 x，y，z 上应用 translate3d 和 rotateZ 效果图
 
@@ -197,7 +197,7 @@ demo-3d 在 z 轴上旋转效果图
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea79e6e086fab5107340590.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea79e6e086fab5107340590.jpg)
 
 墙角效果图
 
@@ -237,6 +237,6 @@ transform-origin: 50% 0  0;
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

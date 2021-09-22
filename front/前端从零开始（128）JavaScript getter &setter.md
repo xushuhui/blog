@@ -137,7 +137,7 @@ person.cash = 2;
 console.log(person.money);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ec2ae8d0910109213660634.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ec2ae8d0910109213660634.jpg)
 
 ## 4. 小结
 
@@ -151,6 +151,6 @@ getter/setter 是 `ES5` 中的特性，所以要注意 IE8 并不支持。
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

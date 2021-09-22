@@ -26,7 +26,7 @@ for (var i in document) {
 
 > 对浏览器而言，document 实际上不是最顶层的节点，再向上还有 window ，这一点可以在事件相关的章节体现。
 
-![图片描述](https://img.mukewang.com/wiki/5e82de6c081861d414400768.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e82de6c081861d414400768.jpg)
 
 ## 小结
 
@@ -36,6 +36,6 @@ JavaScript 和 DOM 本身是可以没有关系的，但是开发者需要操作 
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

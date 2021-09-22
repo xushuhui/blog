@@ -85,6 +85,6 @@ module.exports = {
 
 本节我们带大家学习了如何在项目中使用 Mock 数据。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

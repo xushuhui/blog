@@ -110,7 +110,7 @@ Number.isSafeInteger(996); // true
 
 观察控制台可以看到， `0.1 + 0.2 === 0.3` 是不成立的。
 
-![图片描述](https://img.mukewang.com/wiki/5e7a2ab90a4d084915320432.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5e7a2ab90a4d084915320432.jpg)
 
 在计算机中，所有的内容都是有二进制表示的，数字也不例外。
 
@@ -215,6 +215,6 @@ console.log(isNaN(1 - 'a')); // 输出：true
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

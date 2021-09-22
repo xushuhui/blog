@@ -48,7 +48,7 @@
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb29f340828069b04360438.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb29f340828069b04360438.jpg)
 
 宽度比父级宽度小 200px 效果图
 
@@ -99,7 +99,7 @@
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb29f4208ecff6704300428.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb29f4208ecff6704300428.jpg)
 
 宽度、高度为父元素的 1/3 效果图
 
@@ -150,7 +150,7 @@
 
 效果图：
 
-![图片描述](https://img.mukewang.com/wiki/5eb2a1cc0841532204420438.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb2a1cc0841532204420438.jpg)
 
 宽度、高度为父元素的 1/3 效果图
 
@@ -202,6 +202,6 @@ calc( 100%/3 + 200px/3)
 
 1. 要注意，calc 中的**运算符**的前后都需要保留一个**空格**，这一点千万不要忘记得了，如果遇到问题不要慌，打代码调试器看看问题到底出在哪里了。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

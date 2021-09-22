@@ -37,7 +37,7 @@ set.add('imooc').add({age: '7'})
 cosnole.log(set)	// 如下图
 ```
 
-![图片描述](http://img.mukewang.com/wiki/5f428414098e82e705180276.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f428414098e82e705180276.jpg)
 
 上面的例子中，对 `Set` 实例添加元素，可以添加引用类型数据。`Set` 的存储方式是以对象的形式存放的，所以 `Set` 的本质也就是一个对象，它继承 Object，我们可以通过原型链（ `__proto__` ）找到最上层是 Object。
 
@@ -165,6 +165,6 @@ for(var [key, value] of set.entries()) {
 
 本节我们深入地学习了 Set 数据结构的基本用法和它提供的三个扩展方法。另外，通过案例数组去重，深入了解了 Set 数据结构的用途。 Set 数据结构的本质还是一个键值对的对象，只不过键和值是相等的，这也是 Set 集合中元素不能重复的原因之一。并且 Set 是一个构造函数，需要实例化一个 Set 数据结构才能使用。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

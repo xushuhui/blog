@@ -43,7 +43,7 @@ border-image:source slice repeat;
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3ab8509528c6202140215.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3ab8509528c6202140215.jpg)
 
  使用 `border-image` 为元素自定义一个图片边框效果图
 
@@ -64,7 +64,7 @@ border-image:source slice repeat;
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3ab8509528c6202140215.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3ab8509528c6202140215.jpg)
 
  使用 `border-image-source` 为元素设定一个边框效果图
 
@@ -86,7 +86,7 @@ border-image:source slice repeat;
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3abbc090f814601560156.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3abbc090f814601560156.jpg)
 
  增加 `border-image-slice`效果图
 
@@ -109,7 +109,7 @@ border-image:source slice repeat;
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3abce0920b25102180200.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3abce0920b25102180200.jpg)
 
  增加 `border-image-outset`效果图
 
@@ -133,7 +133,7 @@ border-image:source slice repeat;
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3abdf09e69bbd01990197.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3abdf09e69bbd01990197.jpg)
 
  使用 `border-image-repeat` 来为 demo2 设定图片的填充形式效果图通过效果图我们可以看到图片是以平铺重复的方式来填充的，而这个属性默认是 stretch 拉伸来填充图片的。这个属性还有以下值
 
@@ -187,6 +187,6 @@ border-image:source slice repeat;
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

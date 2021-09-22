@@ -164,12 +164,12 @@ b.getAge();
 
 下图是上面代码的打印结果，创建实例 a 时没有第三个参数，它的原型上的 `constructor` 指向的是类 A，并且有 `getName` 方法。创建实例 b 时有第三个参数，打印的结果可以看到实例 b 原型上的 `constructor` 执行的是类 B，并且有 B 上的 `getAge` 方法。
 
-![](http://img.mukewang.com/wiki/5f9f6d0c0960f76d02610285.jpg)
+![](https://xushuhui.gitee.io/image/imooc/5f9f6d0c0960f76d02610285.jpg)
 
 ## 3. 小结
 
 本节主要讲解了 Reflect 扩展方法的使用
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

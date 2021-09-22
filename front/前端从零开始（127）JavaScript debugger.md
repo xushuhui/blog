@@ -26,7 +26,7 @@ console.log(str);
 console.log(1 + 1);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ec00c3a0aac534914020837.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ec00c3a0aac534914020837.jpg)
 
 断点设置好之后可以在`开发者工具`的 `Sources` 面板进行调试。
 
@@ -36,7 +36,7 @@ console.log(1 + 1);
 
 这种情况下需要在 `开发者工具` 的 `Sources` 面板找到对应的源码，打上断点。
 
-![图片描述](https://img.mukewang.com/wiki/5ec00c460a4b294f21540910.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ec00c460a4b294f21540910.jpg)
 
 在源码的对应行号出点击，即可设置上断点，如果是已经执行过的代码，则需要刷新才会在断点处暂停程序。
 
@@ -44,7 +44,7 @@ console.log(1 + 1);
 
 一个节点上的事件，可以通过 `Elements` 面板的 `Event Listeners` 来查看定位。
 
-![图片描述](https://img.mukewang.com/wiki/5ec00e260a10ae5e20460865.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ec00e260a10ae5e20460865.jpg)
 
 ## 3. 小结
 
@@ -58,6 +58,6 @@ debugger 用于设置断点，调试非常有用。
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

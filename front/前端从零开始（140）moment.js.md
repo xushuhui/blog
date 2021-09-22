@@ -17,7 +17,7 @@
 </script>
 ```
 
-![](https://img.mukewang.com/wiki/5f018114091027d911800404.jpg)
+![](https://xushuhui.gitee.io/image/imooc/5f018114091027d911800404.jpg)
 
 现在的相对时间差需求非常常见，如下单时间，是 `多少分钟前`，`moment.js` 提供了相对时间计算：
 
@@ -28,7 +28,7 @@ var timestamp = 1593933593236; // 2020年7曰5日下午15点20分38秒
 moment(timestamp).fromNow(); // 相对时间戳多久前
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5f0181230965f5e012180272.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f0181230965f5e012180272.jpg)
 
 ## 2. 国际化
 
@@ -51,7 +51,7 @@ moment(timestamp).fromNow(); // 相对时间戳多久前
 </script>
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5f01812e092a545e12260356.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f01812e092a545e12260356.jpg)
 
 有关国际化的更多内容可以参考[文档](http://momentjs.cn/docs/#/i18n/)。
 
@@ -61,6 +61,6 @@ moment(timestamp).fromNow(); // 相对时间戳多久前
 
 
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

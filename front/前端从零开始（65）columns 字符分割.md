@@ -96,7 +96,7 @@ column-fill	:auto | balance
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb0cf1609dcb20412020324.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb0cf1609dcb20412020324.jpg)
 
 对一段文本分两列每列宽度不小于 200px 效果图
 
@@ -162,7 +162,7 @@ column-fill	:auto | balance
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb0cf830905d8c814340286.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb0cf830905d8c814340286.jpg)
 
 对一段文本分 3 列每列宽度不小于 200px 效果图
 
@@ -244,7 +244,7 @@ p{
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb0d00a09ae6b6818000226.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb0d00a09ae6b6818000226.jpg)
 
 对两段文本分 3 列效果图
 
@@ -316,7 +316,7 @@ p{
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb0d0320980d8e318040278.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb0d0320980d8e318040278.jpg)
 
 修改两列间隔的距离效果图
 
@@ -386,7 +386,7 @@ p{
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb0d09809d2301021540238.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb0d09809d2301021540238.jpg)
 
 为每列直接增加边线效果图
 
@@ -478,7 +478,7 @@ p{
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb0d0c6093658d218300334.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb0d0c6093658d218300334.jpg)
 
 让其内部 `class="head"`个子元素横跨所有列效果图
 
@@ -567,6 +567,6 @@ p{
 1. 它分的列和子元素的个数无关。
 2. 分的列数最好保证和内部子元素数量相等。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

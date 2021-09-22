@@ -295,6 +295,6 @@ function createSetter() {
 
 以上内容就是 Vue3 中实现 reactive API 的核心源码，文章的完整代码放在了 reactivity-1 目录下。源码中的实现方式可能会有所改变，在对照学习时可以参考 Vue 3.0.0 版本。本节实现响应式的核心是 Proxy 对数据的劫持，通过对 set 和 get 方法的实现来处理各种边界数据问题。在学习过程中需要注意多次代理、设置属性时判断是新增还是修改，这对后面实现 effect 等 API 有很重要的作用。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

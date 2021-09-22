@@ -80,6 +80,6 @@ arr[1].name = 'imooc';       // [{name: 'imooc'}, {name: 'imooc'}, {name: 'imooc
 
 `fill` 方法在初始化数组时非常实用可以快速地初始化一个带默认值的数组，另外需要注意的是如果填充的是对象时，由于对象是引用类型的方式存储的，所以改变其中一项中的值时其他项也会跟着改变。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

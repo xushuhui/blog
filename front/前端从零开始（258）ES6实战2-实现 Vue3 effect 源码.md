@@ -375,6 +375,6 @@ export function trigger(target, type, key, newValue, oldValue) {
 * 对 effect 的嵌套处理时，引入了栈的方式来控制当前的 activeEffect 值；
 * 在使用数组时，在对 length 直接修改等操作时进行特殊的处理。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

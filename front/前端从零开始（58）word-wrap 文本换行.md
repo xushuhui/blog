@@ -62,7 +62,7 @@ word-wrap: normal|break-word;
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3e4a7094efd9f01880228.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3e4a7094efd9f01880228.jpg)
 
 对超出元素区域的的文本换行效果图
 
@@ -104,7 +104,7 @@ word-wrap: normal|break-word;
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5ea3e4b309c91cd704120112.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ea3e4b309c91cd704120112.jpg)
 
 `wrod-wrap`对比 `wrod-break` 效果图
 
@@ -119,6 +119,6 @@ word-wrap: normal|break-word;
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

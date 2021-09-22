@@ -130,6 +130,6 @@ fn('a', 'b', 'c');
 2. `indexOf()` 不能对数组空项和数组项为 NaN 的元素进行查找，而 `includes()` 可以很好地解决这个问题；
 3. `includes()` 被设计为通用方法，可以在类数组中使用。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

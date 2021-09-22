@@ -22,7 +22,7 @@ fn();
 console.log(number);
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ee5c7aa09f26f7411460290.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ee5c7aa09f26f7411460290.jpg)
 
 这个例子是访问不到 `number` 的，想访问到就可以借助闭包的特性。
 
@@ -44,7 +44,7 @@ increment();
 increment();
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ee5c7b60993310c11720550.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ee5c7b60993310c11720550.jpg)
 
 这里的 `fn` 函数返回了一个函数，在这个返回的函数所形成的闭包环境就拥有访问上一层作用域的能力，所以每次在调用 `fn` 返回的函数时，就可以累加 `number`。
 
@@ -87,7 +87,7 @@ console.log(counter.value); // 输出：2
 console.log(counter.count); // 输出：undefined
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ee5c7d009a098ca11720818.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ee5c7d009a098ca11720818.jpg)
 
 这里的自执行匿名函数返回一个对象，对象中的方法就具有访问上层函数中的变量的能力，所以他们都能访问 count。
 
@@ -117,7 +117,7 @@ fn(function() {
 });
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5ee5c8130a4340b211720684.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ee5c8130a4340b211720684.jpg)
 
 很明显，这里的回调函数就是用到了闭包的特性。
 
@@ -133,6 +133,6 @@ fn(function() {
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

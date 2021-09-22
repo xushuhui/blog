@@ -70,7 +70,7 @@ animal.constructor === animal.__proto__.constructor;	// true
 
 通过上面的关系对比可以使用示意图的方式更容易理解。
 
-![图片描述](http://img.mukewang.com/wiki/5f8dd33f092a860119200718.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f8dd33f092a860119200718.jpg)
 
 通过上面的代码和示意图我们知道，原型是构造函数上的属性，实例可以通过自身的原型链查找到，并且可以修改属性。
 
@@ -129,6 +129,6 @@ Owl.setPrototypeOf(Owl.prototype, Animal.prototype);
 
 本节没有去学习 class 的使用，而是复习了在 ES5 中是怎么定义类的存在的，使用的是构造函数的方式来定义一个类。在类的实际应用中继承是最为关键的，通过对如何实现构造函数中的继承，复习了原型、原型链和构造方法。在构造函数的继承中，子类不能直接去 new 一个父类，因为这样没有意义。所以我们通过在子类中执行构造函数并绑定子类的 this 继承了父类的属性，再通过子类原型的原型链继承了父类原型上的属性。通过本节的学习我们更加深刻地理解构造函数在 JavaScript 中扮演什么样的角色，继而 ES6 提出了 “真正“ 意义上的类，其实本质还是通过原型的方式，下一节我们将具体学习 ES6 的 class。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

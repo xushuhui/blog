@@ -289,6 +289,6 @@ console.log(arr3); // [ 'key1', 'key2', Symbol(a), Symbol(b) ]
 
 本节主要学习了 ES6 新增的全局对象 `Reflect` ，它的目的是为了分离 Object 中属于语言部分的内容，每个使用 `Reflect` 下的方法操作的对象都要返回值。 `Reflect` 对象和 `Proxy` 下的方法是一一对应的，二者配合可以实现很多功能。Vue3 中的数据响应就是使用的它们。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

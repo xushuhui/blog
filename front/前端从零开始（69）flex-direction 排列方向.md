@@ -59,7 +59,7 @@ div{
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb11edd09128ddb01000313.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb11edd09128ddb01000313.jpg)
 
 从上到下排列效果图
 
@@ -112,7 +112,7 @@ div{
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb11efb093c803f01400319.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb11efb093c803f01400319.jpg)
 
 从上到下反向排列效果图
 
@@ -164,7 +164,7 @@ div{
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb11f15096e9f9303140112.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb11f15096e9f9303140112.jpg)
 
 从左到右排列效果图
 
@@ -217,7 +217,7 @@ div{
 
 效果图
 
-![图片描述](https://img.mukewang.com/wiki/5eb11f3009176a9104890118.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5eb11f3009176a9104890118.jpg)
 
 从左到右反向排列效果图
 
@@ -338,6 +338,6 @@ html,body{
 1. 一定要在弹性盒模型下使用。
 2. 可以通过样式直接设置排列顺序，节省浏览器性能。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

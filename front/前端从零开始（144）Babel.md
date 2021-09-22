@@ -23,7 +23,7 @@ npm init -y
 npm i @babel/core @babel/cli -D
 ```
 
-![图片描述](https://img.mukewang.com/wiki/5f1d2c980ab43bf211280706.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1d2c980ab43bf211280706.jpg)
 
 安装后可以查看 `package.json` 中的内容，因为安装时候提供了 `-D` 参数，表示安装到开发依赖中，`-D` 是 `--save-dev` 参数的别名。
 
@@ -51,7 +51,7 @@ const added = fn(1, 2);
 
 保存后就可以进入终端，输入命令 `npm run compile`，`npm` 就会去执行 `compile` 对应的命令，也就是使用 `Babel`，对 `index.js` 文件进行编译。
 
-![图片描述](https://img.mukewang.com/wiki/5f1d2cc20a435c9e11280706.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1d2cc20a435c9e11280706.jpg)
 
 但执行后会发现代码并没有变成非 `ES6` 的代码，那是因为没有告诉 `Babel` 想要将现有代码编译成什么样的代码，这时候就需要提供一个配置文件。
 
@@ -85,7 +85,7 @@ module.exports = {
 
 做好这些工作，再去命令行跑 `npm run compile`：
 
-![图片描述](https://img.mukewang.com/wiki/5f1d2cfb0a2bd33711280706.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1d2cfb0a2bd33711280706.jpg)
 
 现在这样就成功的把 `ES6` 代码编译成了 `ES5`。
 
@@ -100,7 +100,7 @@ module.exports = {
 
 增加 `-o` 参数，表示要输出到哪个文件，然后再执行 `npm run compile`：
 
-![图片描述](https://img.mukewang.com/wiki/5f1d2d100a440f1811280706.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5f1d2d100a440f1811280706.jpg)
 
 > 为什么 `npm run compile` 可以去调用 `babel` 命令行工具？
 >
@@ -115,6 +115,6 @@ module.exports = {
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)

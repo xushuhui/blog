@@ -8,7 +8,7 @@
 
 首先我们先看以下用 Vue-Cli 创建项目的整体结构：
 
-![图片描述](https://img.mukewang.com/wiki/5ed845a109b4cac203360708.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ed845a109b4cac203360708.jpg)
 
 项目相关的代码，我们都放在 src 的文件夹中，该文件夹中的结构如下：
 
@@ -32,11 +32,11 @@ npm run serve
 
 出现界面后：
 
-![图片描述](https://img.mukewang.com/wiki/5ed84578083edff013560334.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ed84578083edff013560334.jpg)
 
 我们可以打开浏览器预览项目：
 
-![图片描述](https://img.mukewang.com/wiki/5ed8458708a747b713841494.jpg)
+![图片描述](https://xushuhui.gitee.io/image/imooc/5ed8458708a747b713841494.jpg)
 
 ## 4. 详细分析
 
@@ -112,6 +112,6 @@ export default new Vuex.Store({
 
 在本小节我们介绍了脚手架根据初始化项目的文件结构。
 
-### 微信公众号
+### 微信公众号老徐说
 
 ![扫码关注](https://tvax4.sinaimg.cn/large/a616b9a4gy1grl9d1rdpvj2076076wey.jpg)
