@@ -8,8 +8,6 @@ zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_14
 
 本小节我们将介绍如何在我们的电脑上安装并配置开发工具：`IntelliJ IDEA`
 
-如果你想查看如何安装配置 `Eclipse IDE`，请点击[此处](https://www.imooc.com/wiki/javalesson/eclipse.html)查看
-
 ## 1. IDE 概述
 
 ### 1.1 IDE 是什么？

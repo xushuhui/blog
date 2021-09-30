@@ -5,7 +5,7 @@ zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_14
 ---
 # Java String 类
 
-在前面的 [Java 字符串](http://www.imooc.com/wiki/javalesson/javastring.html) 小节，我们就已经接触了`String`类，但并未提及`String`类相关的操作，现在有了面向对象相关前置知识，我们知道了类下面可以有相关的操作，作为`Java`语言的内置类，`String`类也为我们预先定义了很多好用的方法，本小节我们将介绍`String`类的常用方法，并结合示例辅助理解。
+在前面的小节，我们就已经接触了`String`类，但并未提及`String`类相关的操作，现在有了面向对象相关前置知识，我们知道了类下面可以有相关的操作，作为`Java`语言的内置类，`String`类也为我们预先定义了很多好用的方法，本小节我们将介绍`String`类的常用方法，并结合示例辅助理解。
 
 ## 1. String 对象的创建
 
