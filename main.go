@@ -2,10 +2,11 @@ package main
 
 import (
 	"bufio"
+	"fmt"
+	"log"
 
 	"io"
 	"io/ioutil"
-	"log"
 	"net/http"
 	"os"
 	"strings"
@@ -38,7 +39,7 @@ func Download(url string) {
 	return
 }
 func main() {
-	dir := "./java/"
+	dir := "./front/"
 	files, _ := ioutil.ReadDir(dir)
 	for _, file := range files {
 		if file.IsDir() {
@@ -48,7 +49,9 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
-		output, needHandle, err := readImg(f)
+		filename := file.Name()[:len(file.Name())-3]
+		
+		output, needHandle, err := readFile(f,filename)
 		if needHandle {
 			err = writeToFile(dir+"/"+file.Name(), output)
 			if err != nil {
@@ -123,7 +126,7 @@ func readFile(f *os.File, fname string) ([]byte, bool, error) {
 			}
 			return nil, needHandle, err
 		}
-		if n == 1 {
+		if n == 1 && !strings.Contains(string(line), "---") {
 			newByte := []byte(
 				`---
 title: ` + fname + `
