@@ -1,0 +1,20 @@
+ {
+        "audio_count": {
+            "week_increment": 1,
+            "sum": 1
+        },
+        "audio_times": {
+            "week_increment": 1,
+            "sum": 1
+        },
+        "album_count": {
+            "week_increment": 1,
+            "sum": 1
+        },
+        "user_avage_listen": 1,
+        "listen_over": 1,
+        "topten_album": {},
+        "play_hour": {},
+        "like_category": {},
+        "topten_author": {}
+    }

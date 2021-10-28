@@ -1,0 +1,153 @@
+{
+   
+        "sum": {
+            "download": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "user": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "register": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "active_user": {
+                "week": 1,
+                "month": 1
+            }
+        },
+        "app": {
+            "download": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "user": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "register": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "active_user": {
+                "week": 1,
+                "month": 1
+            },
+            "retention_rate": {
+                "week": 1,
+                "month": 1
+            }
+        },
+        "miniapp": {
+            "user": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "register": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "active_user": {
+                "week": 1,
+                "month": 1
+            }
+        },
+        "mgdt": {
+            "user": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "register": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "active_user": {
+                "week": 1,
+                "month": 1
+            }
+        },
+        "zhdt": {
+            "user": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "register": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "active_user": {
+                "week": 1,
+                "month": 1
+            }
+        },
+        "other": {
+            "user": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "register": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "active_user": {
+                "week": 1,
+                "month": 1
+            }
+        },
+        "car": {
+            "user": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "register": {
+                "week_increment": 1,
+                "month_increment": 1,
+                "sum": 1
+            },
+            "active_user": {
+                "week": 1,
+                "month": 1
+            }
+        },
+        "market_download": {
+            "app_market": {
+                "apple": 1,
+                "douyin": 1,
+                "yingyongbao": 1,
+                "360": 1,
+                "meizu": 1,
+                "oppo": 1,
+                "vivo": 1,
+                "xiaomi": 1,
+                "huawei": 1
+            },
+            "app_client": {
+                "ios": 1,
+                "android": 1
+            }
+        },
+        "china_map": {},
+        "day_user_increment": {},
+        "day_user_active": {},
+        "day_use_avage": {},
+        "day_retension_user": {}
+    
+   
+}
