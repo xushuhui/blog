@@ -1,6 +1,7 @@
 ---
 title: Java 从零开始（34）Java 注解
 zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b				
+zhihu-url: https://zhuanlan.zhihu.com/p/412975832
 ---
 # Java 注解
 

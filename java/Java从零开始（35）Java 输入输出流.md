@@ -1,6 +1,7 @@
 ---
 title: Java 从零开始（35）Java 输入输出流
 zhihu-title-image: https://pica.zhimg.com/v2-e1cf667c04b0f63c15003183ddd03e79_1440w.jpg?source=172ae18b
+zhihu-url: https://zhuanlan.zhihu.com/p/412978442
 ---
 
 # Java 输入输出流
@@ -35,7 +36,7 @@ System.out.println("Hello Java");
 
 ### 1.3 简单的 Java 输入——从键盘输入
 
-`java.util`包下的`Scanner`类可用于获取用户从键盘输入的内容，我们在[Java Scanner 类](http://www.imooc.com/wiki/javalesson/scanner.html)这一小节已经介绍过具体使用，实例如下：
+`java.util`包下的`Scanner`类可用于获取用户从键盘输入的内容，我们在[Java Scanner 类]这一小节已经介绍过具体使用，实例如下：
 
 ```java
 import java.util.Scanner;
