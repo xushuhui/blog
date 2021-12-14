@@ -5,9 +5,7 @@ tags: ["Node"]
 categories: ["Node"]
 ---
 
-## Node 新手课（6）项目需求分析和展示
 
-## 简介
 
 上节课我们讲解了 js 中的 callback，promise，async 和 await。这节课我们介绍项目功能和技术架构。
 

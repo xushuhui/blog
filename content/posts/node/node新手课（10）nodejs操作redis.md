@@ -5,9 +5,7 @@ tags: ["Node"]
 categories: ["Node"]
 ---
 
-## Node 新手课（10）nodejs 操作 redis
 
-## 简介
 
 上节课我们讲了 nodejs 操作 mysql，今天我们来讲解 nodejs 操作 redis
 

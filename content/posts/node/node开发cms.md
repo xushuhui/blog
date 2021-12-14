@@ -8,11 +8,6 @@ categories: ["Node"]
 
 ## 简介
 
-​```sequence
-Alice->Bob: Hello Bob, how are you?
-Note right of Bob: Bob thinks
-Bob-->Alice: I am good thanks!
-​```
 
 所有的互联网产品都需要 CMS（内容管理系统），也就是我们常说的后台管理系统。它用于展示用户数据和产品信息，以及运营和推广产品。
 

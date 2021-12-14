@@ -8,7 +8,7 @@ categories: ["Nginx"]
 
 ## nginx 配置文件
 
-```
+```nginx
 #定义Nginx运行的用户和用户组
 user www www;
 #nginx进程数，建议设置为等于CPU总核心数。

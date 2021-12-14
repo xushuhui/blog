@@ -5,9 +5,7 @@ tags: ["Node"]
 categories: ["Node"]
 ---
 
-## Node 新手课（3）nodejs 和 javascript 区别
 
-### 简介
 
 上节课我们成功用开启了一个 http 服务，写了个 helloworld，今天我们讲解下 nodejs 和 javascript 区别。
 

@@ -5,9 +5,7 @@ tags: ["Node"]
 categories: ["Node"]
 ---
 
-## Node 新手课（4）nodejs 处理 http 请求
 
-## 简介
 
 上节课我们成功用开启了一个 http 服务，写了个 helloworld，今天我们讲解下 nodejs 是如何处理 http 的 get 和 post 请求。
 
