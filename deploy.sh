@@ -3,7 +3,7 @@
 
 # 确保脚本抛出遇到的错误
 set -e
-
+rm -rf public
 # 生成静态文件
 hugo
 
@@ -18,10 +18,11 @@ cd public/
 git init
 git add -A
 git commit -m 'deploy'
-#
 git remote add github git@github.com:xushuhui/xushuhui.github.io.git
 git remote add coding git@e.coding.net:xushuhui/xushuhui.coding.me.git
+#git remote add gitee git@gitee.com:xushuhui/xushuhui.git
 
+#git push -f gitee master
 git push -f github master
 git push -f coding master
 # git push -f git@github.com:xushuhui/xushuhui.github.io.git master  

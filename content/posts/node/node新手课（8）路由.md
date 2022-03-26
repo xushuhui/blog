@@ -5,9 +5,7 @@ tags: ["Node"]
 categories: ["Node"]
 ---
 
-## Node 新手课（8）路由
 
-## 简介
 
 上节课我们来搭建项目架构，koa2 和 mysql。这节课我们讲解 koa2 的路由
 

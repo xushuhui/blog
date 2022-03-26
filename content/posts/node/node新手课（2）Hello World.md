@@ -5,9 +5,7 @@ tags: ["Node"]
 categories: ["Node"]
 ---
 
-## Node 新手课（2）Hello World
 
-## 简介
 
 上节课我们讲解了 node 环境的搭建，按照编程语言的惯例，我们首先开始个 HelloWorld 程序。
 

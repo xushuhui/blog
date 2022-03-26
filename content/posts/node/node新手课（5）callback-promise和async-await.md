@@ -5,9 +5,7 @@ tags: ["Node"]
 categories: ["Node"]
 ---
 
-## Node 新手课（5）callback-promise 和 async-await
 
-## 简介
 
 上节课我们讲解了 nodejs 处理 http 请求，今天我们讲下 callback, promise 和 async, await
 

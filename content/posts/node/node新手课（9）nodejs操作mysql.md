@@ -5,9 +5,7 @@ tags: ["Node"]
 categories: ["Node"]
 ---
 
-## Node 新手课（9）nodejs 操作 mysql
 
-## 简介
 
 上节课我们讲了 koa2 的路由，今天我们来讲解 nodejs 操作 mysql
 
