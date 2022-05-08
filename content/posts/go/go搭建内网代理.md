@@ -1,3 +1,9 @@
+---
+title: Go 搭建内网代理
+date: 2020-01-03 13:59:58
+tags: ["Go"]
+categories: ["Go"]
+---
 ## 前言
 gitlab地址：gitlab.example.com:82
 代理地址： test.com
