@@ -1,0 +1,32 @@
+#!/bin/sh
+
+
+# 确保脚本抛出遇到的错误
+# set e 
+rm -rf public
+# 生成静态文件
+hugo
+
+# 进入生成的文件夹
+
+
+cd public/
+git init
+git add -A
+git commit -m 'deploy'
+git remote add github git@github.com:xushuhui/xushuhui.github.io.git
+
+#git remote add gitee git@gitee.com:xushuhui/xushuhui.git
+
+#git push -f gitee master
+git push -f github master
+# git push -f git@github.com:xushuhui/xushuhui.github.io.git master  
+
+# git push -f git@gitee.com:xushuhui/xushuhui.git master
+# 如果发布到 https://<USERNAME>.github.io  USERNAME = 你的用户名 
+#git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+
+# 如果发布到 https://<USERNAME>.github.io/<REPO>  REPO=github 上的项目
+# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+
+cd -
