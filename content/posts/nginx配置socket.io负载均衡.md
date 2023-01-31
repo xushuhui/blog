@@ -3,7 +3,6 @@ title: Nginx 配置 Socket.IO 负载均衡
 date: 2019-05-07 07:57:34
 tags: ["Node","Nginx"]
 categories: ["Node"]
-top: 0
 ---
 nginx 配置
 
