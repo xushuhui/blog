@@ -2,6 +2,8 @@ baseURL = "https://xushuhui.github.io"
 languageCode = "zh-CN"
 title = "徐曙辉个人博客"
 theme = "maupassant"
+defaultContentLanguage = "zh-hans"
+defaultContentLanguageInSubdir = false
 ## 保持分类的原始名字（false会做转小写处理）
 preserveTaxonomyNames = true
 hasCJKLanguage =  true
@@ -14,6 +16,11 @@ hasCJKLanguage =  true
   keywords = "Golang,Go语言,徐曙辉,Java,PHP,博客,Python,软件架构,公众号,小程序"
   description = "专注于IT互联网，包括但不限于Go语言(Golang)、Java、PHP、Python、软件架构等"
   localSearch = true
+  cdnJsSite = "cdn.bootcdn.net"
+[markup]
+  [markup.highlight]
+    lineNos = true
+    style = "github"
 [menu]
 
   [[menu.main]]
@@ -38,6 +45,3 @@ hasCJKLanguage =  true
   issueTerm = "pathname"
   theme = "github-light"
 
-  [params.cc]
-    name = "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
-    link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
