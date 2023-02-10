@@ -1,4 +1,4 @@
-baseURL = "http://blog.phpst.cn"
+baseURL = "https://xushuhui.github.io"
 languageCode = "zh-CN"
 title = "徐曙辉个人博客"
 theme = "maupassant"
@@ -11,7 +11,7 @@ hasCJKLanguage =  true
 [params]
   author = "徐曙辉"
   subtitle = "专注于PHP、Go语言、移动互联网、软件架构"
-  keywords = "Golang,Go语言,徐曙辉,Java,PHP,博客,项目管理,Python,软件架构,公众号,小程序"
+  keywords = "Golang,Go语言,徐曙辉,Java,PHP,博客,Python,软件架构,公众号,小程序"
   description = "专注于IT互联网，包括但不限于Go语言(Golang)、Java、PHP、Python、软件架构等"
   localSearch = true
 [menu]
