@@ -1,73 +1,43 @@
-baseURL = "https://xushuhui.github.io"
-title = "Xushuhui"
+baseURL = "http://blog.phpst.cn"
 languageCode = "zh-CN"
-defaultContentLanguage = "en"
-                      # site title                     # 网站标题
-theme = "zozo"
-hasCJKLanguage = true                  # has chinese/japanese/korean ?  # 自动检测是否包含 中文\日文\韩文
-summaryLength = 100
-paginate = 4                           # shows the number of articles   # 首页显示文章数量
-enableEmoji = true
-googleAnalytics = ""                   # your google analytics id       # Google统计代码
-disqusShortname = ""                   # your discuss shortname         # Disqus评论系统代码
-
-pygmentsUseClasses = true
-pygmentCodeFences = true
-pygmentscodefencesguesssyntax = true
-
-[author]                               # essential                      # 必需
-  name = "xushuhui"
-
-[blackfriday]
-  smartypants = false
-
-[[menu.main]]                          # config your menu               # 配置菜单
-  name = "Home"
-  weight = 10
-  identifier = "home"
-  url = "/"
-[[menu.main]]
-  name = "Archive"
-  weight = 20
-  identifier = "archive"
-  url = "/posts/"
-[[menu.main]]
-  name = "Tags"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "About"
-  weight = 40
-  identifier = "about"
-  url = "/about/"
+title = "徐曙辉个人博客"
+theme = "maupassant"
+## 保持分类的原始名字（false会做转小写处理）
+preserveTaxonomyNames = true
+hasCJKLanguage =  true
+[author]
+  name = "徐曙辉"
 
 [params]
-  subTitle = ""                                       # site's subTitle              # 网站二级标题
-  footerSlogan = "My spiritual home"                                   # site's footer slogan         # 网站页脚标语
-  keywords = ["Hugo","theme","zozo"]                                   # site's keywords              # 网站关键字
-  description = "Hugo theme zozo example site."                        # site's description           # 网站描述
-  enableMathJax = true                                                 # enable mathjax               # 是否使用mathjax（数学公式）
-  enableSummary = true                                                 # display the article summary  # 是否显示文章摘要
-  mainSections = ["posts","post"]
-  
-# Valine.
-# You can get your appid and appkey from https://leancloud.cn
-# more info please open https://valine.js.org
-[params.valine]
-  enable = false
-  appId = ""
-  appKey = ""
-  placeholder = " "
-  visitor = true
+  author = "徐曙辉"
+  subtitle = "专注于PHP、Go语言、移动互联网、软件架构"
+  keywords = "Golang,Go语言,徐曙辉,Java,PHP,博客,项目管理,Python,软件架构,公众号,小程序"
+  description = "专注于IT互联网，包括但不限于Go语言(Golang)、Java、PHP、Python、软件架构等"
+  localSearch = true
+[menu]
 
-# Your socail's url
-# 社交地址配置
-[social]
-  github = "https://github.com/xushuhui"
+  [[menu.main]]
+    identifier = "GitHub"
+    name = "GitHub"
+    url = "https://github.com/xushuhui"
+    weight = 5
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 4
 
+[params.utteranc]
+  enable = true
+  repo = "xushuhui/hugo-comment"
+  issueTerm = "pathname"
+  theme = "github-light"
 
-[markup]
-[markup.goldmark]
-[markup.goldmark.renderer]
-  unsafe = true
+  [params.cc]
+    name = "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
+    link = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
